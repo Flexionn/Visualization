@@ -6,15 +6,28 @@
             fill: none;
             stroke-width: 2;
         }
+
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 8px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            pointer-events: none;
+            opacity: 0;
+        }
     </style>
 </head>
 <body>
+<h1>Visualization F3: usage of taxis over the day</h1>
 <script>
     var width = 900,
         height = 800;
 
     // The days for which we want to display the data
-    var selectedDays = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    var selectedDays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,  11, 12, 13, 14, 15, 16, 17, 18, 19];
 
     var xScale = d3.scaleBand().range([40, width - 40]).padding(0.1),
         yScale = d3.scaleLinear().range([height/2, 0]);
@@ -79,7 +92,32 @@
         .enter().append("path")
         .attr("class", "line")
         .attr("d", function(d) { return line(d.value); })
-        .style("stroke", function(d, i) { return colorScale(i); });
+        .style("stroke", function(d, i) { return colorScale(i); })
+        .on("mouseover", function(d) {
+
+            var mouseX = d3.mouse(this)[0];
+            var invertedX = Math.round(mouseX / xScale.step() - 1.9);
+            console.log(invertedX);
+
+            var tooltipText = "Day: " + d.day + "<br>Hour: " + invertedX + "<br>Value: " + d.value[invertedX].value;
+
+            tooltip.transition()
+                .duration(200)
+                .style("opacity", .95);
+            tooltip.html(tooltipText)
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            tooltip.transition()
+                .duration(500)
+                .style("opacity", 0);
+        });
+
+    var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
 </script>
 </body>
 </html>
