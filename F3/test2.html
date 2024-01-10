@@ -85,12 +85,15 @@
         .attr("d", function(d) { return line(d.value); })
         .style("stroke", function(d, i) { return colorScale(i); })
         .on("mouseover", function(d) {
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke-width", 5);
 
             var mouseX = d3.mouse(this)[0];
             var invertedX = Math.round(mouseX / xScale.step() - 1.9);
-            console.log(invertedX);
 
-            var tooltipText = "Day: " + d.day + "<br>Hour: " + invertedX + "<br>Value: " + d.value[invertedX].value;
+            var tooltipText = "<b>" + d.day + " November 2022</b><br>" + invertedX + ":00 - " + (invertedX + 1) + ":00<br>Taxi rides: " + d.value[invertedX].value;
 
             tooltip.transition()
                 .duration(100)
@@ -100,6 +103,11 @@
                 .style("top", (d3.event.pageY - 28) + "px");
         })
         .on("mouseout", function(d) {
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke-width", 2);
+
             tooltip.transition()
                 .duration(300)
                 .style("opacity", 0);
