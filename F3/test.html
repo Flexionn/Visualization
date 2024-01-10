@@ -1,0 +1,1166 @@
+<html>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<head>
+    <title>F3 Visualization</title>
+    <script src="http://d3js.org/d3.v4.js"></script>
+    <script>
+        // Initializing the graph
+        // var margin = {top: 30, right: 30, bottom: 40, left: 60},
+        //     width = 700 - margin.left - margin.right,
+        //     height = 600 - margin.top - margin.bottom;
+        const width = 700;
+        const height = 600;
+
+        // append the svg object to the body of the page
+        var svg = d3.select("#myChart")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+            // .append("g")
+            // .attr("transform",
+            //     "translate(" + margin.left + "," + margin.top + ")");
+
+        d3.csv("novemebr_22.csv", function(data) {
+            // let counter = 0;
+            // let graphData = [];
+            //
+            // for (let dag = 1; dag <= 31; dag++) {
+            //     graphData[dag] = [];
+            //     for (let uur = 0; uur < 24; uur++) {
+            //         graphData[dag][uur] = 0;
+            //     }
+            // }
+            //
+            // console.log(graphData);
+            //
+            // const slicedData = data.slice(0, 3000000);
+            // console.log("Just sliced the data.");
+            // console.log(slicedData);
+            // slicedData.forEach(d => {
+            //     console.log(d.tpep_pickup_datetime);
+            //     const date = new Date(d.tpep_pickup_datetime);
+            //     console.log(date);
+            //
+            //     const day = date.getDate();
+            //     const hour = date.getHours();
+            //
+            //     graphData[day][hour] += 1;
+            //     counter++;
+            // });
+            // console.log("done");
+            // console.log(counter);
+            // console.log(graphData);
+
+            const mockData = [
+                [
+                    1926,
+                    1187,
+                    764,
+                    525,
+                    381,
+                    754,
+                    1965,
+                    3985,
+                    5014,
+                    5624,
+                    5718,
+                    5803,
+                    6211,
+                    6437,
+                    6935,
+                    7275,
+                    7322,
+                    8167,
+                    8781,
+                    7798,
+                    7141,
+                    6654,
+                    5703,
+                    3835
+                ],
+                [
+                    1877,
+                    763,
+                    414,
+                    254,
+                    255,
+                    695,
+                    2015,
+                    4175,
+                    5494,
+                    5782,
+                    6213,
+                    6635,
+                    6696,
+                    6605,
+                    7094,
+                    7476,
+                    7599,
+                    8469,
+                    9047,
+                    8336,
+                    7744,
+                    7580,
+                    6449,
+                    4579
+                ],
+                [
+                    2326,
+                    1198,
+                    616,
+                    380,
+                    340,
+                    743,
+                    2101,
+                    4177,
+                    5309,
+                    5643,
+                    6088,
+                    6446,
+                    6772,
+                    6815,
+                    7399,
+                    7692,
+                    7834,
+                    8475,
+                    9257,
+                    8637,
+                    8314,
+                    7898,
+                    6909,
+                    5790
+                ],
+                [
+                    3882,
+                    2012,
+                    1197,
+                    650,
+                    502,
+                    822,
+                    1925,
+                    3805,
+                    4790,
+                    5120,
+                    5606,
+                    5986,
+                    6384,
+                    6516,
+                    7379,
+                    7558,
+                    7424,
+                    8426,
+                    9254,
+                    8638,
+                    7246,
+                    7382,
+                    7381,
+                    6431
+                ],
+                [
+                    5503,
+                    4439,
+                    3415,
+                    2232,
+                    1100,
+                    538,
+                    905,
+                    1792,
+                    2944,
+                    4216,
+                    5577,
+                    6465,
+                    7127,
+                    7471,
+                    7591,
+                    7685,
+                    7554,
+                    7758,
+                    7738,
+                    7671,
+                    6658,
+                    6438,
+                    6840,
+                    6544
+                ],
+                [
+                    5531,
+                    8343,
+                    2409,
+                    1448,
+                    888,
+                    954,
+                    1296,
+                    1613,
+                    2215,
+                    3332,
+                    4363,
+                    5036,
+                    5578,
+                    5909,
+                    5844,
+                    5980,
+                    5935,
+                    5798,
+                    5684,
+                    5747,
+                    5390,
+                    4896,
+                    3829,
+                    2659
+                ],
+                [
+                    1599,
+                    646,
+                    362,
+                    289,
+                    395,
+                    832,
+                    2240,
+                    3805,
+                    4667,
+                    5219,
+                    5557,
+                    5669,
+                    6048,
+                    6264,
+                    6854,
+                    7169,
+                    6934,
+                    7570,
+                    7893,
+                    7187,
+                    6399,
+                    6123,
+                    5137,
+                    3623
+                ],
+                [
+                    1689,
+                    722,
+                    344,
+                    246,
+                    305,
+                    762,
+                    2173,
+                    4144,
+                    5236,
+                    5652,
+                    5737,
+                    6137,
+                    6424,
+                    6500,
+                    7116,
+                    7458,
+                    7419,
+                    8144,
+                    8785,
+                    7923,
+                    7378,
+                    6989,
+                    6006,
+                    3950
+                ],
+                [
+                    2093,
+                    912,
+                    484,
+                    310,
+                    302,
+                    694,
+                    2276,
+                    4407,
+                    5710,
+                    5857,
+                    6019,
+                    6286,
+                    6668,
+                    6831,
+                    8029,
+                    7869,
+                    7589,
+                    8430,
+                    9008,
+                    8146,
+                    7509,
+                    7670,
+                    6462,
+                    4680
+                ],
+                [
+                    2556,
+                    1193,
+                    684,
+                    393,
+                    346,
+                    710,
+                    2210,
+                    4328,
+                    5454,
+                    5958,
+                    6189,
+                    6519,
+                    6914,
+                    7108,
+                    7780,
+                    7647,
+                    7480,
+                    8116,
+                    8915,
+                    8612,
+                    7842,
+                    7938,
+                    7123,
+                    5818
+                ],
+                [
+                    4220,
+                    2573,
+                    1523,
+                    837,
+                    601,
+                    814,
+                    1739,
+                    3318,
+                    4431,
+                    5171,
+                    5809,
+                    5904,
+                    5751,
+                    5769,
+                    6000,
+                    6069,
+                    6008,
+                    6715,
+                    7491,
+                    6826,
+                    5726,
+                    6024,
+                    6657,
+                    6450
+                ],
+                [
+                    5468,
+                    4184,
+                    3164,
+                    2143,
+                    958,
+                    546,
+                    1010,
+                    1542,
+                    2801,
+                    4306,
+                    5533,
+                    6512,
+                    7085,
+                    7334,
+                    7493,
+                    7728,
+                    7724,
+                    7965,
+                    7995,
+                    7623,
+                    6530,
+                    6843,
+                    7001,
+                    6518
+                ],
+                [
+                    5457,
+                    4754,
+                    3598,
+                    2492,
+                    1475,
+                    733,
+                    1058,
+                    1583,
+                    2590,
+                    4064,
+                    5299,
+                    6034,
+                    6604,
+                    6741,
+                    7035,
+                    6805,
+                    6561,
+                    6758,
+                    6472,
+                    6053,
+                    5335,
+                    4786,
+                    4067,
+                    2767
+                ],
+                [
+                    1084,
+                    557,
+                    327,
+                    224,
+                    259,
+                    564,
+                    1470,
+                    2812,
+                    3527,
+                    3853,
+                    3974,
+                    4118,
+                    4461,
+                    4437,
+                    5037,
+                    5330,
+                    5034,
+                    5632,
+                    5990,
+                    5401,
+                    4799,
+                    4689,
+                    3755,
+                    2520
+                ],
+                [
+                    1130,
+                    510,
+                    248,
+                    166,
+                    183,
+                    498,
+                    1428,
+                    3060,
+                    3926,
+                    4264,
+                    4288,
+                    4490,
+                    4704,
+                    4942,
+                    5330,
+                    5457,
+                    5341,
+                    5771,
+                    6544,
+                    6267,
+                    5859,
+                    5145,
+                    4207,
+                    2951
+                ],
+                [
+                    1458,
+                    659,
+                    337,
+                    200,
+                    214,
+                    479,
+                    1522,
+                    3244,
+                    3955,
+                    4191,
+                    4177,
+                    4352,
+                    4730,
+                    4889,
+                    5269,
+                    5486,
+                    5167,
+                    5762,
+                    6124,
+                    6357,
+                    5956,
+                    5686,
+                    4904,
+                    3841
+                ],
+                [
+                    2137,
+                    1023,
+                    500,
+                    292,
+                    300,
+                    514,
+                    1544,
+                    3054,
+                    3765,
+                    4100,
+                    4481,
+                    4642,
+                    4707,
+                    4893,
+                    5312,
+                    5344,
+                    5150,
+                    5783,
+                    6413,
+                    6200,
+                    5902,
+                    5952,
+                    5219,
+                    4215
+                ],
+                [
+                    2879,
+                    1629,
+                    857,
+                    527,
+                    397,
+                    583,
+                    1311,
+                    2729,
+                    3494,
+                    3944,
+                    4257,
+                    4316,
+                    4422,
+                    4546,
+                    5192,
+                    5134,
+                    5020,
+                    5787,
+                    6411,
+                    6511,
+                    5526,
+                    5331,
+                    5434,
+                    4949
+                ],
+                [
+                    4047,
+                    3191,
+                    2524,
+                    1632,
+                    878,
+                    406,
+                    785,
+                    1100,
+                    2045,
+                    3203,
+                    4050,
+                    4554,
+                    5079,
+                    5244,
+                    5154,
+                    5491,
+                    5217,
+                    5345,
+                    5526,
+                    5642,
+                    4689,
+                    4741,
+                    5076,
+                    4812
+                ],
+                [
+                    3906,
+                    3192,
+                    2489,
+                    1713,
+                    894,
+                    410,
+                    656,
+                    1144,
+                    1680,
+                    2715,
+                    4055,
+                    4598,
+                    4800,
+                    4860,
+                    5003,
+                    5055,
+                    4809,
+                    4705,
+                    4625,
+                    4319,
+                    3630,
+                    3292,
+                    2669,
+                    1841
+                ],
+                [
+                    1426,
+                    789,
+                    345,
+                    254,
+                    327,
+                    650,
+                    1931,
+                    3721,
+                    4643,
+                    5258,
+                    5579,
+                    5874,
+                    6140,
+                    6325,
+                    6897,
+                    7101,
+                    7112,
+                    7421,
+                    7554,
+                    6696,
+                    5485,
+                    5237,
+                    4383,
+                    2941
+                ],
+                [
+                    1437,
+                    724,
+                    403,
+                    213,
+                    279,
+                    674,
+                    1839,
+                    3823,
+                    4930,
+                    5605,
+                    5974,
+                    6043,
+                    6626,
+                    6982,
+                    7506,
+                    7601,
+                    7161,
+                    7371,
+                    7471,
+                    6802,
+                    5753,
+                    5678,
+                    4986,
+                    3645
+                ],
+                [
+                    2098,
+                    1095,
+                    576,
+                    358,
+                    407,
+                    649,
+                    1660,
+                    2929,
+                    4010,
+                    4870,
+                    5579,
+                    6148,
+                    6389,
+                    6827,
+                    6924,
+                    7186,
+                    7031,
+                    6680,
+                    6600,
+                    5903,
+                    4768,
+                    4767,
+                    4348,
+                    3646
+                ],
+                [
+                    2453,
+                    1606,
+                    1110,
+                    752,
+                    580,
+                    554,
+                    998,
+                    1458,
+                    1906,
+                    2366,
+                    2795,
+                    3437,
+                    3991,
+                    4180,
+                    4387,
+                    4624,
+                    4405,
+                    3860,
+                    3638,
+                    3916,
+                    3813,
+                    3704,
+                    3138,
+                    2188
+                ],
+                [
+                    1192,
+                    708,
+                    425,
+                    263,
+                    227,
+                    346,
+                    789,
+                    1278,
+                    1954,
+                    3005,
+                    3961,
+                    4583,
+                    5236,
+                    5776,
+                    5619,
+                    6204,
+                    6403,
+                    6118,
+                    6110,
+                    5641,
+                    4658,
+                    4729,
+                    4671,
+                    4131
+                ],
+                [
+                    2641,
+                    1946,
+                    1387,
+                    1024,
+                    614,
+                    376,
+                    788,
+                    1198,
+                    1882,
+                    3344,
+                    4360,
+                    5229,
+                    5872,
+                    6518,
+                    6453,
+                    6699,
+                    6714,
+                    6598,
+                    6308,
+                    6193,
+                    5438,
+                    5124,
+                    5432,
+                    4786
+                ],
+                [
+                    3554,
+                    2839,
+                    2116,
+                    1518,
+                    912,
+                    493,
+                    805,
+                    1331,
+                    1945,
+                    3045,
+                    4147,
+                    4803,
+                    6268,
+                    6455,
+                    7032,
+                    5964,
+                    5272,
+                    5412,
+                    5341,
+                    4692,
+                    4316,
+                    3708,
+                    3093,
+                    2386
+                ],
+                [
+                    1825,
+                    987,
+                    469,
+                    252,
+                    279,
+                    694,
+                    1914,
+                    3939,
+                    4847,
+                    5261,
+                    5282,
+                    5455,
+                    6083,
+                    6068,
+                    6714,
+                    6910,
+                    6676,
+                    7384,
+                    7452,
+                    6663,
+                    5577,
+                    5256,
+                    4345,
+                    3095
+                ],
+                [
+                    1674,
+                    669,
+                    282,
+                    204,
+                    250,
+                    674,
+                    2090,
+                    4249,
+                    5476,
+                    5828,
+                    5831,
+                    5972,
+                    6572,
+                    6774,
+                    7284,
+                    7374,
+                    7335,
+                    8011,
+                    8591,
+                    7500,
+                    5045,
+                    5,
+                    0,
+                    3
+                ],
+                [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    4,
+                    7,
+                    2,
+                    2,
+                    2,
+                    3,
+                    1,
+                    4,
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    36
+                ]
+            ];
+            console.log("Mockdata generated");
+
+            // X-axis
+            var scale = d3.scaleLinear()
+                .domain([0, 23])
+                .range([0, width - 100]);
+
+            svg.append("g")
+                .call(d3.axisBottom(scale));
+
+            // Add Y axis
+            var y = d3.scaleLinear()
+                .domain([0, d3.max(data, function (d) {
+                    return +d.value;
+                })])
+                .range([height, 0]);
+            svg.append("g")
+                .call(d3.axisLeft(y));
+
+            // Add the line
+            svg.append("path")
+                .datum(data)
+                .attr("fill", "none")
+                .attr("stroke", "steelblue")
+                .attr("stroke-width", 1.5)
+                .attr("d", d3.line()
+                    .x(function (d) {
+                        return x(d.date)
+                    })
+                    .y(function (d) {
+                        return y(d.value)
+                    })
+                )
+        });
+
+
+        // d3.text("novemebr_22.csv", function (csvText) {
+        //     const data = d3.csvParse(csvText);
+        //
+        //     data.forEach(d => {
+        //         d.trip_distance = +d.trip_distance;
+        //         d.passenger_count = +d.passenger_count;
+        //     });
+        //
+        //     const nestedData = d3.nest()
+        //         .key(d => d.passenger_count)
+        //         .entries(data);
+        //
+        //     const mainSvg = d3.select("#densityCharts");
+        //
+        //     const margin = { top: 20, right: 20, bottom: 40, left: 50 };
+        //     const width = +mainSvg.attr("width") - margin.left - margin.right-50;
+        //     const height = +mainSvg.attr("height") - margin.top - margin.bottom;
+        //
+        //     const xScale = d3.scaleLinear().domain([0, 15]).range([0, width]);
+        //     const yScale = d3.scaleLinear().domain([0, 1]).range([height, 0]);
+        //
+        //     const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+        //
+        //     nestedData.forEach(group => {
+        //         const histogram = d3.histogram()
+        //             .domain([0, 75])
+        //             .thresholds(d3.range(0, 80, 5));
+        //
+        //         const bins = histogram(group.values.map(d => d.trip_distance));
+        //         const totalCount = group.values.length;
+        //
+        //         mainSvg.append("path")
+        //             .datum(bins)
+        //             .attr("fill", "none")
+        //             .attr("stroke", colorScale(group.key))
+        //             .attr("stroke-width", 2)
+        //             .attr("transform", `translate(${margin.left}, ${margin.top})`)
+        //             .attr("d", d3.line()
+        //                 .curve(d3.curveBasis)
+        //                 .x((d, i) => xScale(i))
+        //                 .y(d => yScale(d.length / totalCount))
+        //             );
+        //     });
+        //
+        //     // Add axis after drawing the lines
+        //     mainSvg.append("g")
+        //         .attr("transform", `translate(${margin.left}, ${margin.top})`)
+        //         .call(d3.axisLeft(yScale));
+        //
+        //     mainSvg.append("g")
+        //         .attr("transform", `translate(${margin.left}, ${height + margin.top})`)
+        //         .call(d3.axisBottom(xScale).tickValues(d3.range(0, 16, 1))
+        //             .tickFormat((d, i) => (i * 5).toFixed(1) + "km")
+        //         );
+        //
+        //     // Create a legend for passenger_count
+        //     const legend = mainSvg.append("g")
+        //         .attr("transform", `translate(${width + margin.left}, ${margin.top})`);
+        //
+        //     nestedData.forEach((group, idx) => {
+        //         legend.append("rect")
+        //             .attr("x", 0)
+        //             .attr("y", idx * 20)
+        //             .attr("width", 15)
+        //             .attr("height", 15)
+        //             .attr("fill", colorScale(group.key));
+        //
+        //         legend.append("text")
+        //             .attr("x", 20)
+        //             .attr("y", idx * 20 + 12)
+        //             .attr("dy", ".35em")
+        //             .text(`Passenger Count ${group.key}`)
+        //             .attr("fill", "black");
+        //     });
+        // });
+    </script>
+<!--    <script>-->
+
+<!--        function getMaxObjectValue(this_array, element) {-->
+<!--            var values = [];-->
+<!--            for (var i = 0; i < this_array.length; i++) {-->
+<!--                values.push(Math.ceil(parseFloat(this_array[i][""+element])));-->
+<!--            }-->
+<!--            values.sort(function(a,b){return a-b});-->
+<!--            return values[values.length-1];-->
+<!--        }-->
+
+<!--        function getMinObjectValue(this_array, element) {-->
+<!--            var values = [];-->
+<!--            for (var i = 0; i < this_array.length; i++) {-->
+<!--                values.push(Math.floor(parseFloat(this_array[i][""+element])));-->
+<!--            }-->
+<!--            values.sort(function(a,b){return a-b});-->
+<!--            return values[0];-->
+<!--        }-->
+
+<!--        $(document).ready(function() {-->
+
+<!--            var data = [];-->
+<!--            // this is our data array-->
+<!--            var startingDate = new Date(2012, 8, 18);-->
+<!--            // this is a date object. each of our data objects is attached to a date-->
+<!--            for (var i = 0; i < 10; i++) {-->
+<!--                // loop 10 times to create 10 data objects-->
+<!--                var tmpObj 	= {};-->
+<!--                // this is a temporary data object-->
+<!--                tmpObj.date = new Date(startingDate.getFullYear(), startingDate.getMonth(), startingDate.getDate()+i);-->
+<!--                // the data for this data object. Increment it from the starting date.-->
+<!--                tmpObj.DAU 	= Math.round(Math.random() * 300);-->
+<!--                // random value. Round it to a whole number.-->
+<!--                data.push(tmpObj);-->
+<!--                // push the object into our data array-->
+<!--            }-->
+
+<!--            var width = 300, height = 300;-->
+<!--            var margin = {top: 30, right: 10, bottom: 40, left: 60}, width = width - margin.left - margin.right, height = height - margin.top - margin.bottom;-->
+<!--            // these are graph size settings-->
+
+<!--            var minDate = (data[0].date),-->
+<!--                maxDate = data[data.length-1].date;-->
+<!--            minObjectValue = getMinObjectValue(data, 'DAU');-->
+<!--            maxObjectValue = getMaxObjectValue(data, 'DAU');-->
+
+<!--            //create the graph object-->
+<!--            var vis= d3.select("#metrics").append("svg")-->
+<!--                .data(data)-->
+<!--                .attr("class", "metrics-container")-->
+<!--                .attr("width", width + margin.left + margin.right)-->
+<!--                .attr("height", height + margin.top + margin.bottom)-->
+<!--                .append("g")-->
+<!--                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");-->
+
+<!--            var y = d3.scale.linear().domain([ minObjectValue - (.1 * minObjectValue) , maxObjectValue + (.1 * maxObjectValue) ]).range([height, 0]),-->
+<!--                x = d3.time.scale().domain([minDate, maxDate]).range([0, width]);-->
+
+<!--            var yAxis = d3.svg.axis()-->
+<!--                .scale(y)-->
+<!--                .orient("left")-->
+<!--                .ticks(5);-->
+
+<!--            var xAxis = d3.svg.axis()-->
+<!--                .scale(x)-->
+<!--                .orient("bottom")-->
+<!--                .ticks(5);-->
+
+<!--            vis.append("g")-->
+<!--                .attr("class", "axis")-->
+<!--                .call(yAxis);-->
+
+<!--            vis.append("g")-->
+<!--                .attr("class", "axis")-->
+<!--                .attr("transform", "translate(0," + height + ")")-->
+<!--                .call(xAxis);-->
+
+<!--            //add the axes labels-->
+<!--            vis.append("text")-->
+<!--                .attr("class", "axis-label")-->
+<!--                .attr("text-anchor", "end")-->
+<!--                .attr("x", 20)-->
+<!--                .attr("y", height + 34)-->
+<!--                .text('Date');-->
+
+<!--            vis.append("text")-->
+<!--                .attr("class", "axis-label")-->
+<!--                .attr("text-anchor", "end")-->
+<!--                .attr("y", 6)-->
+<!--                .attr("dy", "-3.4em")-->
+<!--                .attr("transform", "rotate(-90)")-->
+<!--                .text('Daily Active Users');-->
+
+<!--            var line = d3.svg.line()-->
+<!--                .x(function(d) { return x(d["date"]); })-->
+<!--                .y(function(d) { return y(d["DAU"]); })-->
+
+<!--            vis.append("svg:path")-->
+<!--                .attr("d", line(data))-->
+<!--                .style("stroke", function() {-->
+<!--                    return "#000000";-->
+<!--                })-->
+<!--                .style("fill", "none")-->
+<!--                .style("stroke-width", "2.5");-->
+
+<!--            var dataCirclesGroup = vis.append('svg:g');-->
+
+<!--            var circles = dataCirclesGroup.selectAll('.data-point')-->
+<!--                .data(data);-->
+
+<!--            circles-->
+<!--                .enter()-->
+<!--                .append('svg:circle')-->
+<!--                .attr('class', 'dot')-->
+<!--                .attr('fill', function() { return "red"; })-->
+<!--                .attr('cx', function(d) { return x(d["date"]); })-->
+<!--                .attr('cy', function(d) { return y(d["DAU"]); })-->
+<!--                .attr('r', function() { return 3; })-->
+<!--                .on("mouseover", function(d) {-->
+<!--                    d3.select(this)-->
+<!--                        .attr("r", 8)-->
+<!--                        .attr("class", "dot-selected")-->
+<!--                        .transition()-->
+<!--                        .duration(750);-->
+<!--                })-->
+<!--                .on("mouseout", function(d) {-->
+<!--                    d3.select(this)-->
+<!--                        .attr("r", 3)-->
+<!--                        .attr("class", "dot")-->
+<!--                        .transition()-->
+<!--                        .duration(750);-->
+<!--                });-->
+
+<!--        });-->
+
+<!--    </script>-->
+
+    <style>
+        .axis path, .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .line {
+            fill: none;
+            stroke-width: 1.5px;
+
+        }
+
+        body {
+            background: #FFFFFF;
+            background-repeat:repeat-x;
+            text-align: center;
+            font: 10px sans-serif;
+        }
+
+        .dot {
+
+            stroke-width: 1.5px;
+        }
+
+        .dot-selected {
+            fill: #B0C4DE;
+            stroke: #B0C4DE;
+            stroke-width: 1.5px;
+        }
+
+        .metrics-container {
+            width: auto;
+            height: auto;
+            padding: 10px 10px 10px 10px;
+            border-style: solid;
+            border-width: 1px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>Test D3 dashboard</h1>
+
+<div id="myChart">
+</div>
+
+</body>
+
+</html>
