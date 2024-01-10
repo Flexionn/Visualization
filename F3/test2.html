@@ -2,8 +2,10 @@
 <head>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <style>
-        .bar {
-            fill: steelblue;
+        .line {
+            fill: none;
+            stroke: steelblue;
+            stroke-width: 2;
         }
     </style>
 </head>
@@ -52,14 +54,30 @@
         .attr("transform", "translate(50, 0)")
         .call(yAxis);
 
-    svg.selectAll(".bar")
-        .data(formattedData.flatMap(day => day.value))
-        .enter().append("rect")
-        .attr("class", "bar")
-        .attr("x", function (d) { return xScale(d.hour); })
-        .attr("y", function (d) { return yScale(d.value); })
-        .attr("width", xScale.bandwidth())
-        .attr("height", function (d) { return height/2 + 10 - yScale(d.value); });
+    // svg.selectAll(".bar")
+    //     .data(formattedData.flatMap(day => day.value))
+    //     .enter().append("rect")
+    //     .attr("class", "bar")
+    //     .attr("x", function (d) { return xScale(d.hour); })
+    //     .attr("y", function (d) { return yScale(d.value); })
+    //     .attr("width", xScale.bandwidth())
+    //     .attr("height", function (d) { return height/2 + 10 - yScale(d.value); });
+
+    // Kleurschaal voor lijnen
+    var colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+    // Genereer lijn
+    var line = d3.line()
+        .x(function(d) { return xScale(d.hour) + xScale.bandwidth() / 2; }) // Midden van de band
+        .y(function(d) { return yScale(d.value); });
+
+    // Voeg lijn toe aan SVG
+    svg.selectAll(".line")
+        .data(formattedData)
+        .enter().append("path")
+        .attr("class", "line")
+        .attr("d", function(d) { return line(d.value); })
+        .style("stroke", function(d, i) { return colorScale(i); });
 </script>
 </body>
 </html>
