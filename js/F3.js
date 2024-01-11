@@ -74,8 +74,8 @@ svg.selectAll(".line")
             .duration(100)
             .style("opacity", .92);
         tooltip.html(tooltipText)
-            .style("left", (d3.event.pageX) + "px")
-            .style("top", (d3.event.pageY - 28) + "px");
+            .style("left", (d3.event.pageX - 760) + "px") // Really sketchy
+            .style("top", (d3.event.pageY - 280) + "px"); // Really sketchy
     })
     .on("mouseout", function(d) {
         d3.select(this)
