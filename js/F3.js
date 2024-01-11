@@ -1,5 +1,5 @@
-var width = 900,
-    height = 800;
+var width = 510,
+    height = 600;
 
 // The days for which we want to display the data
 var selectedDays = [1, 2, 3, 4, 5, 6, 7];
@@ -25,7 +25,7 @@ yScale.domain([0, d3.max(formattedData.flatMap(day => day.value.map(hourData => 
 var svg = d3.select("#visualization4")
     .append("svg")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height/2 + 20);
 
 var g = svg.append("g")
     .attr("transform", "translate(" + 50 + "," + 20 + ")");
