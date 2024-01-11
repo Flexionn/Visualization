@@ -9,15 +9,65 @@
 </head>
 
 <body>
+    <header>
+        <h1>NYC Yellow Cab Visualization</h1>
+    </header>
     
+    
+    <div class="container dashboard-container">
+        <div class="row">
+            <!-- Visualization 1 -->
+            <div class="col-md-6">
+                <div class="visualization" id="visualization1">
+                    <div>
+                        <label for="date-range-slider">Select a date:</label>
+                        <input type="date" id="date-range-slider">
+                    </div>
 
+                    <div id="table-container"></div>
+                </div>
+            </div>
+    
+            <!-- Visualization 2 -->
+            <div class="col-md-6">
+                <div class="visualization" id="visualization2">
+                    <!-- Your content for Visualization 2 -->
+                </div>
+            </div>
+    
+            <!-- Add more visualizations as needed -->
+    
+        </div>
+        <div class="row">
+            <!-- Visualization 1 -->
+            <div class="col-md-6">
+                <div class="visualization" id="visualization3">
+                    <!-- Your content for Visualization 1 -->
+                </div>
+            </div>
+    
+            <!-- Visualization 2 -->
+            <div class="col-md-6">
+                <div class="visualization" id="visualization4">
+                    <!-- Your content for Visualization 2 -->
+                </div>
+            </div>
+    
+            <!-- Add more visualizations as needed -->
+    
+        </div>
 
+    </div>
+
+        <script src="js/table.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <!-- d3 -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
-
 </body>
+
+
+
 </html>
