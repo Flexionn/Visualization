@@ -22,7 +22,7 @@ const formattedData = mockData.map((dayData, dayIndex) => ({
 xScale.domain(formattedData.flatMap(day => day.value.map(hourData => hourData.hour)));
 yScale.domain([0, d3.max(formattedData.flatMap(day => day.value.map(hourData => hourData.value)))]);
 
-var svg = d3.select("#visualization3")
+var svg = d3.select("#visualization4")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
@@ -88,6 +88,6 @@ svg.selectAll(".line")
             .style("opacity", 0);
     });
 
-var tooltip = d3.select("#visualization3").append("div")
+var tooltip = d3.select("#visualization4").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
