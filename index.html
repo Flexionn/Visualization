@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/F3.css">
     <link rel="stylesheet" href="css/T2.css">
+    <link rel="stylesheet" href="css/summary_table.css">
 
     <!-- d3 -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -21,38 +22,32 @@
     <header>
         <h1>NYC Yellow Cab Visualization</h1>
     </header>
-    <script src="d3.v4.min.js"></script>
     <script src="js/T2.js"></script>
 
     <div class="container dashboard-container">
+
         <div class="row">
+
             <!-- Visualization 1 -->
             <div class="col-md-6">
                 <div class="visualization" id="visualization1">
-                    <div>
-                        <label for="date-range-slider">Select a date:</label>
-                        <input type="date" id="date-range-slider">
-                    </div>
+                    <!-- Your content for Visualization 2 -->
+                    <h2>Summarization of November 2022</h2>
+                    <div id="chart-container"></div>
 
-                    <div id="table-container"></div>
                 </div>
             </div>
 
             <!-- Visualization 2 -->
             <div class="col-md-6">
                 <div class="visualization" id="visualization2">
-                    <!-- Your content for Visualization 2 -->
-                    <h1> Trip cost vs Number of passengers</h1>
-                    <div id="tooltip" class="hidden">
-                        <p><strong></strong></p>
-                        <p><span id="value"></span></p>
+                    <div>
+                        <label for="dateRange">Select Date Range:</label>
+                        <input type="date" id="dateRange" value="2022-11-01" onchange="updateTable()">
                     </div>
-
-
+                    <div id="tableContainer"></div>
                 </div>
             </div>
-
-            <!-- Add more visualizations as needed -->
 
         </div>
         <div class="row">
@@ -144,8 +139,8 @@
             <div class="col-md-6">
                 <div class="visualization" id="visualization5">
                     <!-- Your content for Visualization 5 -->
-                    <h5 style="color:orange">NYC Taxi Density Map by Passenger Count</h5>
-                    <h6 style="color: #FFCC33;">Please select the passenger count</h6>
+                    <h3 style="color:orange">NYC Taxi Density Map by Passenger Count</h3>
+                    <h5 style="color: #FFCC33;">Please select the passenger count</h5>
 
                     <div id="tabs">
                         <button class="tab-button" data-tab="total">Total</button>
@@ -165,10 +160,18 @@
                 </div>
             </div>
 
+
             <!-- Visualization 6 -->
             <div class="col-md-6">
-                <div class="visualization" id="visualization6">
+                <div class="visualization" id="visualization2">
                     <!-- Your content for Visualization 6 -->
+                    <h2> Trip cost vs Number of passengers</h2>
+                    <div id="tooltip" class="hidden">
+                        <p><strong></strong></p>
+                        <p><span id="value"></span></p>
+                    </div>
+
+
                 </div>
             </div>
 
@@ -178,15 +181,16 @@
 
     </div>
 
-
-    <script src="js/table.js"></script>
+    <script src="js/summary_table.js"></script>
     <script src="../js/T1_cost.js"></script>
     <script src="js/F3.js"></script>
+    <script src="js/table_v2.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
     <!-- d3 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </body>
 
