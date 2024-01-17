@@ -9,7 +9,7 @@ function toggleVisibility(tabId) {
     }
 
 }
-d3.text("novemebr_22.csv", function (csvText) {
+d3.text("data/november_22.csv", function (csvText) {
     const data = d3.csvParse(csvText);
 
     data.forEach(d => {
@@ -23,8 +23,8 @@ d3.text("novemebr_22.csv", function (csvText) {
 
     const mainSvg = d3.select("#densityCharts");
 
-    const margin = { top: 20, right: 20, bottom: 40, left: 50 };
-    const width = +mainSvg.attr("width") - margin.left - margin.right - 200;
+    const margin = { top: 20, right: 52, bottom: 40, left: 32 };
+    const width = +mainSvg.attr("width") - margin.left - margin.right - 215;
     const height = +mainSvg.attr("height") - margin.top - margin.bottom;
 
     const xScale = d3.scaleLinear().domain([0, 15]).range([0, width]);
@@ -33,17 +33,14 @@ d3.text("novemebr_22.csv", function (csvText) {
     const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
 
-    // Add tabs to the page
+
     d3.select("#tabs")
         .selectAll(".tab-button")
         .on("click", function() {
-            // 将所有按钮重置为非活动状态
             d3.selectAll(".tab-button").classed("active", false);
 
-            // 将点击的按钮设置为活动状态
             d3.select(this).classed("active", true);
 
-            // 切换可见性的函数，根据您的需求使用 toggleVisibility 或其他函数
             toggleVisibility(d3.select(this).attr("data-tab"));
         });
     nestedData.forEach(group => {
@@ -67,28 +64,33 @@ d3.text("novemebr_22.csv", function (csvText) {
                 .y(d => yScale(d.length / totalCount))
             );
     });
-    // Create a legend for passenger_count
     const legend = mainSvg.append("g")
         .attr("class", "legend")
-        .attr("transform", `translate(${width + margin.left + 50}, ${margin.top})`);
+        .attr("transform", `translate(${margin.left}, ${margin.top - 20})`);
+
+    const rectSize = 10; // 调整矩形的大小
+    const spacing = 32;   // 调整矩形和文本之间的间距
 
     nestedData.forEach((group, idx) => {
         legend.append("rect")
-            .attr("x", 0)
-            .attr("y", idx * 20)
-            .attr("width", 15)
-            .attr("height", 15)
+            .attr("x", idx * (rectSize + spacing))
+            .attr("y", 0)
+            .attr("width", rectSize)
+            .attr("height", rectSize)
             .attr("fill", colorScale(group.key))
             .attr("class", `legend-item passenger_count_${group.key}`);
 
         legend.append("text")
-            .attr("x", 20)
-            .attr("y", idx * 20 + 12)
-            .attr("dy", ".35em")
-            .text(`Passenger Count ${group.key}`)
+            .attr("x", idx * (rectSize + spacing) + rectSize + 2) // 调整文本的位置，使其在矩形的右侧
+            .attr("y", rectSize / 2)  // 调整文本的纵向位置，使其垂直居中
+            .attr("dy", "0.35em")
+            .style("font-size", "8px")  // 设置字体大小
+            .text(`Count ${group.key}`)
             .attr("fill", "black")
             .attr("class", `legend-item passenger_count_${group.key}`);
     });
+
+
 
     mainSvg.append("g")
         .attr("transform", `translate(${margin.left}, ${margin.top})`)
@@ -97,7 +99,7 @@ d3.text("novemebr_22.csv", function (csvText) {
     mainSvg.append("g")
         .attr("transform", `translate(${margin.left}, ${height + margin.top})`)
         .call(d3.axisBottom(xScale).tickValues(d3.range(0, 16, 1))
-            .tickFormat((d, i) => (i * 5).toFixed(1) + "km")
+            .tickFormat((d, i) => (i * 5).toFixed(0) + "km")
         );
     mainSvg.attr("background-color", "lightgrey");
 });
