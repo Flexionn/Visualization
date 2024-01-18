@@ -1,11 +1,11 @@
-$('#datePick').multiDatesPicker();
-
-
+$('#datePick').multiDatesPicker({
+    // dateFormat: "d M",
+    maxDate: new Date(2022, 10, 30),
+    minDate: new Date(2022, 10, 1)
+});
 
 $('.get_dates').click(function() {
     var dates = $('#datePick').multiDatesPicker('getDates');
-    console.log(dates);
-
     updateChart(extractDagComponent(dates));
 });
 
