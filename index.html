@@ -22,37 +22,21 @@
     <header>
         <h1>NYC Yellow Cab Visualization</h1>
     </header>
-    <script src="js/T2.js"></script>
-
-    <div class="container dashboard-container">
-
+    <div class="container h-100 dashboard-container">
         <div class="row">
-
             <!-- Visualization 1 -->
             <div class="col-md-6">
-                <div class="visualization" id="visualization1">
-                    <!-- Your content for Visualization 2 -->
-                    <h2>Summarization of November 2022</h2>
-                    <div id="chart-container"></div>
-
-                </div>
+                <iframe src="summary.html" style="border:none;" width="100%" height="500px"></iframe>
             </div>
 
             <!-- Visualization 2 -->
             <div class="col-md-6">
-                <div class="visualization" id="visualization2">
-                    <div>
-                        <label for="dateRange">Select Date Range:</label>
-                        <input type="date" id="dateRange" value="2022-11-01" onchange="updateTable()">
-                    </div>
-                    <div id="tableContainer"></div>
-                </div>
+                <iframe src="table.html" style="border:none;" width="100%" height="500px"></iframe>
             </div>
-
         </div>
         <div class="row">
             <!-- Visualization 3 -->
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="visualization" id="visualization3">
                     <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
                     <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-heatmap.min.js"></script>
@@ -124,10 +108,8 @@
             </div>
 
             <!-- Visualization 4 -->
-            <div class="col-md-6">
-                <div class="visualization" id="visualization4">
-                    <h3>Amount of taxis per hour</h3>
-                </div>
+            <div class="col-md-12">
+                <iframe src="hourgraph.html" style="border:none;" width="100%" height="500px"></iframe>
             </div>
 
             <!-- Add more visualizations as needed -->
