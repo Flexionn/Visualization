@@ -52,42 +52,53 @@ var line = d3.line()
     .x(function(d) { return xScale(d.hour) + xScale.bandwidth() - 11; })
     .y(function(d) { return yScale(d.value); });
 
-// Add lines to SVG
-svg.selectAll(".line")
-    .data(formattedData.filter(day => selectedDays.includes(day.day)))
-    .enter().append("path")
-    .attr("class", "line")
-    .attr("d", function(d) { return line(d.value); })
-    .style("stroke", function(d, i) { return colorScale(i); })
-    .on("mouseover", function(d) {
-        d3.select(this)
-            .transition()
-            .duration(200)
-            .style("stroke-width", 5);
+drawLines();
 
-        var mouseX = d3.mouse(this)[0];
-        var invertedX = Math.round(mouseX / xScale.step() - 1.9);
+function drawLines() {
+    svg.selectAll(".line").remove();
+    svg.selectAll(".line")
+        .data(formattedData.filter(day => selectedDays.includes(day.day)))
+        .enter().append("path")
+        .attr("class", "line")
+        .attr("d", function(d) { return line(d.value); })
+        .style("stroke", function(d, i) { return colorScale(i); })
+        .on("mouseover", function(d) {
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke-width", 5);
 
-        var tooltipText = "<b>" + d.day + " November 2022</b><br>" + invertedX + ":00 - " + (invertedX + 1) + ":00<br>Taxi rides: " + d.value[invertedX].value;
+            var mouseX = d3.mouse(this)[0];
+            var invertedX = Math.round(mouseX / xScale.step() - 1.9);
 
-        tooltip.transition()
-            .duration(100)
-            .style("opacity", .92);
-        tooltip.html(tooltipText)
-            .style("left", (d3.event.pageX) + "px") // Really sketchy
-            .style("top", (d3.event.pageY) + "px"); // Really sketchy
-    })
-    .on("mouseout", function(d) {
-        d3.select(this)
-            .transition()
-            .duration(200)
-            .style("stroke-width", 2);
+            var tooltipText = "<b>" + d.day + " November 2022</b><br>" + invertedX + ":00 - " + (invertedX + 1) + ":00<br>Taxi rides: " + d.value[invertedX].value;
 
-        tooltip.transition()
-            .duration(300)
-            .style("opacity", 0);
-    });
+            tooltip.transition()
+                .duration(100)
+                .style("opacity", .92);
+            tooltip.html(tooltipText)
+                .style("left", (d3.event.pageX) + "px") // Really sketchy
+                .style("top", (d3.event.pageY) + "px"); // Really sketchy
+        })
+        .on("mouseout", function(d) {
+            d3.select(this)
+                .transition()
+                .duration(200)
+                .style("stroke-width", 2);
+
+            tooltip.transition()
+                .duration(300)
+                .style("opacity", 0);
+        });
+}
 
 var tooltip = d3.select("#visualization4").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
+
+// Functie om de geselecteerde dagen bij te werken en de grafiek bij te werken
+function updateChart(days) {
+    selectedDays = days;
+    console.log("updateChart");
+    drawLines();
+}
