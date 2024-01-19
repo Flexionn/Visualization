@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/summary_table.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div class="visualization" id="visualization2">
+        <div>
+            <label for="dateRange">Select Date Range:</label>
+            <input type="date" id="dateRange" value="2022-11-01" onchange="updateTable()">
+        </div>
+        <div id="tableContainer"></div>
+    </div>
+</body>
+<script src="js/table_v2.js"></script>
+</html>
