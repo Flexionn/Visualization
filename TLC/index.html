@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NYC Taxi Data Visualization</title>
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- Load d3-fetch for CSV and TSV files -->
+    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+    <!-- Load d3-scale-chromatic for color schemes -->
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+
+
+
+</head>
+<body>
+<div id="filters">
+    <div>
+    <label for="daySelect">Day:</label>
+    <select id="daySelect">
+        <!-- Options will be added by JavaScript -->
+    </select>
+    </div>
+    <div>
+    <label for="hourSelect">Hour:</label>
+    <select id="hourSelect">
+        <option value="all">All Hours</option>
+        <!-- Options will be added by JavaScript -->
+    </select>
+    </div>
+</div>
+
+<svg id="my_dataviz" width="800" height="600"></svg>
+
+<div id="tooltip" style="position: absolute; opacity: 0; background-color: white; border: solid 1px black; padding: 5px;"></div>
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
