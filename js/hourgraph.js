@@ -30,9 +30,6 @@ d3.csv("data/hourgraph_calculated.csv", function(data) {
         .attr("width", width)
         .attr("height", height/2 + 20);
 
-    var g = svg.append("g")
-        .attr("transform", "translate(" + 50 + "," + 20 + ")");
-
     // X-axis
     var xAxis = d3.axisBottom(xScale);
 
@@ -58,7 +55,6 @@ d3.csv("data/hourgraph_calculated.csv", function(data) {
     drawLines();
 
     function drawLines() {
-        console.log("drawLines");
         svg.selectAll(".line").remove();
         svg.selectAll(".line")
             .data(formattedData.filter(day => selectedDays.includes(day.day)))
@@ -100,12 +96,11 @@ d3.csv("data/hourgraph_calculated.csv", function(data) {
         .attr("class", "tooltip")
         .style("opacity", 0);
 
-    // Add function to app so it's accessible from the datepicker
+    // Add function to app, so it's accessible from the datepicker
     hourApp.updateChart = updateChart;
 
     function updateChart(days) {
         selectedDays = days;
-        console.log("updateChart");
         drawLines();
     }
 });
