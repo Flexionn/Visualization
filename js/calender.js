@@ -13,7 +13,8 @@ const svgjesse = d3.select("#calender-container")
 
 //Read the data
 d3.csv("data/calender_values.csv").then(function(data) {
-
+    // const minHeat = d3.min(data, (d) => d.heat);
+    // const maxHeat = d3.max(data, (d) => d.heat);
     // Labels of row and columns -> unique identifier of the column called 'group' and 'variable'
     const myGroups = Array.from(new Set(data.map(d => d.x)))
     const myVars = Array.from(new Set(data.map(d => d.y)))
@@ -41,15 +42,12 @@ d3.csv("data/calender_values.csv").then(function(data) {
 
     // Build color scale
     const myColor = d3.scaleSequential()
-        .interpolator(d3.interpolateLab("lightyellow", "red"))
-        .domain([d3.min(data, d => d.heat), d3.max(data, d => d.heat)]);
+        .interpolator(d3.interpolateReds)
+        .domain([69663,132727])
 
-     // const myColor = d3.scaleSequential()
-     //    .interpolator(d3.interpolateLab("steelblue", "brown")(0.5))
-     //    .domain([d3.min(data, d => d.heat), d3.max(data, d => d.heat)]);
 
     // create a tooltip
-    const tooltip = d3.select("calender-container")
+    const tooltip = d3.select("#calender-container")
         .append("div")
         .style("opacity", 0)
         .attr("class", "tooltip")
@@ -57,29 +55,31 @@ d3.csv("data/calender_values.csv").then(function(data) {
         .style("border", "solid")
         .style("border-width", "2px")
         .style("border-radius", "5px")
-        .style("padding", "5px")
+        .style("padding", "5px");
 
-    // Three function that change the tooltip when user hover / move / leave a cell
+    // Three functions that change the tooltip when user hover / move / leave a cell
     const mouseover = function(event,d) {
         tooltip
-            .style("opacity", 1)
+            .style("opacity", 1);
         d3.select(this)
             .style("stroke", "black")
-            .style("opacity", 1)
-    }
+            .style("opacity", 1);
+    };
+
     const mousemove = function(event,d) {
         tooltip
-            .html("The number of taxi trips on " + d.x + " " + d.date + " is: " + d.heat)
-            .style("left", (event.x)/2 + "px")
-            .style("top", (event.y)/2 + "px")
+            .html("The exact value of<br>this cell is: " + d.heat)
+            .style("left", (event.x) / 2 + "px")
+            .style("top", (event.y) / 2 + "px")
     }
     const mouseleave = function(event,d) {
         tooltip
-            .style("opacity", 0)
+            .style("opacity", 0);
         d3.select(this)
             .style("stroke", "none")
-            .style("opacity", 0.8)
-    }
+            .style("opacity", 0.8);
+    };
+
 
     // add the squares
     svgjesse.selectAll()
@@ -91,13 +91,13 @@ d3.csv("data/calender_values.csv").then(function(data) {
         .attr("ry", 4)
         .attr("width", x.bandwidth() )
         .attr("height", y.bandwidth() )
-        .style("fill", function(d) { return myColor(d.heat)} )
+        .style("fill", function (d) {return myColor(d.heat)})
         .style("stroke-width", 4)
         .style("stroke", "none")
         .style("opacity", 0.8)
         .on("mouseover", mouseover)
         .on("mousemove", mousemove)
-        .on("mouseleave", mouseleave)
+        .on("mouseleave", mouseleave);
 
 // add text displaying date and heat values within each square
     svgjesse.selectAll()
@@ -136,8 +136,8 @@ d3.csv("data/calender_values.csv").then(function(data) {
         .attr("transform", function (d, i) { return "translate(" + (width1 + 18) + "," + i * 20 + ")"; });
 
     legend.append("rect")
-         .attr("width", 18)
-         .attr("height", 18)
+        .attr("width", 18)
+        .attr("height", 18)
         .style("fill", function (d) { return d; });
 
     legend.append("text")
@@ -151,23 +151,7 @@ d3.csv("data/calender_values.csv").then(function(data) {
         });
 });
 
-// // Add title to graph
-// svgjesse.append("text")
-//     .attr("x", 0)
-//     .attr("y", -50)
-//     .attr("text-anchor", "left")
-//     .style("font-size", "22px")
-//     .text("Number of taxi trips per day in november 2022.");
 
-// // Add subtitle to graph
-// svgjesse.append("text")
-//     .attr("x", 0)
-//     .attr("y", -70)
-//     .attr("text-anchor", "left")
-//     .style("font-size", "14px")
-//     .style("fill", "grey")
-//     .style("max-width", 400)
-//     .text("The darker the color, the more trips on that day.");
 
 // Add legend
 svgjesse.append("text")
