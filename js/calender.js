@@ -44,16 +44,6 @@ d3.csv("data/calender_values.csv").then(function(data) {
     const myColor = d3.scaleSequential()
         .interpolator(d3.interpolateReds)
         .domain([69663,132727])
-    // const myColor = d3.schemeRdYlBu[3][2];
-        // .scaleSequential()
-        // .interpolator(d3.interpolateReds) // You can change this to any other color scheme
-        // .domain([minHeat, maxHeat]);
-
-
-     // const myColor = d3.scaleSequential()
-     //    .interpolator(d3.interpolateLab("steelblue", "brown")(0.5))
-     //    .domain([d3.min(data, d => d.heat), d3.max(data, d => d.heat)]);
-
 
 
     // create a tooltip
