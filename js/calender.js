@@ -68,7 +68,7 @@ d3.csv("data/calender_values.csv").then(function(data) {
 
     const mousemove = function(event,d) {
         tooltip
-            .html("The exact number of trips on " + d.x + " "+ d.date + " is: " + d.heat)
+            .html("The exact number of trips on " + d.x + " "+ d.date + " is: " + d.heat /1000)
             .style("left", (event.x) / 2 + "px")
             .style("top", (event.y) / 2 + "px")
     }
@@ -115,17 +115,17 @@ d3.csv("data/calender_values.csv").then(function(data) {
     // Create a formatting function for the heat values
     const formatHeat = d3.format(","); // Use a comma as a thousand separator
 
-// add text displaying heat values within each square
-    svgjesse.selectAll()
-        .data(data, function (d) { return d.x + ':' + d.y; })
-        .join("text")
-        .attr("x", function (d) { return x(d.x) + x.bandwidth() / 2; })
-        .attr("y", function (d) { return y(d.y) + y.bandwidth() / 2 + 10; }) // adjust the y-coordinate for heat text
-        .attr("dy", "0.35em")
-        .attr("text-anchor", "middle")
-        .style("font-size", "12px")
-        .style("fill", "black")
-        .text(function(d) { return formatHeat(d.heat); }); // Use the formatting function
+// add text displaying heat values within each square --> left out because a tooltip with actual value is added.
+    // svgjesse.selectAll()
+    //     .data(data, function (d) { return d.x + ':' + d.y; })
+    //     .join("text")
+    //     .attr("x", function (d) { return x(d.x) + x.bandwidth() / 2; })
+    //     .attr("y", function (d) { return y(d.y) + y.bandwidth() / 2 + 10; }) // adjust the y-coordinate for heat text
+    //     .attr("dy", "0.35em")
+    //     .attr("text-anchor", "middle")
+    //     .style("font-size", "12px")
+    //     .style("fill", "black")
+    //     .text(function(d) { return formatHeat(d.heat); }); // Use the formatting function
 
 
 // Create color legend
