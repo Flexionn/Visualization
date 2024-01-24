@@ -68,7 +68,7 @@ d3.csv("data/calender_values.csv").then(function(data) {
 
     const mousemove = function(event,d) {
         tooltip
-            .html("The exact value of<br>this cell is: " + d.heat)
+            .html("The exact number of trips on " + d.x + " "+ d.date + " is: " + d.heat)
             .style("left", (event.x) / 2 + "px")
             .style("top", (event.y) / 2 + "px")
     }
