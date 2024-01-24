@@ -23,16 +23,15 @@
     // Function to process CSV data
     function processTaxiData(data) {
     data.forEach(d => {
-        let datetime = new Date(d.tpep_pickup_datetime);
-        let day = datetime.getUTCDate();
-        let hour = datetime.getUTCHours();
+        let day = d.Day;
+        let hour = d.Hour;
 
         uniqueDays.add(day);
         uniqueHours.add(hour);
 
-        const key = `${d.PULocationID}-${day}-${hour}`;
-        taxiData.set(key, +d.trip_count);
-        console.log(`Set taxiData[${key}] = ${d.trip_count}`); // Log setting data
+        const key = `${d.LocationID}-${day}-${hour}`;
+        taxiData.set(key, +d.Count);
+        console.log(`Set taxiData[${key}] = ${d.Count}`); // Log setting data
     });
 }
 
@@ -65,7 +64,7 @@
 }
     return response.json();
 }), // Replace with the path to your NYC taxi zones GeoJSON
-    fetch("data/november_22_with_tripcount.csv").then(response => {
+    fetch("data/tripcount_calculated.csv").then(response => {
     if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
 }
