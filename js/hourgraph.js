@@ -1,5 +1,5 @@
-var width = 1070,
-    height = 600;
+var width = 830,
+    height = 500;
 
 const hourApp = {};
 
