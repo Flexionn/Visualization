@@ -31,7 +31,7 @@
 
         const key = `${d.LocationID}-${day}-${hour}`;
         taxiData.set(key, +d.Count);
-        console.log(`Set taxiData[${key}] = ${d.Count}`); // Log setting data
+ //       console.log(`Set taxiData[${key}] = ${d.Count}`); // Log setting data
     });
 }
 

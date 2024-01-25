@@ -38,6 +38,10 @@ function createTable(data) {
     // Remove existing table content
     tableContainer.html('');
 
+    data.sort(function(a, b) {
+        return b.total_trips - a.total_trips;
+    });
+
     // Create the table
     var table = tableContainer.append('table');
 
@@ -45,7 +49,7 @@ function createTable(data) {
     var thead = table.append('thead');
     thead.append('tr')
         .selectAll('th')
-        .data(['Borough', 'Total Trips', 'Total Passengers', 'Median Distance', 'Median Fare Amount'])
+        .data(['Borough', 'Total Trips', 'Total Passengers'])
         .enter()
         .append('th')
         .text(function(d) { return d; });
@@ -64,9 +68,7 @@ function createTable(data) {
             var formattedData = [
                 d.Borough,
                 Math.round(d.total_trips),
-                Math.round(d.total_passengers * 100) / 100,  // Two decimal places
-                Math.round(d.median_distance * 100) / 100,    // Two decimal places
-                Math.round(d.median_fare_amount * 100) / 100   // Two decimal places
+                Math.round(d.total_passengers * 100) / 100,  // Two decimal places// Two decimal places
             ];
             return formattedData;
         })

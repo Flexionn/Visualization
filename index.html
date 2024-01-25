@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/F3.css">
-    <link rel="stylesheet" href="css/T2.css">
-    <link rel="stylesheet" href="css/summary_table.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/summary.css">
 </head>
 <style>
     .visualization {
@@ -19,27 +19,24 @@
         <h1>NYC Yellow Cab Visualization</h1>
     </header>
     <div class="container-fluid h-100">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="row row-cols-5">
-                    <div class="col">
-                        <p>Total taxi trips: <b>2871871</b></p>
-                    </div>
-                    <div class="col">
-                        <p>Total taxi trips: <b>2871871</b></p>
-                    </div>
-                    <div class="col">
-                        <p>Total taxi trips: <b>2871871</b></p>
-                    </div>
-                    <div class="col">
-                        <p>Total taxi trips: <b>2871871</b></p>
-                    </div>
-                    <div class="col">
-                        <p>Total taxi trips: <b>2871871</b></p>
-                    </div>
-                </div>
+        <div class="row row-cols-5">
+            <div class="col">
+                <p>Total Number of Trips: <b>3252717</b></p>
+            </div>
+            <div class="col">
+                <p>Median Trip Distance: <b>1.89 miles</b></p>
+            </div>
+            <div class="col">
+                <p>Total Amount: <b>71.825.260,62 US$</b></p>
+            </div>
+            <div class="col">
+                <p>Median Tip Rate: <b>19.93 %</b></p>
+            </div>
+            <div class="col">
+                <p>Median Trip Duration: <b>13.02 min</b></p>
             </div>
         </div>
+    </div>
 
         <div class="row">
             <div class="col-md-7">
@@ -65,19 +62,14 @@
             <div class="col-md-6">
                 <iframe src="network.html" style="border:none;" width="100%" height="700px"></iframe>
             </div>
+            <div class="col-md-3">
+                <iframe src="zone_table.html" style="border:none;" width="100%" height="700px"></iframe>
+            </div>
         </div>
-        <div class="row">
-            <!-- Visualization 3 -->
 
 
-            <!-- Visualization 4 -->
-
-        </div>
-    </div>
-    <script src="js/summary_table.js"></script>
-    <script src="js/T1_cost.js"></script>
-    <script src="js/hourgraph.js"></script>
     <script src="js/table_v2.js"></script>
+    <script src="js/zones.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
