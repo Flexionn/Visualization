@@ -4,6 +4,7 @@ d3.csv("data/trip_count_60.csv").then(function(data) {
     var dates = [...new Set(data.map(d => d.pickup_date))];
 
     // Populate dropdown with dates
+//    var dropdown = d3.select("#date-dropdown");
     var dropdown = d3.select("#date-dropdown");
     dropdown.selectAll("option")
         .data(dates)
