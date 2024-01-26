@@ -1,0 +1,1742 @@
+pickup_date,PULocationID,DOLocationID,amount,PULocationZone,DOLocationZone
+2022-11-01,237,236,1020,Upper East Side South,Upper East Side North
+2022-11-01,236,237,852,Upper East Side North,Upper East Side South
+2022-11-01,237,237,666,Upper East Side South,Upper East Side South
+2022-11-01,264,264,594,NV,NV
+2022-11-01,236,236,579,Upper East Side North,Upper East Side North
+2022-11-01,237,161,479,Upper East Side South,Midtown Center
+2022-11-01,161,237,451,Midtown Center,Upper East Side South
+2022-11-01,161,236,404,Midtown Center,Upper East Side North
+2022-11-01,236,161,396,Upper East Side North,Midtown Center
+2022-11-01,162,237,328,Midtown East,Upper East Side South
+2022-11-01,132,132,323,JFK Airport,JFK Airport
+2022-11-01,132,230,317,JFK Airport,Times Sq/Theatre District
+2022-11-01,186,161,311,Penn Station/Madison Sq West,Midtown Center
+2022-11-01,141,236,301,Lenox Hill West,Upper East Side North
+2022-11-01,237,162,300,Upper East Side South,Midtown East
+2022-11-01,142,238,283,Lincoln Square East,Upper West Side North
+2022-11-01,239,142,282,Upper West Side South,Lincoln Square East
+2022-11-01,142,239,275,Lincoln Square East,Upper West Side South
+2022-11-01,161,234,274,Midtown Center,Union Sq
+2022-11-01,138,230,271,LaGuardia Airport,Times Sq/Theatre District
+2022-11-01,161,161,267,Midtown Center,Midtown Center
+2022-11-01,162,236,259,Midtown East,Upper East Side North
+2022-11-01,141,237,256,Lenox Hill West,Upper East Side South
+2022-11-01,163,236,256,Midtown North,Upper East Side North
+2022-11-01,161,164,255,Midtown Center,Midtown South
+2022-11-01,142,236,254,Lincoln Square East,Upper East Side North
+2022-11-01,236,141,252,Upper East Side North,Lenox Hill West
+2022-11-01,236,239,252,Upper East Side North,Upper West Side South
+2022-11-01,237,142,250,Upper East Side South,Lincoln Square East
+2022-11-01,140,236,249,Lenox Hill East,Upper East Side North
+2022-11-01,236,238,248,Upper East Side North,Upper West Side North
+2022-11-01,186,230,243,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-01,236,162,241,Upper East Side North,Midtown East
+2022-11-01,263,236,241,Yorkville West,Upper East Side North
+2022-11-01,237,263,240,Upper East Side South,Yorkville West
+2022-11-01,239,238,240,Upper West Side South,Upper West Side North
+2022-11-01,142,237,239,Lincoln Square East,Upper East Side South
+2022-11-01,237,140,234,Upper East Side South,Lenox Hill East
+2022-11-01,237,141,234,Upper East Side South,Lenox Hill West
+2022-11-01,236,142,231,Upper East Side North,Lincoln Square East
+2022-11-01,163,237,227,Midtown North,Upper East Side South
+2022-11-01,236,140,227,Upper East Side North,Lenox Hill East
+2022-11-01,161,170,225,Midtown Center,Murray Hill
+2022-11-01,238,239,220,Upper West Side North,Upper West Side South
+2022-11-01,239,236,216,Upper West Side South,Upper East Side North
+2022-11-01,164,161,213,Midtown South,Midtown Center
+2022-11-01,161,142,212,Midtown Center,Lincoln Square East
+2022-11-01,142,161,211,Lincoln Square East,Midtown Center
+2022-11-01,170,237,208,Murray Hill,Upper East Side South
+2022-11-01,238,236,206,Upper West Side North,Upper East Side North
+2022-11-01,161,141,204,Midtown Center,Lenox Hill West
+2022-11-01,163,161,204,Midtown North,Midtown Center
+2022-11-01,132,48,200,JFK Airport,Clinton East
+2022-11-01,138,161,197,LaGuardia Airport,Midtown Center
+2022-11-01,237,238,196,Upper East Side South,Upper West Side North
+2022-11-01,263,141,196,Yorkville West,Lenox Hill West
+2022-11-01,162,141,195,Midtown East,Lenox Hill West
+2022-11-01,140,237,194,Lenox Hill East,Upper East Side South
+2022-11-01,234,170,193,Union Sq,Murray Hill
+2022-11-01,161,186,192,Midtown Center,Penn Station/Madison Sq West
+2022-11-02,237,236,1060,Upper East Side South,Upper East Side North
+2022-11-02,236,237,896,Upper East Side North,Upper East Side South
+2022-11-02,237,237,720,Upper East Side South,Upper East Side South
+2022-11-02,236,236,608,Upper East Side North,Upper East Side North
+2022-11-02,264,264,599,NV,NV
+2022-11-02,237,161,489,Upper East Side South,Midtown Center
+2022-11-02,161,237,475,Midtown Center,Upper East Side South
+2022-11-02,161,236,457,Midtown Center,Upper East Side North
+2022-11-02,236,161,397,Upper East Side North,Midtown Center
+2022-11-02,237,162,351,Upper East Side South,Midtown East
+2022-11-02,186,161,347,Penn Station/Madison Sq West,Midtown Center
+2022-11-02,142,239,337,Lincoln Square East,Upper West Side South
+2022-11-02,142,236,320,Lincoln Square East,Upper East Side North
+2022-11-02,239,238,310,Upper West Side South,Upper West Side North
+2022-11-02,161,234,309,Midtown Center,Union Sq
+2022-11-02,132,230,304,JFK Airport,Times Sq/Theatre District
+2022-11-02,162,237,303,Midtown East,Upper East Side South
+2022-11-02,142,237,297,Lincoln Square East,Upper East Side South
+2022-11-02,239,142,291,Upper West Side South,Lincoln Square East
+2022-11-02,141,236,289,Lenox Hill West,Upper East Side North
+2022-11-02,237,142,284,Upper East Side South,Lincoln Square East
+2022-11-02,142,238,282,Lincoln Square East,Upper West Side North
+2022-11-02,132,132,280,JFK Airport,JFK Airport
+2022-11-02,162,236,276,Midtown East,Upper East Side North
+2022-11-02,237,141,275,Upper East Side South,Lenox Hill West
+2022-11-02,186,230,269,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-02,236,162,269,Upper East Side North,Midtown East
+2022-11-02,237,239,267,Upper East Side South,Upper West Side South
+2022-11-02,236,141,265,Upper East Side North,Lenox Hill West
+2022-11-02,236,239,261,Upper East Side North,Upper West Side South
+2022-11-02,140,236,260,Lenox Hill East,Upper East Side North
+2022-11-02,163,236,259,Midtown North,Upper East Side North
+2022-11-02,161,161,250,Midtown Center,Midtown Center
+2022-11-02,238,239,250,Upper West Side North,Upper West Side South
+2022-11-02,107,170,247,Gramercy,Murray Hill
+2022-11-02,138,230,246,LaGuardia Airport,Times Sq/Theatre District
+2022-11-02,236,238,246,Upper East Side North,Upper West Side North
+2022-11-02,239,236,246,Upper West Side South,Upper East Side North
+2022-11-02,161,164,245,Midtown Center,Midtown South
+2022-11-02,236,142,244,Upper East Side North,Lincoln Square East
+2022-11-02,164,161,230,Midtown South,Midtown Center
+2022-11-02,141,237,228,Lenox Hill West,Upper East Side South
+2022-11-02,237,263,228,Upper East Side South,Yorkville West
+2022-11-02,236,140,225,Upper East Side North,Lenox Hill East
+2022-11-02,140,237,224,Lenox Hill East,Upper East Side South
+2022-11-02,237,262,224,Upper East Side South,Yorkville East
+2022-11-02,142,161,223,Lincoln Square East,Midtown Center
+2022-11-02,237,140,221,Upper East Side South,Lenox Hill East
+2022-11-02,163,161,220,Midtown North,Midtown Center
+2022-11-02,238,142,217,Upper West Side North,Lincoln Square East
+2022-11-02,263,141,217,Yorkville West,Lenox Hill West
+2022-11-02,170,237,210,Murray Hill,Upper East Side South
+2022-11-02,230,186,210,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-02,234,170,210,Union Sq,Murray Hill
+2022-11-02,237,170,209,Upper East Side South,Murray Hill
+2022-11-02,161,170,208,Midtown Center,Murray Hill
+2022-11-02,237,229,208,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-02,263,236,208,Yorkville West,Upper East Side North
+2022-11-02,239,237,205,Upper West Side South,Upper East Side South
+2022-11-02,161,141,204,Midtown Center,Lenox Hill West
+2022-11-03,237,236,1197,Upper East Side South,Upper East Side North
+2022-11-03,236,237,959,Upper East Side North,Upper East Side South
+2022-11-03,237,237,780,Upper East Side South,Upper East Side South
+2022-11-03,264,264,701,NV,NV
+2022-11-03,236,236,642,Upper East Side North,Upper East Side North
+2022-11-03,237,161,532,Upper East Side South,Midtown Center
+2022-11-03,161,237,502,Midtown Center,Upper East Side South
+2022-11-03,132,230,423,JFK Airport,Times Sq/Theatre District
+2022-11-03,161,236,400,Midtown Center,Upper East Side North
+2022-11-03,132,132,387,JFK Airport,JFK Airport
+2022-11-03,236,161,384,Upper East Side North,Midtown Center
+2022-11-03,237,162,365,Upper East Side South,Midtown East
+2022-11-03,141,236,331,Lenox Hill West,Upper East Side North
+2022-11-03,186,161,331,Penn Station/Madison Sq West,Midtown Center
+2022-11-03,142,239,328,Lincoln Square East,Upper West Side South
+2022-11-03,142,237,305,Lincoln Square East,Upper East Side South
+2022-11-03,239,238,295,Upper West Side South,Upper West Side North
+2022-11-03,237,142,289,Upper East Side South,Lincoln Square East
+2022-11-03,237,141,285,Upper East Side South,Lenox Hill West
+2022-11-03,239,142,279,Upper West Side South,Lincoln Square East
+2022-11-03,140,236,274,Lenox Hill East,Upper East Side North
+2022-11-03,236,238,274,Upper East Side North,Upper West Side North
+2022-11-03,161,234,270,Midtown Center,Union Sq
+2022-11-03,162,237,270,Midtown East,Upper East Side South
+2022-11-03,161,161,268,Midtown Center,Midtown Center
+2022-11-03,142,238,267,Lincoln Square East,Upper West Side North
+2022-11-03,236,162,267,Upper East Side North,Midtown East
+2022-11-03,162,236,265,Midtown East,Upper East Side North
+2022-11-03,142,236,264,Lincoln Square East,Upper East Side North
+2022-11-03,236,142,261,Upper East Side North,Lincoln Square East
+2022-11-03,138,230,258,LaGuardia Airport,Times Sq/Theatre District
+2022-11-03,186,230,253,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-03,236,141,252,Upper East Side North,Lenox Hill West
+2022-11-03,163,236,251,Midtown North,Upper East Side North
+2022-11-03,237,239,247,Upper East Side South,Upper West Side South
+2022-11-03,237,263,246,Upper East Side South,Yorkville West
+2022-11-03,239,236,242,Upper West Side South,Upper East Side North
+2022-11-03,236,239,241,Upper East Side North,Upper West Side South
+2022-11-03,107,170,231,Gramercy,Murray Hill
+2022-11-03,48,68,229,Clinton East,East Chelsea
+2022-11-03,163,237,228,Midtown North,Upper East Side South
+2022-11-03,141,237,225,Lenox Hill West,Upper East Side South
+2022-11-03,263,141,221,Yorkville West,Lenox Hill West
+2022-11-03,161,164,220,Midtown Center,Midtown South
+2022-11-03,234,170,219,Union Sq,Murray Hill
+2022-11-03,237,140,219,Upper East Side South,Lenox Hill East
+2022-11-03,230,186,217,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-03,142,161,216,Lincoln Square East,Midtown Center
+2022-11-03,234,161,216,Union Sq,Midtown Center
+2022-11-03,238,239,214,Upper West Side North,Upper West Side South
+2022-11-03,161,170,212,Midtown Center,Murray Hill
+2022-11-03,162,170,211,Midtown East,Murray Hill
+2022-11-03,238,236,210,Upper West Side North,Upper East Side North
+2022-11-03,162,141,209,Midtown East,Lenox Hill West
+2022-11-03,263,236,209,Yorkville West,Upper East Side North
+2022-11-03,164,161,208,Midtown South,Midtown Center
+2022-11-03,161,186,206,Midtown Center,Penn Station/Madison Sq West
+2022-11-03,163,161,206,Midtown North,Midtown Center
+2022-11-03,238,142,205,Upper West Side North,Lincoln Square East
+2022-11-03,237,229,202,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-04,237,236,1020,Upper East Side South,Upper East Side North
+2022-11-04,236,237,889,Upper East Side North,Upper East Side South
+2022-11-04,237,237,585,Upper East Side South,Upper East Side South
+2022-11-04,236,236,583,Upper East Side North,Upper East Side North
+2022-11-04,264,264,524,NV,NV
+2022-11-04,237,161,410,Upper East Side South,Midtown Center
+2022-11-04,161,237,407,Midtown Center,Upper East Side South
+2022-11-04,132,132,383,JFK Airport,JFK Airport
+2022-11-04,132,230,376,JFK Airport,Times Sq/Theatre District
+2022-11-04,239,142,345,Upper West Side South,Lincoln Square East
+2022-11-04,142,239,338,Lincoln Square East,Upper West Side South
+2022-11-04,236,161,336,Upper East Side North,Midtown Center
+2022-11-04,161,236,333,Midtown Center,Upper East Side North
+2022-11-04,141,236,315,Lenox Hill West,Upper East Side North
+2022-11-04,237,141,304,Upper East Side South,Lenox Hill West
+2022-11-04,162,237,299,Midtown East,Upper East Side South
+2022-11-04,263,141,290,Yorkville West,Lenox Hill West
+2022-11-04,237,162,288,Upper East Side South,Midtown East
+2022-11-04,239,238,282,Upper West Side South,Upper West Side North
+2022-11-04,236,141,277,Upper East Side North,Lenox Hill West
+2022-11-04,238,239,276,Upper West Side North,Upper West Side South
+2022-11-04,162,236,271,Midtown East,Upper East Side North
+2022-11-04,142,237,269,Lincoln Square East,Upper East Side South
+2022-11-04,141,237,262,Lenox Hill West,Upper East Side South
+2022-11-04,142,238,262,Lincoln Square East,Upper West Side North
+2022-11-04,140,236,259,Lenox Hill East,Upper East Side North
+2022-11-04,236,239,254,Upper East Side North,Upper West Side South
+2022-11-04,237,142,252,Upper East Side South,Lincoln Square East
+2022-11-04,263,236,246,Yorkville West,Upper East Side North
+2022-11-04,236,238,244,Upper East Side North,Upper West Side North
+2022-11-04,142,161,243,Lincoln Square East,Midtown Center
+2022-11-04,186,230,237,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-04,236,142,237,Upper East Side North,Lincoln Square East
+2022-11-04,107,170,236,Gramercy,Murray Hill
+2022-11-04,138,230,236,LaGuardia Airport,Times Sq/Theatre District
+2022-11-04,239,236,236,Upper West Side South,Upper East Side North
+2022-11-04,161,234,235,Midtown Center,Union Sq
+2022-11-04,142,236,233,Lincoln Square East,Upper East Side North
+2022-11-04,141,263,232,Lenox Hill West,Yorkville West
+2022-11-04,237,263,232,Upper East Side South,Yorkville West
+2022-11-04,48,68,228,Clinton East,East Chelsea
+2022-11-04,186,161,225,Penn Station/Madison Sq West,Midtown Center
+2022-11-04,236,75,221,Upper East Side North,East Harlem South
+2022-11-04,238,142,221,Upper West Side North,Lincoln Square East
+2022-11-04,161,161,218,Midtown Center,Midtown Center
+2022-11-04,230,246,212,Times Sq/Theatre District,West Chelsea/Hudson Yards
+2022-11-04,236,162,212,Upper East Side North,Midtown East
+2022-11-04,163,236,211,Midtown North,Upper East Side North
+2022-11-04,161,164,210,Midtown Center,Midtown South
+2022-11-04,262,236,210,Yorkville East,Upper East Side North
+2022-11-04,142,48,208,Lincoln Square East,Clinton East
+2022-11-04,236,140,208,Upper East Side North,Lenox Hill East
+2022-11-04,237,140,203,Upper East Side South,Lenox Hill East
+2022-11-04,236,262,202,Upper East Side North,Yorkville East
+2022-11-04,236,263,202,Upper East Side North,Yorkville West
+2022-11-04,140,237,201,Lenox Hill East,Upper East Side South
+2022-11-04,237,229,200,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-04,239,239,200,Upper West Side South,Upper West Side South
+2022-11-04,43,161,199,Central Park,Midtown Center
+2022-11-04,163,237,197,Midtown North,Upper East Side South
+2022-11-05,237,236,781,Upper East Side South,Upper East Side North
+2022-11-05,236,237,679,Upper East Side North,Upper East Side South
+2022-11-05,264,264,605,NV,NV
+2022-11-05,237,237,537,Upper East Side South,Upper East Side South
+2022-11-05,236,236,394,Upper East Side North,Upper East Side North
+2022-11-05,132,132,370,JFK Airport,JFK Airport
+2022-11-05,142,239,349,Lincoln Square East,Upper West Side South
+2022-11-05,239,142,330,Upper West Side South,Lincoln Square East
+2022-11-05,161,237,313,Midtown Center,Upper East Side South
+2022-11-05,79,170,304,East Village,Murray Hill
+2022-11-05,263,141,300,Yorkville West,Lenox Hill West
+2022-11-05,239,238,289,Upper West Side South,Upper West Side North
+2022-11-05,48,68,288,Clinton East,East Chelsea
+2022-11-05,237,161,267,Upper East Side South,Midtown Center
+2022-11-05,141,236,261,Lenox Hill West,Upper East Side North
+2022-11-05,142,238,256,Lincoln Square East,Upper West Side North
+2022-11-05,141,263,255,Lenox Hill West,Yorkville West
+2022-11-05,161,236,254,Midtown Center,Upper East Side North
+2022-11-05,48,246,252,Clinton East,West Chelsea/Hudson Yards
+2022-11-05,237,141,250,Upper East Side South,Lenox Hill West
+2022-11-05,68,48,246,East Chelsea,Clinton East
+2022-11-05,237,263,245,Upper East Side South,Yorkville West
+2022-11-05,79,107,240,East Village,Gramercy
+2022-11-05,236,75,239,Upper East Side North,East Harlem South
+2022-11-05,79,79,238,East Village,East Village
+2022-11-05,237,162,235,Upper East Side South,Midtown East
+2022-11-05,236,141,231,Upper East Side North,Lenox Hill West
+2022-11-05,142,48,227,Lincoln Square East,Clinton East
+2022-11-05,236,239,227,Upper East Side North,Upper West Side South
+2022-11-05,246,48,225,West Chelsea/Hudson Yards,Clinton East
+2022-11-05,141,141,224,Lenox Hill West,Lenox Hill West
+2022-11-05,162,237,224,Midtown East,Upper East Side South
+2022-11-05,237,142,224,Upper East Side South,Lincoln Square East
+2022-11-05,107,170,217,Gramercy,Murray Hill
+2022-11-05,79,137,215,East Village,Kips Bay
+2022-11-05,142,237,213,Lincoln Square East,Upper East Side South
+2022-11-05,238,239,211,Upper West Side North,Upper West Side South
+2022-11-05,239,236,211,Upper West Side South,Upper East Side North
+2022-11-05,132,230,210,JFK Airport,Times Sq/Theatre District
+2022-11-05,161,234,210,Midtown Center,Union Sq
+2022-11-05,236,142,208,Upper East Side North,Lincoln Square East
+2022-11-05,238,142,207,Upper West Side North,Lincoln Square East
+2022-11-05,249,79,206,West Village,East Village
+2022-11-05,162,236,205,Midtown East,Upper East Side North
+2022-11-05,141,237,204,Lenox Hill West,Upper East Side South
+2022-11-05,236,161,204,Upper East Side North,Midtown Center
+2022-11-05,263,236,200,Yorkville West,Upper East Side North
+2022-11-05,48,48,199,Clinton East,Clinton East
+2022-11-05,107,79,199,Gramercy,East Village
+2022-11-05,141,229,199,Lenox Hill West,Sutton Place/Turtle Bay North
+2022-11-05,79,249,188,East Village,West Village
+2022-11-05,161,164,187,Midtown Center,Midtown South
+2022-11-05,239,239,187,Upper West Side South,Upper West Side South
+2022-11-05,249,68,184,West Village,East Chelsea
+2022-11-05,249,231,183,West Village,TriBeCa/Civic Center
+2022-11-05,68,68,181,East Chelsea,East Chelsea
+2022-11-05,236,238,181,Upper East Side North,Upper West Side North
+2022-11-05,239,151,180,Upper West Side South,Manhattan Valley
+2022-11-05,43,161,179,Central Park,Midtown Center
+2022-11-05,48,142,179,Clinton East,Lincoln Square East
+2022-11-06,237,236,507,Upper East Side South,Upper East Side North
+2022-11-06,264,264,473,NV,NV
+2022-11-06,236,237,462,Upper East Side North,Upper East Side South
+2022-11-06,132,132,388,JFK Airport,JFK Airport
+2022-11-06,236,236,318,Upper East Side North,Upper East Side North
+2022-11-06,263,141,303,Yorkville West,Lenox Hill West
+2022-11-06,237,237,292,Upper East Side South,Upper East Side South
+2022-11-06,237,263,273,Upper East Side South,Yorkville West
+2022-11-06,48,68,253,Clinton East,East Chelsea
+2022-11-06,132,230,232,JFK Airport,Times Sq/Theatre District
+2022-11-06,238,239,216,Upper West Side North,Upper West Side South
+2022-11-06,48,48,208,Clinton East,Clinton East
+2022-11-06,79,79,208,East Village,East Village
+2022-11-06,239,238,204,Upper West Side South,Upper West Side North
+2022-11-06,141,141,202,Lenox Hill West,Lenox Hill West
+2022-11-06,239,142,202,Upper West Side South,Lincoln Square East
+2022-11-06,161,237,199,Midtown Center,Upper East Side South
+2022-11-06,68,48,198,East Chelsea,Clinton East
+2022-11-06,79,137,196,East Village,Kips Bay
+2022-11-06,132,265,196,JFK Airport,
+2022-11-06,236,141,195,Upper East Side North,Lenox Hill West
+2022-11-06,79,170,188,East Village,Murray Hill
+2022-11-06,238,142,185,Upper West Side North,Lincoln Square East
+2022-11-06,141,236,181,Lenox Hill West,Upper East Side North
+2022-11-06,236,75,181,Upper East Side North,East Harlem South
+2022-11-06,79,229,179,East Village,Sutton Place/Turtle Bay North
+2022-11-06,263,236,172,Yorkville West,Upper East Side North
+2022-11-06,237,141,171,Upper East Side South,Lenox Hill West
+2022-11-06,230,186,170,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-06,249,79,170,West Village,East Village
+2022-11-06,107,170,168,Gramercy,Murray Hill
+2022-11-06,141,229,163,Lenox Hill West,Sutton Place/Turtle Bay North
+2022-11-06,162,141,163,Midtown East,Lenox Hill West
+2022-11-06,230,138,162,Times Sq/Theatre District,LaGuardia Airport
+2022-11-06,141,263,161,Lenox Hill West,Yorkville West
+2022-11-06,237,161,160,Upper East Side South,Midtown Center
+2022-11-06,132,170,158,JFK Airport,Murray Hill
+2022-11-06,132,164,157,JFK Airport,Midtown South
+2022-11-06,236,74,157,Upper East Side North,East Harlem North
+2022-11-06,79,107,156,East Village,Gramercy
+2022-11-06,107,79,156,Gramercy,East Village
+2022-11-06,170,141,155,Murray Hill,Lenox Hill West
+2022-11-06,79,249,150,East Village,West Village
+2022-11-06,246,48,149,West Chelsea/Hudson Yards,Clinton East
+2022-11-06,161,236,147,Midtown Center,Upper East Side North
+2022-11-06,162,237,146,Midtown East,Upper East Side South
+2022-11-06,107,229,145,Gramercy,Sutton Place/Turtle Bay North
+2022-11-06,162,236,145,Midtown East,Upper East Side North
+2022-11-06,263,237,145,Yorkville West,Upper East Side South
+2022-11-06,48,246,144,Clinton East,West Chelsea/Hudson Yards
+2022-11-06,132,48,144,JFK Airport,Clinton East
+2022-11-06,239,239,142,Upper West Side South,Upper West Side South
+2022-11-06,237,162,141,Upper East Side South,Midtown East
+2022-11-06,239,48,141,Upper West Side South,Clinton East
+2022-11-06,132,161,138,JFK Airport,Midtown Center
+2022-11-06,170,229,138,Murray Hill,Sutton Place/Turtle Bay North
+2022-11-06,186,79,138,Penn Station/Madison Sq West,East Village
+2022-11-06,236,263,138,Upper East Side North,Yorkville West
+2022-11-06,141,237,137,Lenox Hill West,Upper East Side South
+2022-11-06,142,48,134,Lincoln Square East,Clinton East
+2022-11-07,237,236,919,Upper East Side South,Upper East Side North
+2022-11-07,236,237,733,Upper East Side North,Upper East Side South
+2022-11-07,236,236,556,Upper East Side North,Upper East Side North
+2022-11-07,264,264,553,NV,NV
+2022-11-07,237,237,551,Upper East Side South,Upper East Side South
+2022-11-07,132,132,445,JFK Airport,JFK Airport
+2022-11-07,237,161,439,Upper East Side South,Midtown Center
+2022-11-07,161,237,393,Midtown Center,Upper East Side South
+2022-11-07,161,236,386,Midtown Center,Upper East Side North
+2022-11-07,236,161,341,Upper East Side North,Midtown Center
+2022-11-07,141,236,291,Lenox Hill West,Upper East Side North
+2022-11-07,237,162,289,Upper East Side South,Midtown East
+2022-11-07,132,230,285,JFK Airport,Times Sq/Theatre District
+2022-11-07,239,238,284,Upper West Side South,Upper West Side North
+2022-11-07,140,236,270,Lenox Hill East,Upper East Side North
+2022-11-07,186,161,269,Penn Station/Madison Sq West,Midtown Center
+2022-11-07,237,142,262,Upper East Side South,Lincoln Square East
+2022-11-07,142,239,259,Lincoln Square East,Upper West Side South
+2022-11-07,142,161,258,Lincoln Square East,Midtown Center
+2022-11-07,239,142,257,Upper West Side South,Lincoln Square East
+2022-11-07,162,237,253,Midtown East,Upper East Side South
+2022-11-07,142,237,250,Lincoln Square East,Upper East Side South
+2022-11-07,236,141,246,Upper East Side North,Lenox Hill West
+2022-11-07,236,238,242,Upper East Side North,Upper West Side North
+2022-11-07,236,162,241,Upper East Side North,Midtown East
+2022-11-07,162,236,238,Midtown East,Upper East Side North
+2022-11-07,236,262,232,Upper East Side North,Yorkville East
+2022-11-07,142,238,231,Lincoln Square East,Upper West Side North
+2022-11-07,236,239,229,Upper East Side North,Upper West Side South
+2022-11-07,238,239,227,Upper West Side North,Upper West Side South
+2022-11-07,142,236,226,Lincoln Square East,Upper East Side North
+2022-11-07,237,141,225,Upper East Side South,Lenox Hill West
+2022-11-07,237,140,224,Upper East Side South,Lenox Hill East
+2022-11-07,161,234,223,Midtown Center,Union Sq
+2022-11-07,161,161,222,Midtown Center,Midtown Center
+2022-11-07,236,140,222,Upper East Side North,Lenox Hill East
+2022-11-07,239,236,220,Upper West Side South,Upper East Side North
+2022-11-07,230,138,219,Times Sq/Theatre District,LaGuardia Airport
+2022-11-07,163,236,215,Midtown North,Upper East Side North
+2022-11-07,186,230,215,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-07,263,236,212,Yorkville West,Upper East Side North
+2022-11-07,138,230,211,LaGuardia Airport,Times Sq/Theatre District
+2022-11-07,43,161,209,Central Park,Midtown Center
+2022-11-07,132,265,203,JFK Airport,
+2022-11-07,237,239,202,Upper East Side South,Upper West Side South
+2022-11-07,141,237,196,Lenox Hill West,Upper East Side South
+2022-11-07,237,263,195,Upper East Side South,Yorkville West
+2022-11-07,239,239,194,Upper West Side South,Upper West Side South
+2022-11-07,107,170,192,Gramercy,Murray Hill
+2022-11-07,161,141,191,Midtown Center,Lenox Hill West
+2022-11-07,161,164,191,Midtown Center,Midtown South
+2022-11-07,163,161,191,Midtown North,Midtown Center
+2022-11-07,230,186,190,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-07,238,236,189,Upper West Side North,Upper East Side North
+2022-11-07,263,141,188,Yorkville West,Lenox Hill West
+2022-11-07,238,142,187,Upper West Side North,Lincoln Square East
+2022-11-07,164,161,186,Midtown South,Midtown Center
+2022-11-07,230,132,185,Times Sq/Theatre District,JFK Airport
+2022-11-07,236,142,184,Upper East Side North,Lincoln Square East
+2022-11-07,262,236,184,Yorkville East,Upper East Side North
+2022-11-08,237,236,1095,Upper East Side South,Upper East Side North
+2022-11-08,236,237,860,Upper East Side North,Upper East Side South
+2022-11-08,237,237,657,Upper East Side South,Upper East Side South
+2022-11-08,264,264,588,NV,NV
+2022-11-08,236,236,580,Upper East Side North,Upper East Side North
+2022-11-08,237,161,527,Upper East Side South,Midtown Center
+2022-11-08,161,237,476,Midtown Center,Upper East Side South
+2022-11-08,161,236,447,Midtown Center,Upper East Side North
+2022-11-08,236,161,401,Upper East Side North,Midtown Center
+2022-11-08,186,161,365,Penn Station/Madison Sq West,Midtown Center
+2022-11-08,141,236,326,Lenox Hill West,Upper East Side North
+2022-11-08,142,239,326,Lincoln Square East,Upper West Side South
+2022-11-08,132,132,322,JFK Airport,JFK Airport
+2022-11-08,237,162,322,Upper East Side South,Midtown East
+2022-11-08,236,141,310,Upper East Side North,Lenox Hill West
+2022-11-08,236,238,308,Upper East Side North,Upper West Side North
+2022-11-08,141,237,303,Lenox Hill West,Upper East Side South
+2022-11-08,237,141,290,Upper East Side South,Lenox Hill West
+2022-11-08,162,237,289,Midtown East,Upper East Side South
+2022-11-08,142,237,285,Lincoln Square East,Upper East Side South
+2022-11-08,161,234,285,Midtown Center,Union Sq
+2022-11-08,236,162,285,Upper East Side North,Midtown East
+2022-11-08,236,239,280,Upper East Side North,Upper West Side South
+2022-11-08,239,142,277,Upper West Side South,Lincoln Square East
+2022-11-08,140,236,276,Lenox Hill East,Upper East Side North
+2022-11-08,186,230,276,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-08,239,238,273,Upper West Side South,Upper West Side North
+2022-11-08,237,142,269,Upper East Side South,Lincoln Square East
+2022-11-08,161,164,268,Midtown Center,Midtown South
+2022-11-08,236,140,266,Upper East Side North,Lenox Hill East
+2022-11-08,162,236,265,Midtown East,Upper East Side North
+2022-11-08,161,161,263,Midtown Center,Midtown Center
+2022-11-08,138,230,259,LaGuardia Airport,Times Sq/Theatre District
+2022-11-08,142,236,249,Lincoln Square East,Upper East Side North
+2022-11-08,142,238,247,Lincoln Square East,Upper West Side North
+2022-11-08,163,236,246,Midtown North,Upper East Side North
+2022-11-08,107,170,244,Gramercy,Murray Hill
+2022-11-08,132,230,244,JFK Airport,Times Sq/Theatre District
+2022-11-08,237,140,241,Upper East Side South,Lenox Hill East
+2022-11-08,239,236,237,Upper West Side South,Upper East Side North
+2022-11-08,237,263,236,Upper East Side South,Yorkville West
+2022-11-08,140,237,230,Lenox Hill East,Upper East Side South
+2022-11-08,238,236,230,Upper West Side North,Upper East Side North
+2022-11-08,163,161,229,Midtown North,Midtown Center
+2022-11-08,236,262,229,Upper East Side North,Yorkville East
+2022-11-08,142,161,228,Lincoln Square East,Midtown Center
+2022-11-08,263,236,227,Yorkville West,Upper East Side North
+2022-11-08,161,186,226,Midtown Center,Penn Station/Madison Sq West
+2022-11-08,162,141,225,Midtown East,Lenox Hill West
+2022-11-08,236,75,222,Upper East Side North,East Harlem South
+2022-11-08,236,142,219,Upper East Side North,Lincoln Square East
+2022-11-08,237,229,219,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-08,238,239,218,Upper West Side North,Upper West Side South
+2022-11-08,262,236,215,Yorkville East,Upper East Side North
+2022-11-08,161,170,212,Midtown Center,Murray Hill
+2022-11-08,161,141,211,Midtown Center,Lenox Hill West
+2022-11-08,161,163,210,Midtown Center,Midtown North
+2022-11-08,237,239,210,Upper East Side South,Upper West Side South
+2022-11-08,163,237,203,Midtown North,Upper East Side South
+2022-11-08,263,141,203,Yorkville West,Lenox Hill West
+2022-11-09,237,236,1131,Upper East Side South,Upper East Side North
+2022-11-09,236,237,924,Upper East Side North,Upper East Side South
+2022-11-09,237,237,742,Upper East Side South,Upper East Side South
+2022-11-09,236,236,634,Upper East Side North,Upper East Side North
+2022-11-09,237,161,518,Upper East Side South,Midtown Center
+2022-11-09,161,237,475,Midtown Center,Upper East Side South
+2022-11-09,264,264,474,NV,NV
+2022-11-09,161,236,450,Midtown Center,Upper East Side North
+2022-11-09,236,161,389,Upper East Side North,Midtown Center
+2022-11-09,141,236,361,Lenox Hill West,Upper East Side North
+2022-11-09,237,162,343,Upper East Side South,Midtown East
+2022-11-09,186,161,331,Penn Station/Madison Sq West,Midtown Center
+2022-11-09,142,239,330,Lincoln Square East,Upper West Side South
+2022-11-09,162,237,329,Midtown East,Upper East Side South
+2022-11-09,142,238,326,Lincoln Square East,Upper West Side North
+2022-11-09,132,132,312,JFK Airport,JFK Airport
+2022-11-09,142,236,304,Lincoln Square East,Upper East Side North
+2022-11-09,186,230,298,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-09,132,230,294,JFK Airport,Times Sq/Theatre District
+2022-11-09,236,141,292,Upper East Side North,Lenox Hill West
+2022-11-09,236,162,288,Upper East Side North,Midtown East
+2022-11-09,236,239,287,Upper East Side North,Upper West Side South
+2022-11-09,239,142,286,Upper West Side South,Lincoln Square East
+2022-11-09,161,234,285,Midtown Center,Union Sq
+2022-11-09,161,161,281,Midtown Center,Midtown Center
+2022-11-09,237,142,281,Upper East Side South,Lincoln Square East
+2022-11-09,239,238,281,Upper West Side South,Upper West Side North
+2022-11-09,140,236,275,Lenox Hill East,Upper East Side North
+2022-11-09,162,236,274,Midtown East,Upper East Side North
+2022-11-09,142,237,271,Lincoln Square East,Upper East Side South
+2022-11-09,163,237,265,Midtown North,Upper East Side South
+2022-11-09,236,238,263,Upper East Side North,Upper West Side North
+2022-11-09,237,141,263,Upper East Side South,Lenox Hill West
+2022-11-09,138,230,260,LaGuardia Airport,Times Sq/Theatre District
+2022-11-09,238,239,255,Upper West Side North,Upper West Side South
+2022-11-09,239,236,249,Upper West Side South,Upper East Side North
+2022-11-09,236,142,247,Upper East Side North,Lincoln Square East
+2022-11-09,141,237,246,Lenox Hill West,Upper East Side South
+2022-11-09,107,170,245,Gramercy,Murray Hill
+2022-11-09,237,263,243,Upper East Side South,Yorkville West
+2022-11-09,234,170,242,Union Sq,Murray Hill
+2022-11-09,236,140,242,Upper East Side North,Lenox Hill East
+2022-11-09,163,161,238,Midtown North,Midtown Center
+2022-11-09,263,236,236,Yorkville West,Upper East Side North
+2022-11-09,236,262,234,Upper East Side North,Yorkville East
+2022-11-09,237,140,233,Upper East Side South,Lenox Hill East
+2022-11-09,163,236,232,Midtown North,Upper East Side North
+2022-11-09,142,161,228,Lincoln Square East,Midtown Center
+2022-11-09,237,229,228,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-09,238,142,225,Upper West Side North,Lincoln Square East
+2022-11-09,161,141,221,Midtown Center,Lenox Hill West
+2022-11-09,48,68,219,Clinton East,East Chelsea
+2022-11-09,162,141,218,Midtown East,Lenox Hill West
+2022-11-09,162,170,217,Midtown East,Murray Hill
+2022-11-09,161,164,216,Midtown Center,Midtown South
+2022-11-09,230,186,216,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-09,140,237,214,Lenox Hill East,Upper East Side South
+2022-11-09,164,161,214,Midtown South,Midtown Center
+2022-11-09,237,239,214,Upper East Side South,Upper West Side South
+2022-11-09,239,143,214,Upper West Side South,Lincoln Square West
+2022-11-10,237,236,1133,Upper East Side South,Upper East Side North
+2022-11-10,236,237,948,Upper East Side North,Upper East Side South
+2022-11-10,237,237,725,Upper East Side South,Upper East Side South
+2022-11-10,236,236,610,Upper East Side North,Upper East Side North
+2022-11-10,264,264,522,NV,NV
+2022-11-10,237,161,510,Upper East Side South,Midtown Center
+2022-11-10,161,237,442,Midtown Center,Upper East Side South
+2022-11-10,237,162,412,Upper East Side South,Midtown East
+2022-11-10,236,161,409,Upper East Side North,Midtown Center
+2022-11-10,161,236,364,Midtown Center,Upper East Side North
+2022-11-10,132,132,360,JFK Airport,JFK Airport
+2022-11-10,142,239,352,Lincoln Square East,Upper West Side South
+2022-11-10,186,161,339,Penn Station/Madison Sq West,Midtown Center
+2022-11-10,132,230,333,JFK Airport,Times Sq/Theatre District
+2022-11-10,141,236,326,Lenox Hill West,Upper East Side North
+2022-11-10,142,238,305,Lincoln Square East,Upper West Side North
+2022-11-10,239,142,299,Upper West Side South,Lincoln Square East
+2022-11-10,162,236,291,Midtown East,Upper East Side North
+2022-11-10,236,238,291,Upper East Side North,Upper West Side North
+2022-11-10,162,237,288,Midtown East,Upper East Side South
+2022-11-10,237,263,288,Upper East Side South,Yorkville West
+2022-11-10,239,238,286,Upper West Side South,Upper West Side North
+2022-11-10,236,239,281,Upper East Side North,Upper West Side South
+2022-11-10,142,236,280,Lincoln Square East,Upper East Side North
+2022-11-10,142,237,276,Lincoln Square East,Upper East Side South
+2022-11-10,236,162,275,Upper East Side North,Midtown East
+2022-11-10,237,141,275,Upper East Side South,Lenox Hill West
+2022-11-10,138,230,270,LaGuardia Airport,Times Sq/Theatre District
+2022-11-10,236,141,270,Upper East Side North,Lenox Hill West
+2022-11-10,237,142,269,Upper East Side South,Lincoln Square East
+2022-11-10,140,236,263,Lenox Hill East,Upper East Side North
+2022-11-10,163,236,263,Midtown North,Upper East Side North
+2022-11-10,237,140,261,Upper East Side South,Lenox Hill East
+2022-11-10,141,237,254,Lenox Hill West,Upper East Side South
+2022-11-10,239,236,254,Upper West Side South,Upper East Side North
+2022-11-10,186,230,248,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-10,237,239,248,Upper East Side South,Upper West Side South
+2022-11-10,107,170,243,Gramercy,Murray Hill
+2022-11-10,161,234,242,Midtown Center,Union Sq
+2022-11-10,263,236,242,Yorkville West,Upper East Side North
+2022-11-10,236,142,239,Upper East Side North,Lincoln Square East
+2022-11-10,236,75,234,Upper East Side North,East Harlem South
+2022-11-10,161,164,233,Midtown Center,Midtown South
+2022-11-10,238,236,233,Upper West Side North,Upper East Side North
+2022-11-10,263,141,232,Yorkville West,Lenox Hill West
+2022-11-10,142,161,231,Lincoln Square East,Midtown Center
+2022-11-10,238,239,229,Upper West Side North,Upper West Side South
+2022-11-10,48,68,228,Clinton East,East Chelsea
+2022-11-10,234,170,225,Union Sq,Murray Hill
+2022-11-10,237,262,222,Upper East Side South,Yorkville East
+2022-11-10,236,140,221,Upper East Side North,Lenox Hill East
+2022-11-10,237,229,218,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-10,262,236,218,Yorkville East,Upper East Side North
+2022-11-10,236,262,217,Upper East Side North,Yorkville East
+2022-11-10,161,161,216,Midtown Center,Midtown Center
+2022-11-10,236,263,216,Upper East Side North,Yorkville West
+2022-11-10,161,186,214,Midtown Center,Penn Station/Madison Sq West
+2022-11-10,164,161,214,Midtown South,Midtown Center
+2022-11-10,140,237,212,Lenox Hill East,Upper East Side South
+2022-11-10,170,161,212,Murray Hill,Midtown Center
+2022-11-11,237,236,876,Upper East Side South,Upper East Side North
+2022-11-11,236,237,737,Upper East Side North,Upper East Side South
+2022-11-11,237,237,585,Upper East Side South,Upper East Side South
+2022-11-11,236,236,554,Upper East Side North,Upper East Side North
+2022-11-11,264,264,443,NV,NV
+2022-11-11,239,238,343,Upper West Side South,Upper West Side North
+2022-11-11,132,132,328,JFK Airport,JFK Airport
+2022-11-11,142,239,326,Lincoln Square East,Upper West Side South
+2022-11-11,239,142,322,Upper West Side South,Lincoln Square East
+2022-11-11,141,236,297,Lenox Hill West,Upper East Side North
+2022-11-11,236,141,289,Upper East Side North,Lenox Hill West
+2022-11-11,237,161,287,Upper East Side South,Midtown Center
+2022-11-11,236,239,280,Upper East Side North,Upper West Side South
+2022-11-11,238,239,276,Upper West Side North,Upper West Side South
+2022-11-11,132,230,275,JFK Airport,Times Sq/Theatre District
+2022-11-11,138,230,268,LaGuardia Airport,Times Sq/Theatre District
+2022-11-11,142,237,267,Lincoln Square East,Upper East Side South
+2022-11-11,236,238,266,Upper East Side North,Upper West Side North
+2022-11-11,237,141,263,Upper East Side South,Lenox Hill West
+2022-11-11,263,141,261,Yorkville West,Lenox Hill West
+2022-11-11,239,236,258,Upper West Side South,Upper East Side North
+2022-11-11,237,142,251,Upper East Side South,Lincoln Square East
+2022-11-11,263,236,251,Yorkville West,Upper East Side North
+2022-11-11,237,162,249,Upper East Side South,Midtown East
+2022-11-11,161,237,244,Midtown Center,Upper East Side South
+2022-11-11,237,263,244,Upper East Side South,Yorkville West
+2022-11-11,142,238,242,Lincoln Square East,Upper West Side North
+2022-11-11,141,237,236,Lenox Hill West,Upper East Side South
+2022-11-11,239,239,233,Upper West Side South,Upper West Side South
+2022-11-11,238,142,231,Upper West Side North,Lincoln Square East
+2022-11-11,140,236,229,Lenox Hill East,Upper East Side North
+2022-11-11,142,236,227,Lincoln Square East,Upper East Side North
+2022-11-11,236,263,224,Upper East Side North,Yorkville West
+2022-11-11,236,162,223,Upper East Side North,Midtown East
+2022-11-11,262,236,218,Yorkville East,Upper East Side North
+2022-11-11,162,237,217,Midtown East,Upper East Side South
+2022-11-11,238,236,216,Upper West Side North,Upper East Side North
+2022-11-11,48,68,212,Clinton East,East Chelsea
+2022-11-11,236,161,211,Upper East Side North,Midtown Center
+2022-11-11,236,262,209,Upper East Side North,Yorkville East
+2022-11-11,141,141,208,Lenox Hill West,Lenox Hill West
+2022-11-11,237,140,204,Upper East Side South,Lenox Hill East
+2022-11-11,237,262,203,Upper East Side South,Yorkville East
+2022-11-11,161,236,201,Midtown Center,Upper East Side North
+2022-11-11,107,170,200,Gramercy,Murray Hill
+2022-11-11,163,236,200,Midtown North,Upper East Side North
+2022-11-11,239,143,200,Upper West Side South,Lincoln Square West
+2022-11-11,236,140,199,Upper East Side North,Lenox Hill East
+2022-11-11,142,48,196,Lincoln Square East,Clinton East
+2022-11-11,236,142,196,Upper East Side North,Lincoln Square East
+2022-11-11,141,263,195,Lenox Hill West,Yorkville West
+2022-11-11,162,236,193,Midtown East,Upper East Side North
+2022-11-11,142,163,189,Lincoln Square East,Midtown North
+2022-11-11,140,263,188,Lenox Hill East,Yorkville West
+2022-11-11,236,163,185,Upper East Side North,Midtown North
+2022-11-11,79,79,184,East Village,East Village
+2022-11-11,142,142,183,Lincoln Square East,Lincoln Square East
+2022-11-11,186,230,182,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-11,79,170,180,East Village,Murray Hill
+2022-11-11,237,163,180,Upper East Side South,Midtown North
+2022-11-12,237,236,675,Upper East Side South,Upper East Side North
+2022-11-12,236,237,594,Upper East Side North,Upper East Side South
+2022-11-12,264,264,560,NV,NV
+2022-11-12,237,237,471,Upper East Side South,Upper East Side South
+2022-11-12,236,236,375,Upper East Side North,Upper East Side North
+2022-11-12,239,142,357,Upper West Side South,Lincoln Square East
+2022-11-12,132,132,353,JFK Airport,JFK Airport
+2022-11-12,237,161,342,Upper East Side South,Midtown Center
+2022-11-12,237,263,326,Upper East Side South,Yorkville West
+2022-11-12,161,237,324,Midtown Center,Upper East Side South
+2022-11-12,142,239,318,Lincoln Square East,Upper West Side South
+2022-11-12,48,68,308,Clinton East,East Chelsea
+2022-11-12,263,141,308,Yorkville West,Lenox Hill West
+2022-11-12,237,142,283,Upper East Side South,Lincoln Square East
+2022-11-12,132,230,278,JFK Airport,Times Sq/Theatre District
+2022-11-12,142,237,268,Lincoln Square East,Upper East Side South
+2022-11-12,161,236,268,Midtown Center,Upper East Side North
+2022-11-12,239,238,267,Upper West Side South,Upper West Side North
+2022-11-12,142,238,264,Lincoln Square East,Upper West Side North
+2022-11-12,141,263,263,Lenox Hill West,Yorkville West
+2022-11-12,238,142,252,Upper West Side North,Lincoln Square East
+2022-11-12,79,107,249,East Village,Gramercy
+2022-11-12,79,170,249,East Village,Murray Hill
+2022-11-12,249,79,245,West Village,East Village
+2022-11-12,142,48,239,Lincoln Square East,Clinton East
+2022-11-12,68,48,235,East Chelsea,Clinton East
+2022-11-12,236,142,235,Upper East Side North,Lincoln Square East
+2022-11-12,237,141,234,Upper East Side South,Lenox Hill West
+2022-11-12,238,239,234,Upper West Side North,Upper West Side South
+2022-11-12,141,141,233,Lenox Hill West,Lenox Hill West
+2022-11-12,141,236,231,Lenox Hill West,Upper East Side North
+2022-11-12,239,236,231,Upper West Side South,Upper East Side North
+2022-11-12,236,239,230,Upper East Side North,Upper West Side South
+2022-11-12,79,137,226,East Village,Kips Bay
+2022-11-12,239,239,226,Upper West Side South,Upper West Side South
+2022-11-12,79,79,218,East Village,East Village
+2022-11-12,142,236,217,Lincoln Square East,Upper East Side North
+2022-11-12,43,161,215,Central Park,Midtown Center
+2022-11-12,48,48,215,Clinton East,Clinton East
+2022-11-12,48,246,212,Clinton East,West Chelsea/Hudson Yards
+2022-11-12,246,48,211,West Chelsea/Hudson Yards,Clinton East
+2022-11-12,79,249,209,East Village,West Village
+2022-11-12,161,234,204,Midtown Center,Union Sq
+2022-11-12,107,79,203,Gramercy,East Village
+2022-11-12,236,238,203,Upper East Side North,Upper West Side North
+2022-11-12,237,239,202,Upper East Side South,Upper West Side South
+2022-11-12,141,237,201,Lenox Hill West,Upper East Side South
+2022-11-12,236,141,201,Upper East Side North,Lenox Hill West
+2022-11-12,263,236,200,Yorkville West,Upper East Side North
+2022-11-12,68,68,199,East Chelsea,East Chelsea
+2022-11-12,163,236,195,Midtown North,Upper East Side North
+2022-11-12,236,161,195,Upper East Side North,Midtown Center
+2022-11-12,48,142,192,Clinton East,Lincoln Square East
+2022-11-12,237,162,192,Upper East Side South,Midtown East
+2022-11-12,239,151,190,Upper West Side South,Manhattan Valley
+2022-11-12,186,230,189,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-12,141,229,187,Lenox Hill West,Sutton Place/Turtle Bay North
+2022-11-12,107,170,186,Gramercy,Murray Hill
+2022-11-12,237,163,186,Upper East Side South,Midtown North
+2022-11-12,263,237,186,Yorkville West,Upper East Side South
+2022-11-13,264,264,744,NV,NV
+2022-11-13,237,236,532,Upper East Side South,Upper East Side North
+2022-11-13,132,132,456,JFK Airport,JFK Airport
+2022-11-13,236,237,446,Upper East Side North,Upper East Side South
+2022-11-13,237,237,396,Upper East Side South,Upper East Side South
+2022-11-13,132,230,322,JFK Airport,Times Sq/Theatre District
+2022-11-13,230,138,320,Times Sq/Theatre District,LaGuardia Airport
+2022-11-13,236,236,306,Upper East Side North,Upper East Side North
+2022-11-13,142,239,281,Lincoln Square East,Upper West Side South
+2022-11-13,239,142,275,Upper West Side South,Lincoln Square East
+2022-11-13,263,141,275,Yorkville West,Lenox Hill West
+2022-11-13,239,238,274,Upper West Side South,Upper West Side North
+2022-11-13,230,186,254,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-13,142,238,251,Lincoln Square East,Upper West Side North
+2022-11-13,48,68,246,Clinton East,East Chelsea
+2022-11-13,48,246,242,Clinton East,West Chelsea/Hudson Yards
+2022-11-13,237,263,239,Upper East Side South,Yorkville West
+2022-11-13,238,239,239,Upper West Side North,Upper West Side South
+2022-11-13,239,236,232,Upper West Side South,Upper East Side North
+2022-11-13,141,236,231,Lenox Hill West,Upper East Side North
+2022-11-13,237,161,224,Upper East Side South,Midtown Center
+2022-11-13,236,239,215,Upper East Side North,Upper West Side South
+2022-11-13,237,141,207,Upper East Side South,Lenox Hill West
+2022-11-13,141,263,204,Lenox Hill West,Yorkville West
+2022-11-13,132,265,203,JFK Airport,
+2022-11-13,142,237,202,Lincoln Square East,Upper East Side South
+2022-11-13,161,138,200,Midtown Center,LaGuardia Airport
+2022-11-13,132,164,196,JFK Airport,Midtown South
+2022-11-13,161,237,195,Midtown Center,Upper East Side South
+2022-11-13,142,236,194,Lincoln Square East,Upper East Side North
+2022-11-13,48,48,189,Clinton East,Clinton East
+2022-11-13,237,142,186,Upper East Side South,Lincoln Square East
+2022-11-13,68,246,184,East Chelsea,West Chelsea/Hudson Yards
+2022-11-13,161,236,184,Midtown Center,Upper East Side North
+2022-11-13,239,239,184,Upper West Side South,Upper West Side South
+2022-11-13,68,48,183,East Chelsea,Clinton East
+2022-11-13,230,132,182,Times Sq/Theatre District,JFK Airport
+2022-11-13,79,79,179,East Village,East Village
+2022-11-13,79,170,179,East Village,Murray Hill
+2022-11-13,246,48,178,West Chelsea/Hudson Yards,Clinton East
+2022-11-13,236,142,177,Upper East Side North,Lincoln Square East
+2022-11-13,132,48,175,JFK Airport,Clinton East
+2022-11-13,236,238,174,Upper East Side North,Upper West Side North
+2022-11-13,79,137,173,East Village,Kips Bay
+2022-11-13,79,107,172,East Village,Gramercy
+2022-11-13,236,141,172,Upper East Side North,Lenox Hill West
+2022-11-13,238,142,170,Upper West Side North,Lincoln Square East
+2022-11-13,263,236,170,Yorkville West,Upper East Side North
+2022-11-13,141,237,168,Lenox Hill West,Upper East Side South
+2022-11-13,68,68,163,East Chelsea,East Chelsea
+2022-11-13,138,230,163,LaGuardia Airport,Times Sq/Theatre District
+2022-11-13,141,141,163,Lenox Hill West,Lenox Hill West
+2022-11-13,142,48,162,Lincoln Square East,Clinton East
+2022-11-13,132,170,160,JFK Airport,Murray Hill
+2022-11-13,186,246,154,Penn Station/Madison Sq West,West Chelsea/Hudson Yards
+2022-11-13,263,237,154,Yorkville West,Upper East Side South
+2022-11-13,79,249,153,East Village,West Village
+2022-11-13,230,230,153,Times Sq/Theatre District,Times Sq/Theatre District
+2022-11-13,161,186,152,Midtown Center,Penn Station/Madison Sq West
+2022-11-13,163,236,152,Midtown North,Upper East Side North
+2022-11-14,237,236,674,Upper East Side South,Upper East Side North
+2022-11-14,264,264,599,NV,NV
+2022-11-14,236,237,590,Upper East Side North,Upper East Side South
+2022-11-14,237,237,474,Upper East Side South,Upper East Side South
+2022-11-14,236,236,418,Upper East Side North,Upper East Side North
+2022-11-14,132,132,326,JFK Airport,JFK Airport
+2022-11-14,161,237,297,Midtown Center,Upper East Side South
+2022-11-14,132,230,292,JFK Airport,Times Sq/Theatre District
+2022-11-14,237,161,292,Upper East Side South,Midtown Center
+2022-11-14,161,236,239,Midtown Center,Upper East Side North
+2022-11-14,141,236,227,Lenox Hill West,Upper East Side North
+2022-11-14,236,161,213,Upper East Side North,Midtown Center
+2022-11-14,142,239,212,Lincoln Square East,Upper West Side South
+2022-11-14,186,161,202,Penn Station/Madison Sq West,Midtown Center
+2022-11-14,162,237,198,Midtown East,Upper East Side South
+2022-11-14,163,236,197,Midtown North,Upper East Side North
+2022-11-14,237,162,193,Upper East Side South,Midtown East
+2022-11-14,142,237,191,Lincoln Square East,Upper East Side South
+2022-11-14,140,236,190,Lenox Hill East,Upper East Side North
+2022-11-14,161,161,186,Midtown Center,Midtown Center
+2022-11-14,236,141,186,Upper East Side North,Lenox Hill West
+2022-11-14,239,142,186,Upper West Side South,Lincoln Square East
+2022-11-14,138,230,184,LaGuardia Airport,Times Sq/Theatre District
+2022-11-14,237,141,184,Upper East Side South,Lenox Hill West
+2022-11-14,239,238,182,Upper West Side South,Upper West Side North
+2022-11-14,237,140,181,Upper East Side South,Lenox Hill East
+2022-11-14,236,238,179,Upper East Side North,Upper West Side North
+2022-11-14,193,193,178,Queensbridge/Ravenswood,Queensbridge/Ravenswood
+2022-11-14,236,239,177,Upper East Side North,Upper West Side South
+2022-11-14,186,230,173,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-14,142,238,172,Lincoln Square East,Upper West Side North
+2022-11-14,163,161,172,Midtown North,Midtown Center
+2022-11-14,142,236,167,Lincoln Square East,Upper East Side North
+2022-11-14,237,142,167,Upper East Side South,Lincoln Square East
+2022-11-14,236,140,166,Upper East Side North,Lenox Hill East
+2022-11-14,162,236,165,Midtown East,Upper East Side North
+2022-11-14,161,234,164,Midtown Center,Union Sq
+2022-11-14,140,237,162,Lenox Hill East,Upper East Side South
+2022-11-14,141,237,161,Lenox Hill West,Upper East Side South
+2022-11-14,163,237,160,Midtown North,Upper East Side South
+2022-11-14,237,239,158,Upper East Side South,Upper West Side South
+2022-11-14,238,239,158,Upper West Side North,Upper West Side South
+2022-11-14,237,263,155,Upper East Side South,Yorkville West
+2022-11-14,262,236,154,Yorkville East,Upper East Side North
+2022-11-14,236,162,151,Upper East Side North,Midtown East
+2022-11-14,236,262,150,Upper East Side North,Yorkville East
+2022-11-14,239,236,148,Upper West Side South,Upper East Side North
+2022-11-14,161,163,147,Midtown Center,Midtown North
+2022-11-14,132,48,144,JFK Airport,Clinton East
+2022-11-14,236,75,144,Upper East Side North,East Harlem South
+2022-11-14,142,163,143,Lincoln Square East,Midtown North
+2022-11-14,263,236,143,Yorkville West,Upper East Side North
+2022-11-14,234,170,141,Union Sq,Murray Hill
+2022-11-14,132,164,140,JFK Airport,Midtown South
+2022-11-14,161,142,140,Midtown Center,Lincoln Square East
+2022-11-14,238,142,139,Upper West Side North,Lincoln Square East
+2022-11-14,142,161,138,Lincoln Square East,Midtown Center
+2022-11-14,236,142,138,Upper East Side North,Lincoln Square East
+2022-11-14,236,263,138,Upper East Side North,Yorkville West
+2022-11-14,239,239,138,Upper West Side South,Upper West Side South
+2022-11-15,237,236,698,Upper East Side South,Upper East Side North
+2022-11-15,236,237,617,Upper East Side North,Upper East Side South
+2022-11-15,264,264,536,NV,NV
+2022-11-15,236,236,499,Upper East Side North,Upper East Side North
+2022-11-15,237,237,478,Upper East Side South,Upper East Side South
+2022-11-15,237,161,357,Upper East Side South,Midtown Center
+2022-11-15,161,237,291,Midtown Center,Upper East Side South
+2022-11-15,142,239,277,Lincoln Square East,Upper West Side South
+2022-11-15,237,162,271,Upper East Side South,Midtown East
+2022-11-15,236,161,265,Upper East Side North,Midtown Center
+2022-11-15,132,132,264,JFK Airport,JFK Airport
+2022-11-15,239,238,241,Upper West Side South,Upper West Side North
+2022-11-15,236,141,233,Upper East Side North,Lenox Hill West
+2022-11-15,141,236,229,Lenox Hill West,Upper East Side North
+2022-11-15,161,236,229,Midtown Center,Upper East Side North
+2022-11-15,132,230,225,JFK Airport,Times Sq/Theatre District
+2022-11-15,239,142,223,Upper West Side South,Lincoln Square East
+2022-11-15,162,237,218,Midtown East,Upper East Side South
+2022-11-15,236,239,215,Upper East Side North,Upper West Side South
+2022-11-15,142,238,214,Lincoln Square East,Upper West Side North
+2022-11-15,140,236,212,Lenox Hill East,Upper East Side North
+2022-11-15,186,161,210,Penn Station/Madison Sq West,Midtown Center
+2022-11-15,238,239,202,Upper West Side North,Upper West Side South
+2022-11-15,142,236,197,Lincoln Square East,Upper East Side North
+2022-11-15,263,236,197,Yorkville West,Upper East Side North
+2022-11-15,186,230,192,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-15,236,140,192,Upper East Side North,Lenox Hill East
+2022-11-15,236,238,192,Upper East Side North,Upper West Side North
+2022-11-15,237,141,188,Upper East Side South,Lenox Hill West
+2022-11-15,142,237,187,Lincoln Square East,Upper East Side South
+2022-11-15,237,140,183,Upper East Side South,Lenox Hill East
+2022-11-15,138,230,182,LaGuardia Airport,Times Sq/Theatre District
+2022-11-15,161,161,182,Midtown Center,Midtown Center
+2022-11-15,236,262,180,Upper East Side North,Yorkville East
+2022-11-15,237,142,179,Upper East Side South,Lincoln Square East
+2022-11-15,238,236,177,Upper West Side North,Upper East Side North
+2022-11-15,239,236,176,Upper West Side South,Upper East Side North
+2022-11-15,236,263,175,Upper East Side North,Yorkville West
+2022-11-15,141,237,174,Lenox Hill West,Upper East Side South
+2022-11-15,239,239,174,Upper West Side South,Upper West Side South
+2022-11-15,161,234,172,Midtown Center,Union Sq
+2022-11-15,142,163,169,Lincoln Square East,Midtown North
+2022-11-15,237,263,167,Upper East Side South,Yorkville West
+2022-11-15,163,161,165,Midtown North,Midtown Center
+2022-11-15,163,237,165,Midtown North,Upper East Side South
+2022-11-15,107,170,164,Gramercy,Murray Hill
+2022-11-15,141,141,164,Lenox Hill West,Lenox Hill West
+2022-11-15,142,161,164,Lincoln Square East,Midtown Center
+2022-11-15,162,141,163,Midtown East,Lenox Hill West
+2022-11-15,236,142,162,Upper East Side North,Lincoln Square East
+2022-11-15,229,237,161,Sutton Place/Turtle Bay North,Upper East Side South
+2022-11-15,236,162,161,Upper East Side North,Midtown East
+2022-11-15,263,141,161,Yorkville West,Lenox Hill West
+2022-11-15,163,236,158,Midtown North,Upper East Side North
+2022-11-15,162,236,156,Midtown East,Upper East Side North
+2022-11-15,237,229,156,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-15,234,170,155,Union Sq,Murray Hill
+2022-11-15,141,263,153,Lenox Hill West,Yorkville West
+2022-11-15,164,161,153,Midtown South,Midtown Center
+2022-11-15,237,238,153,Upper East Side South,Upper West Side North
+2022-11-16,237,236,771,Upper East Side South,Upper East Side North
+2022-11-16,236,237,692,Upper East Side North,Upper East Side South
+2022-11-16,264,264,615,NV,NV
+2022-11-16,237,237,547,Upper East Side South,Upper East Side South
+2022-11-16,236,236,451,Upper East Side North,Upper East Side North
+2022-11-16,237,161,370,Upper East Side South,Midtown Center
+2022-11-16,161,237,306,Midtown Center,Upper East Side South
+2022-11-16,237,162,287,Upper East Side South,Midtown East
+2022-11-16,236,161,284,Upper East Side North,Midtown Center
+2022-11-16,161,236,270,Midtown Center,Upper East Side North
+2022-11-16,132,132,256,JFK Airport,JFK Airport
+2022-11-16,141,236,239,Lenox Hill West,Upper East Side North
+2022-11-16,142,237,233,Lincoln Square East,Upper East Side South
+2022-11-16,162,236,223,Midtown East,Upper East Side North
+2022-11-16,236,141,216,Upper East Side North,Lenox Hill West
+2022-11-16,236,239,215,Upper East Side North,Upper West Side South
+2022-11-16,239,142,215,Upper West Side South,Lincoln Square East
+2022-11-16,239,238,215,Upper West Side South,Upper West Side North
+2022-11-16,142,236,213,Lincoln Square East,Upper East Side North
+2022-11-16,237,142,213,Upper East Side South,Lincoln Square East
+2022-11-16,142,239,212,Lincoln Square East,Upper West Side South
+2022-11-16,162,237,211,Midtown East,Upper East Side South
+2022-11-16,186,161,210,Penn Station/Madison Sq West,Midtown Center
+2022-11-16,161,161,207,Midtown Center,Midtown Center
+2022-11-16,132,230,204,JFK Airport,Times Sq/Theatre District
+2022-11-16,236,238,203,Upper East Side North,Upper West Side North
+2022-11-16,140,236,202,Lenox Hill East,Upper East Side North
+2022-11-16,237,263,200,Upper East Side South,Yorkville West
+2022-11-16,142,238,197,Lincoln Square East,Upper West Side North
+2022-11-16,138,230,195,LaGuardia Airport,Times Sq/Theatre District
+2022-11-16,236,162,194,Upper East Side North,Midtown East
+2022-11-16,237,140,194,Upper East Side South,Lenox Hill East
+2022-11-16,239,236,191,Upper West Side South,Upper East Side North
+2022-11-16,163,237,185,Midtown North,Upper East Side South
+2022-11-16,236,142,182,Upper East Side North,Lincoln Square East
+2022-11-16,263,236,181,Yorkville West,Upper East Side North
+2022-11-16,237,141,180,Upper East Side South,Lenox Hill West
+2022-11-16,236,140,179,Upper East Side North,Lenox Hill East
+2022-11-16,141,237,174,Lenox Hill West,Upper East Side South
+2022-11-16,163,236,174,Midtown North,Upper East Side North
+2022-11-16,186,230,174,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-16,234,170,174,Union Sq,Murray Hill
+2022-11-16,161,234,172,Midtown Center,Union Sq
+2022-11-16,107,170,170,Gramercy,Murray Hill
+2022-11-16,238,236,167,Upper West Side North,Upper East Side North
+2022-11-16,237,229,163,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-16,237,262,163,Upper East Side South,Yorkville East
+2022-11-16,238,239,162,Upper West Side North,Upper West Side South
+2022-11-16,237,163,160,Upper East Side South,Midtown North
+2022-11-16,163,161,158,Midtown North,Midtown Center
+2022-11-16,237,239,158,Upper East Side South,Upper West Side South
+2022-11-16,140,237,157,Lenox Hill East,Upper East Side South
+2022-11-16,170,161,157,Murray Hill,Midtown Center
+2022-11-16,48,68,155,Clinton East,East Chelsea
+2022-11-16,239,239,155,Upper West Side South,Upper West Side South
+2022-11-16,230,186,154,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-16,263,141,153,Yorkville West,Lenox Hill West
+2022-11-16,48,48,152,Clinton East,Clinton East
+2022-11-16,170,237,151,Murray Hill,Upper East Side South
+2022-11-16,161,186,150,Midtown Center,Penn Station/Madison Sq West
+2022-11-17,237,236,785,Upper East Side South,Upper East Side North
+2022-11-17,236,237,640,Upper East Side North,Upper East Side South
+2022-11-17,264,264,562,NV,NV
+2022-11-17,236,236,495,Upper East Side North,Upper East Side North
+2022-11-17,237,237,493,Upper East Side South,Upper East Side South
+2022-11-17,237,161,345,Upper East Side South,Midtown Center
+2022-11-17,132,132,313,JFK Airport,JFK Airport
+2022-11-17,236,161,284,Upper East Side North,Midtown Center
+2022-11-17,161,237,282,Midtown Center,Upper East Side South
+2022-11-17,161,236,279,Midtown Center,Upper East Side North
+2022-11-17,236,239,253,Upper East Side North,Upper West Side South
+2022-11-17,138,230,252,LaGuardia Airport,Times Sq/Theatre District
+2022-11-17,141,236,250,Lenox Hill West,Upper East Side North
+2022-11-17,237,162,240,Upper East Side South,Midtown East
+2022-11-17,142,239,237,Lincoln Square East,Upper West Side South
+2022-11-17,239,142,236,Upper West Side South,Lincoln Square East
+2022-11-17,186,161,235,Penn Station/Madison Sq West,Midtown Center
+2022-11-17,142,238,233,Lincoln Square East,Upper West Side North
+2022-11-17,239,238,227,Upper West Side South,Upper West Side North
+2022-11-17,142,236,223,Lincoln Square East,Upper East Side North
+2022-11-17,263,141,216,Yorkville West,Lenox Hill West
+2022-11-17,237,141,213,Upper East Side South,Lenox Hill West
+2022-11-17,142,237,212,Lincoln Square East,Upper East Side South
+2022-11-17,132,230,209,JFK Airport,Times Sq/Theatre District
+2022-11-17,236,238,209,Upper East Side North,Upper West Side North
+2022-11-17,162,237,206,Midtown East,Upper East Side South
+2022-11-17,107,170,203,Gramercy,Murray Hill
+2022-11-17,161,161,202,Midtown Center,Midtown Center
+2022-11-17,237,142,201,Upper East Side South,Lincoln Square East
+2022-11-17,236,262,199,Upper East Side North,Yorkville East
+2022-11-17,237,263,194,Upper East Side South,Yorkville West
+2022-11-17,140,236,187,Lenox Hill East,Upper East Side North
+2022-11-17,163,236,186,Midtown North,Upper East Side North
+2022-11-17,238,239,185,Upper West Side North,Upper West Side South
+2022-11-17,236,162,184,Upper East Side North,Midtown East
+2022-11-17,161,234,183,Midtown Center,Union Sq
+2022-11-17,263,236,183,Yorkville West,Upper East Side North
+2022-11-17,236,141,182,Upper East Side North,Lenox Hill West
+2022-11-17,141,237,179,Lenox Hill West,Upper East Side South
+2022-11-17,234,170,177,Union Sq,Murray Hill
+2022-11-17,236,263,176,Upper East Side North,Yorkville West
+2022-11-17,236,142,172,Upper East Side North,Lincoln Square East
+2022-11-17,162,236,169,Midtown East,Upper East Side North
+2022-11-17,186,230,168,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-17,239,236,168,Upper West Side South,Upper East Side North
+2022-11-17,238,236,166,Upper West Side North,Upper East Side North
+2022-11-17,237,140,165,Upper East Side South,Lenox Hill East
+2022-11-17,163,237,163,Midtown North,Upper East Side South
+2022-11-17,48,68,161,Clinton East,East Chelsea
+2022-11-17,236,140,161,Upper East Side North,Lenox Hill East
+2022-11-17,262,236,161,Yorkville East,Upper East Side North
+2022-11-17,186,170,160,Penn Station/Madison Sq West,Murray Hill
+2022-11-17,237,262,160,Upper East Side South,Yorkville East
+2022-11-17,141,263,159,Lenox Hill West,Yorkville West
+2022-11-17,163,161,153,Midtown North,Midtown Center
+2022-11-17,237,229,153,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-17,237,239,152,Upper East Side South,Upper West Side South
+2022-11-17,161,186,150,Midtown Center,Penn Station/Madison Sq West
+2022-11-17,170,237,149,Murray Hill,Upper East Side South
+2022-11-17,239,143,149,Upper West Side South,Lincoln Square West
+2022-11-18,237,236,626,Upper East Side South,Upper East Side North
+2022-11-18,236,237,597,Upper East Side North,Upper East Side South
+2022-11-18,264,264,578,NV,NV
+2022-11-18,237,237,475,Upper East Side South,Upper East Side South
+2022-11-18,236,236,444,Upper East Side North,Upper East Side North
+2022-11-18,132,132,286,JFK Airport,JFK Airport
+2022-11-18,161,237,273,Midtown Center,Upper East Side South
+2022-11-18,237,161,266,Upper East Side South,Midtown Center
+2022-11-18,142,239,255,Lincoln Square East,Upper West Side South
+2022-11-18,239,142,251,Upper West Side South,Lincoln Square East
+2022-11-18,141,236,248,Lenox Hill West,Upper East Side North
+2022-11-18,161,236,232,Midtown Center,Upper East Side North
+2022-11-18,239,238,230,Upper West Side South,Upper West Side North
+2022-11-18,237,162,225,Upper East Side South,Midtown East
+2022-11-18,236,141,217,Upper East Side North,Lenox Hill West
+2022-11-18,236,239,217,Upper East Side North,Upper West Side South
+2022-11-18,138,230,213,LaGuardia Airport,Times Sq/Theatre District
+2022-11-18,239,239,209,Upper West Side South,Upper West Side South
+2022-11-18,263,141,207,Yorkville West,Lenox Hill West
+2022-11-18,239,236,206,Upper West Side South,Upper East Side North
+2022-11-18,237,141,202,Upper East Side South,Lenox Hill West
+2022-11-18,238,239,201,Upper West Side North,Upper West Side South
+2022-11-18,142,236,195,Lincoln Square East,Upper East Side North
+2022-11-18,236,161,193,Upper East Side North,Midtown Center
+2022-11-18,236,238,193,Upper East Side North,Upper West Side North
+2022-11-18,142,238,190,Lincoln Square East,Upper West Side North
+2022-11-18,142,237,189,Lincoln Square East,Upper East Side South
+2022-11-18,237,263,189,Upper East Side South,Yorkville West
+2022-11-18,132,230,183,JFK Airport,Times Sq/Theatre District
+2022-11-18,141,263,183,Lenox Hill West,Yorkville West
+2022-11-18,237,142,183,Upper East Side South,Lincoln Square East
+2022-11-18,238,236,182,Upper West Side North,Upper East Side North
+2022-11-18,263,236,181,Yorkville West,Upper East Side North
+2022-11-18,230,186,175,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-18,237,140,175,Upper East Side South,Lenox Hill East
+2022-11-18,162,236,174,Midtown East,Upper East Side North
+2022-11-18,107,170,173,Gramercy,Murray Hill
+2022-11-18,162,237,173,Midtown East,Upper East Side South
+2022-11-18,186,230,173,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-18,141,237,172,Lenox Hill West,Upper East Side South
+2022-11-18,48,68,168,Clinton East,East Chelsea
+2022-11-18,236,142,166,Upper East Side North,Lincoln Square East
+2022-11-18,142,142,164,Lincoln Square East,Lincoln Square East
+2022-11-18,140,236,163,Lenox Hill East,Upper East Side North
+2022-11-18,236,263,161,Upper East Side North,Yorkville West
+2022-11-18,262,236,161,Yorkville East,Upper East Side North
+2022-11-18,186,161,160,Penn Station/Madison Sq West,Midtown Center
+2022-11-18,236,140,159,Upper East Side North,Lenox Hill East
+2022-11-18,48,48,156,Clinton East,Clinton East
+2022-11-18,142,48,156,Lincoln Square East,Clinton East
+2022-11-18,238,142,156,Upper West Side North,Lincoln Square East
+2022-11-18,236,162,153,Upper East Side North,Midtown East
+2022-11-18,79,79,152,East Village,East Village
+2022-11-18,237,239,151,Upper East Side South,Upper West Side South
+2022-11-18,239,237,151,Upper West Side South,Upper East Side South
+2022-11-18,142,161,150,Lincoln Square East,Midtown Center
+2022-11-18,163,237,150,Midtown North,Upper East Side South
+2022-11-18,161,164,146,Midtown Center,Midtown South
+2022-11-18,236,262,145,Upper East Side North,Yorkville East
+2022-11-18,229,237,143,Sutton Place/Turtle Bay North,Upper East Side South
+2022-11-19,264,264,542,NV,NV
+2022-11-19,237,236,491,Upper East Side South,Upper East Side North
+2022-11-19,236,237,423,Upper East Side North,Upper East Side South
+2022-11-19,237,237,345,Upper East Side South,Upper East Side South
+2022-11-19,236,236,341,Upper East Side North,Upper East Side North
+2022-11-19,132,132,291,JFK Airport,JFK Airport
+2022-11-19,142,239,281,Lincoln Square East,Upper West Side South
+2022-11-19,239,142,270,Upper West Side South,Lincoln Square East
+2022-11-19,263,141,247,Yorkville West,Lenox Hill West
+2022-11-19,237,161,219,Upper East Side South,Midtown Center
+2022-11-19,239,238,215,Upper West Side South,Upper West Side North
+2022-11-19,142,238,214,Lincoln Square East,Upper West Side North
+2022-11-19,79,79,212,East Village,East Village
+2022-11-19,48,68,204,Clinton East,East Chelsea
+2022-11-19,238,239,201,Upper West Side North,Upper West Side South
+2022-11-19,237,263,200,Upper East Side South,Yorkville West
+2022-11-19,161,237,194,Midtown Center,Upper East Side South
+2022-11-19,237,141,192,Upper East Side South,Lenox Hill West
+2022-11-19,237,142,192,Upper East Side South,Lincoln Square East
+2022-11-19,141,141,188,Lenox Hill West,Lenox Hill West
+2022-11-19,142,236,182,Lincoln Square East,Upper East Side North
+2022-11-19,141,236,181,Lenox Hill West,Upper East Side North
+2022-11-19,68,48,179,East Chelsea,Clinton East
+2022-11-19,141,237,179,Lenox Hill West,Upper East Side South
+2022-11-19,79,170,177,East Village,Murray Hill
+2022-11-19,132,230,177,JFK Airport,Times Sq/Theatre District
+2022-11-19,249,79,177,West Village,East Village
+2022-11-19,79,107,174,East Village,Gramercy
+2022-11-19,48,48,168,Clinton East,Clinton East
+2022-11-19,236,141,168,Upper East Side North,Lenox Hill West
+2022-11-19,239,236,168,Upper West Side South,Upper East Side North
+2022-11-19,141,263,167,Lenox Hill West,Yorkville West
+2022-11-19,161,236,167,Midtown Center,Upper East Side North
+2022-11-19,236,239,166,Upper East Side North,Upper West Side South
+2022-11-19,238,142,166,Upper West Side North,Lincoln Square East
+2022-11-19,142,48,165,Lincoln Square East,Clinton East
+2022-11-19,263,236,165,Yorkville West,Upper East Side North
+2022-11-19,79,249,164,East Village,West Village
+2022-11-19,142,237,162,Lincoln Square East,Upper East Side South
+2022-11-19,246,48,158,West Chelsea/Hudson Yards,Clinton East
+2022-11-19,79,137,155,East Village,Kips Bay
+2022-11-19,239,143,153,Upper West Side South,Lincoln Square West
+2022-11-19,68,68,150,East Chelsea,East Chelsea
+2022-11-19,239,239,150,Upper West Side South,Upper West Side South
+2022-11-19,142,142,148,Lincoln Square East,Lincoln Square East
+2022-11-19,236,142,148,Upper East Side North,Lincoln Square East
+2022-11-19,107,79,144,Gramercy,East Village
+2022-11-19,107,170,143,Gramercy,Murray Hill
+2022-11-19,48,142,142,Clinton East,Lincoln Square East
+2022-11-19,43,161,141,Central Park,Midtown Center
+2022-11-19,239,151,141,Upper West Side South,Manhattan Valley
+2022-11-19,132,48,139,JFK Airport,Clinton East
+2022-11-19,163,236,139,Midtown North,Upper East Side North
+2022-11-19,236,263,139,Upper East Side North,Yorkville West
+2022-11-19,141,262,135,Lenox Hill West,Yorkville East
+2022-11-19,141,229,133,Lenox Hill West,Sutton Place/Turtle Bay North
+2022-11-19,48,246,132,Clinton East,West Chelsea/Hudson Yards
+2022-11-19,239,237,132,Upper West Side South,Upper East Side South
+2022-11-19,161,161,131,Midtown Center,Midtown Center
+2022-11-19,163,161,130,Midtown North,Midtown Center
+2022-11-20,264,264,428,NV,NV
+2022-11-20,237,236,352,Upper East Side South,Upper East Side North
+2022-11-20,236,237,330,Upper East Side North,Upper East Side South
+2022-11-20,237,237,297,Upper East Side South,Upper East Side South
+2022-11-20,236,236,285,Upper East Side North,Upper East Side North
+2022-11-20,142,239,282,Lincoln Square East,Upper West Side South
+2022-11-20,132,132,279,JFK Airport,JFK Airport
+2022-11-20,239,142,236,Upper West Side South,Lincoln Square East
+2022-11-20,239,238,231,Upper West Side South,Upper West Side North
+2022-11-20,142,238,218,Lincoln Square East,Upper West Side North
+2022-11-20,238,239,197,Upper West Side North,Upper West Side South
+2022-11-20,238,142,196,Upper West Side North,Lincoln Square East
+2022-11-20,263,141,194,Yorkville West,Lenox Hill West
+2022-11-20,230,138,183,Times Sq/Theatre District,LaGuardia Airport
+2022-11-20,236,239,178,Upper East Side North,Upper West Side South
+2022-11-20,237,263,174,Upper East Side South,Yorkville West
+2022-11-20,132,230,169,JFK Airport,Times Sq/Theatre District
+2022-11-20,141,263,168,Lenox Hill West,Yorkville West
+2022-11-20,141,236,163,Lenox Hill West,Upper East Side North
+2022-11-20,48,48,161,Clinton East,Clinton East
+2022-11-20,48,68,160,Clinton East,East Chelsea
+2022-11-20,142,48,154,Lincoln Square East,Clinton East
+2022-11-20,237,141,153,Upper East Side South,Lenox Hill West
+2022-11-20,230,186,152,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-20,141,237,151,Lenox Hill West,Upper East Side South
+2022-11-20,236,141,148,Upper East Side North,Lenox Hill West
+2022-11-20,239,239,148,Upper West Side South,Upper West Side South
+2022-11-20,141,141,147,Lenox Hill West,Lenox Hill West
+2022-11-20,239,143,143,Upper West Side South,Lincoln Square West
+2022-11-20,239,236,143,Upper West Side South,Upper East Side North
+2022-11-20,79,170,142,East Village,Murray Hill
+2022-11-20,249,231,142,West Village,TriBeCa/Civic Center
+2022-11-20,68,48,141,East Chelsea,Clinton East
+2022-11-20,142,236,140,Lincoln Square East,Upper East Side North
+2022-11-20,263,236,139,Yorkville West,Upper East Side North
+2022-11-20,236,238,137,Upper East Side North,Upper West Side North
+2022-11-20,263,237,134,Yorkville West,Upper East Side South
+2022-11-20,161,237,132,Midtown Center,Upper East Side South
+2022-11-20,236,142,131,Upper East Side North,Lincoln Square East
+2022-11-20,161,236,129,Midtown Center,Upper East Side North
+2022-11-20,239,151,127,Upper West Side South,Manhattan Valley
+2022-11-20,79,79,126,East Village,East Village
+2022-11-20,230,132,126,Times Sq/Theatre District,JFK Airport
+2022-11-20,237,142,126,Upper East Side South,Lincoln Square East
+2022-11-20,249,79,126,West Village,East Village
+2022-11-20,48,142,124,Clinton East,Lincoln Square East
+2022-11-20,79,107,124,East Village,Gramercy
+2022-11-20,138,230,123,LaGuardia Airport,Times Sq/Theatre District
+2022-11-20,142,237,123,Lincoln Square East,Upper East Side South
+2022-11-20,132,265,122,JFK Airport,
+2022-11-20,141,229,120,Lenox Hill West,Sutton Place/Turtle Bay North
+2022-11-20,142,143,118,Lincoln Square East,Lincoln Square West
+2022-11-20,186,48,118,Penn Station/Madison Sq West,Clinton East
+2022-11-20,132,48,117,JFK Airport,Clinton East
+2022-11-20,143,239,115,Lincoln Square West,Upper West Side South
+2022-11-20,48,246,114,Clinton East,West Chelsea/Hudson Yards
+2022-11-20,79,137,113,East Village,Kips Bay
+2022-11-20,151,239,113,Manhattan Valley,Upper West Side South
+2022-11-20,238,236,113,Upper West Side North,Upper East Side North
+2022-11-20,186,230,112,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-21,237,236,1022,Upper East Side South,Upper East Side North
+2022-11-21,236,237,849,Upper East Side North,Upper East Side South
+2022-11-21,237,237,650,Upper East Side South,Upper East Side South
+2022-11-21,236,236,626,Upper East Side North,Upper East Side North
+2022-11-21,264,264,545,NV,NV
+2022-11-21,161,236,412,Midtown Center,Upper East Side North
+2022-11-21,161,237,403,Midtown Center,Upper East Side South
+2022-11-21,237,161,394,Upper East Side South,Midtown Center
+2022-11-21,141,236,328,Lenox Hill West,Upper East Side North
+2022-11-21,236,161,328,Upper East Side North,Midtown Center
+2022-11-21,239,142,320,Upper West Side South,Lincoln Square East
+2022-11-21,239,238,316,Upper West Side South,Upper West Side North
+2022-11-21,142,239,312,Lincoln Square East,Upper West Side South
+2022-11-21,236,141,306,Upper East Side North,Lenox Hill West
+2022-11-21,239,236,294,Upper West Side South,Upper East Side North
+2022-11-21,132,132,292,JFK Airport,JFK Airport
+2022-11-21,140,236,291,Lenox Hill East,Upper East Side North
+2022-11-21,236,239,291,Upper East Side North,Upper West Side South
+2022-11-21,237,162,284,Upper East Side South,Midtown East
+2022-11-21,186,161,281,Penn Station/Madison Sq West,Midtown Center
+2022-11-21,162,237,268,Midtown East,Upper East Side South
+2022-11-21,236,238,268,Upper East Side North,Upper West Side North
+2022-11-21,162,236,263,Midtown East,Upper East Side North
+2022-11-21,238,239,246,Upper West Side North,Upper West Side South
+2022-11-21,142,237,244,Lincoln Square East,Upper East Side South
+2022-11-21,236,262,243,Upper East Side North,Yorkville East
+2022-11-21,263,236,242,Yorkville West,Upper East Side North
+2022-11-21,141,237,240,Lenox Hill West,Upper East Side South
+2022-11-21,236,140,240,Upper East Side North,Lenox Hill East
+2022-11-21,237,141,240,Upper East Side South,Lenox Hill West
+2022-11-21,163,236,238,Midtown North,Upper East Side North
+2022-11-21,142,238,236,Lincoln Square East,Upper West Side North
+2022-11-21,262,236,233,Yorkville East,Upper East Side North
+2022-11-21,236,162,231,Upper East Side North,Midtown East
+2022-11-21,161,234,229,Midtown Center,Union Sq
+2022-11-21,237,142,224,Upper East Side South,Lincoln Square East
+2022-11-21,161,164,222,Midtown Center,Midtown South
+2022-11-21,238,236,219,Upper West Side North,Upper East Side North
+2022-11-21,140,237,218,Lenox Hill East,Upper East Side South
+2022-11-21,163,237,218,Midtown North,Upper East Side South
+2022-11-21,263,141,217,Yorkville West,Lenox Hill West
+2022-11-21,142,236,216,Lincoln Square East,Upper East Side North
+2022-11-21,237,140,216,Upper East Side South,Lenox Hill East
+2022-11-21,186,230,213,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-21,237,263,213,Upper East Side South,Yorkville West
+2022-11-21,161,161,212,Midtown Center,Midtown Center
+2022-11-21,239,143,205,Upper West Side South,Lincoln Square West
+2022-11-21,236,75,203,Upper East Side North,East Harlem South
+2022-11-21,236,142,203,Upper East Side North,Lincoln Square East
+2022-11-21,237,229,203,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-21,163,161,202,Midtown North,Midtown Center
+2022-11-21,132,230,200,JFK Airport,Times Sq/Theatre District
+2022-11-21,237,262,199,Upper East Side South,Yorkville East
+2022-11-21,239,239,193,Upper West Side South,Upper West Side South
+2022-11-21,107,170,189,Gramercy,Murray Hill
+2022-11-21,236,263,189,Upper East Side North,Yorkville West
+2022-11-21,161,163,188,Midtown Center,Midtown North
+2022-11-21,239,237,185,Upper West Side South,Upper East Side South
+2022-11-21,43,161,184,Central Park,Midtown Center
+2022-11-21,161,186,183,Midtown Center,Penn Station/Madison Sq West
+2022-11-22,237,236,1023,Upper East Side South,Upper East Side North
+2022-11-22,236,237,828,Upper East Side North,Upper East Side South
+2022-11-22,236,236,671,Upper East Side North,Upper East Side North
+2022-11-22,237,237,625,Upper East Side South,Upper East Side South
+2022-11-22,264,264,571,NV,NV
+2022-11-22,237,161,484,Upper East Side South,Midtown Center
+2022-11-22,161,237,407,Midtown Center,Upper East Side South
+2022-11-22,161,236,382,Midtown Center,Upper East Side North
+2022-11-22,239,142,373,Upper West Side South,Lincoln Square East
+2022-11-22,236,161,346,Upper East Side North,Midtown Center
+2022-11-22,239,238,338,Upper West Side South,Upper West Side North
+2022-11-22,141,236,330,Lenox Hill West,Upper East Side North
+2022-11-22,142,239,315,Lincoln Square East,Upper West Side South
+2022-11-22,236,141,308,Upper East Side North,Lenox Hill West
+2022-11-22,132,132,305,JFK Airport,JFK Airport
+2022-11-22,237,162,299,Upper East Side South,Midtown East
+2022-11-22,239,236,291,Upper West Side South,Upper East Side North
+2022-11-22,237,141,286,Upper East Side South,Lenox Hill West
+2022-11-22,236,238,285,Upper East Side North,Upper West Side North
+2022-11-22,236,239,279,Upper East Side North,Upper West Side South
+2022-11-22,239,239,276,Upper West Side South,Upper West Side South
+2022-11-22,186,161,275,Penn Station/Madison Sq West,Midtown Center
+2022-11-22,236,162,270,Upper East Side North,Midtown East
+2022-11-22,142,238,262,Lincoln Square East,Upper West Side North
+2022-11-22,238,239,259,Upper West Side North,Upper West Side South
+2022-11-22,161,161,255,Midtown Center,Midtown Center
+2022-11-22,237,142,254,Upper East Side South,Lincoln Square East
+2022-11-22,142,236,252,Lincoln Square East,Upper East Side North
+2022-11-22,162,237,252,Midtown East,Upper East Side South
+2022-11-22,162,236,251,Midtown East,Upper East Side North
+2022-11-22,163,236,245,Midtown North,Upper East Side North
+2022-11-22,140,236,244,Lenox Hill East,Upper East Side North
+2022-11-22,237,263,244,Upper East Side South,Yorkville West
+2022-11-22,141,237,239,Lenox Hill West,Upper East Side South
+2022-11-22,236,142,238,Upper East Side North,Lincoln Square East
+2022-11-22,238,236,238,Upper West Side North,Upper East Side North
+2022-11-22,132,230,235,JFK Airport,Times Sq/Theatre District
+2022-11-22,263,141,232,Yorkville West,Lenox Hill West
+2022-11-22,161,164,228,Midtown Center,Midtown South
+2022-11-22,238,142,223,Upper West Side North,Lincoln Square East
+2022-11-22,263,236,223,Yorkville West,Upper East Side North
+2022-11-22,237,140,222,Upper East Side South,Lenox Hill East
+2022-11-22,236,262,221,Upper East Side North,Yorkville East
+2022-11-22,107,170,220,Gramercy,Murray Hill
+2022-11-22,142,237,219,Lincoln Square East,Upper East Side South
+2022-11-22,237,229,215,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-22,140,237,207,Lenox Hill East,Upper East Side South
+2022-11-22,186,230,207,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-22,236,75,206,Upper East Side North,East Harlem South
+2022-11-22,236,263,206,Upper East Side North,Yorkville West
+2022-11-22,239,237,206,Upper West Side South,Upper East Side South
+2022-11-22,161,234,204,Midtown Center,Union Sq
+2022-11-22,236,140,203,Upper East Side North,Lenox Hill East
+2022-11-22,162,141,202,Midtown East,Lenox Hill West
+2022-11-22,237,239,202,Upper East Side South,Upper West Side South
+2022-11-22,239,143,202,Upper West Side South,Lincoln Square West
+2022-11-22,262,236,202,Yorkville East,Upper East Side North
+2022-11-22,161,141,200,Midtown Center,Lenox Hill West
+2022-11-22,237,262,197,Upper East Side South,Yorkville East
+2022-11-22,230,186,195,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-23,237,236,821,Upper East Side South,Upper East Side North
+2022-11-23,236,237,657,Upper East Side North,Upper East Side South
+2022-11-23,236,236,573,Upper East Side North,Upper East Side North
+2022-11-23,237,237,556,Upper East Side South,Upper East Side South
+2022-11-23,264,264,428,NV,NV
+2022-11-23,237,161,358,Upper East Side South,Midtown Center
+2022-11-23,161,237,356,Midtown Center,Upper East Side South
+2022-11-23,239,238,339,Upper West Side South,Upper West Side North
+2022-11-23,238,239,319,Upper West Side North,Upper West Side South
+2022-11-23,161,236,298,Midtown Center,Upper East Side North
+2022-11-23,132,132,282,JFK Airport,JFK Airport
+2022-11-23,142,239,282,Lincoln Square East,Upper West Side South
+2022-11-23,141,236,274,Lenox Hill West,Upper East Side North
+2022-11-23,236,238,272,Upper East Side North,Upper West Side North
+2022-11-23,236,161,270,Upper East Side North,Midtown Center
+2022-11-23,132,230,263,JFK Airport,Times Sq/Theatre District
+2022-11-23,236,141,254,Upper East Side North,Lenox Hill West
+2022-11-23,263,236,252,Yorkville West,Upper East Side North
+2022-11-23,186,161,250,Penn Station/Madison Sq West,Midtown Center
+2022-11-23,141,237,242,Lenox Hill West,Upper East Side South
+2022-11-23,263,141,240,Yorkville West,Lenox Hill West
+2022-11-23,142,142,238,Lincoln Square East,Lincoln Square East
+2022-11-23,162,237,237,Midtown East,Upper East Side South
+2022-11-23,237,162,237,Upper East Side South,Midtown East
+2022-11-23,237,142,234,Upper East Side South,Lincoln Square East
+2022-11-23,161,164,233,Midtown Center,Midtown South
+2022-11-23,237,141,232,Upper East Side South,Lenox Hill West
+2022-11-23,236,239,230,Upper East Side North,Upper West Side South
+2022-11-23,239,142,230,Upper West Side South,Lincoln Square East
+2022-11-23,237,263,218,Upper East Side South,Yorkville West
+2022-11-23,142,161,216,Lincoln Square East,Midtown Center
+2022-11-23,142,238,215,Lincoln Square East,Upper West Side North
+2022-11-23,239,143,215,Upper West Side South,Lincoln Square West
+2022-11-23,48,68,213,Clinton East,East Chelsea
+2022-11-23,239,236,210,Upper West Side South,Upper East Side North
+2022-11-23,48,142,209,Clinton East,Lincoln Square East
+2022-11-23,142,237,208,Lincoln Square East,Upper East Side South
+2022-11-23,140,236,207,Lenox Hill East,Upper East Side North
+2022-11-23,239,239,204,Upper West Side South,Upper West Side South
+2022-11-23,186,230,201,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-23,237,140,201,Upper East Side South,Lenox Hill East
+2022-11-23,138,230,200,LaGuardia Airport,Times Sq/Theatre District
+2022-11-23,230,142,199,Times Sq/Theatre District,Lincoln Square East
+2022-11-23,164,161,198,Midtown South,Midtown Center
+2022-11-23,236,162,196,Upper East Side North,Midtown East
+2022-11-23,107,170,194,Gramercy,Murray Hill
+2022-11-23,161,142,194,Midtown Center,Lincoln Square East
+2022-11-23,163,237,191,Midtown North,Upper East Side South
+2022-11-23,238,238,190,Upper West Side North,Upper West Side North
+2022-11-23,141,263,188,Lenox Hill West,Yorkville West
+2022-11-23,236,140,188,Upper East Side North,Lenox Hill East
+2022-11-23,142,48,187,Lincoln Square East,Clinton East
+2022-11-23,141,141,185,Lenox Hill West,Lenox Hill West
+2022-11-23,142,230,185,Lincoln Square East,Times Sq/Theatre District
+2022-11-23,161,186,184,Midtown Center,Penn Station/Madison Sq West
+2022-11-23,229,237,184,Sutton Place/Turtle Bay North,Upper East Side South
+2022-11-23,230,186,184,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-23,162,236,181,Midtown East,Upper East Side North
+2022-11-23,238,236,181,Upper West Side North,Upper East Side North
+2022-11-23,161,161,180,Midtown Center,Midtown Center
+2022-11-24,264,264,387,NV,NV
+2022-11-24,237,236,361,Upper East Side South,Upper East Side North
+2022-11-24,236,237,301,Upper East Side North,Upper East Side South
+2022-11-24,237,237,249,Upper East Side South,Upper East Side South
+2022-11-24,239,142,240,Upper West Side South,Lincoln Square East
+2022-11-24,239,238,220,Upper West Side South,Upper West Side North
+2022-11-24,238,142,212,Upper West Side North,Lincoln Square East
+2022-11-24,132,230,205,JFK Airport,Times Sq/Theatre District
+2022-11-24,132,132,204,JFK Airport,JFK Airport
+2022-11-24,48,48,203,Clinton East,Clinton East
+2022-11-24,48,68,203,Clinton East,East Chelsea
+2022-11-24,236,236,195,Upper East Side North,Upper East Side North
+2022-11-24,142,238,192,Lincoln Square East,Upper West Side North
+2022-11-24,238,239,186,Upper West Side North,Upper West Side South
+2022-11-24,142,239,170,Lincoln Square East,Upper West Side South
+2022-11-24,161,237,168,Midtown Center,Upper East Side South
+2022-11-24,236,239,167,Upper East Side North,Upper West Side South
+2022-11-24,142,48,155,Lincoln Square East,Clinton East
+2022-11-24,239,239,155,Upper West Side South,Upper West Side South
+2022-11-24,239,236,154,Upper West Side South,Upper East Side North
+2022-11-24,237,162,150,Upper East Side South,Midtown East
+2022-11-24,263,141,149,Yorkville West,Lenox Hill West
+2022-11-24,236,238,139,Upper East Side North,Upper West Side North
+2022-11-24,161,164,137,Midtown Center,Midtown South
+2022-11-24,237,263,135,Upper East Side South,Yorkville West
+2022-11-24,161,161,132,Midtown Center,Midtown Center
+2022-11-24,230,230,132,Times Sq/Theatre District,Times Sq/Theatre District
+2022-11-24,239,48,132,Upper West Side South,Clinton East
+2022-11-24,161,236,130,Midtown Center,Upper East Side North
+2022-11-24,237,161,130,Upper East Side South,Midtown Center
+2022-11-24,141,236,129,Lenox Hill West,Upper East Side North
+2022-11-24,236,142,127,Upper East Side North,Lincoln Square East
+2022-11-24,68,48,125,East Chelsea,Clinton East
+2022-11-24,238,236,125,Upper West Side North,Upper East Side North
+2022-11-24,239,143,124,Upper West Side South,Lincoln Square West
+2022-11-24,238,238,123,Upper West Side North,Upper West Side North
+2022-11-24,141,237,122,Lenox Hill West,Upper East Side South
+2022-11-24,229,237,122,Sutton Place/Turtle Bay North,Upper East Side South
+2022-11-24,107,170,121,Gramercy,Murray Hill
+2022-11-24,132,48,121,JFK Airport,Clinton East
+2022-11-24,141,162,116,Lenox Hill West,Midtown East
+2022-11-24,236,141,116,Upper East Side North,Lenox Hill West
+2022-11-24,237,141,116,Upper East Side South,Lenox Hill West
+2022-11-24,263,236,116,Yorkville West,Upper East Side North
+2022-11-24,237,229,115,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-24,141,229,113,Lenox Hill West,Sutton Place/Turtle Bay North
+2022-11-24,239,151,113,Upper West Side South,Manhattan Valley
+2022-11-24,246,48,113,West Chelsea/Hudson Yards,Clinton East
+2022-11-24,132,164,112,JFK Airport,Midtown South
+2022-11-24,142,236,111,Lincoln Square East,Upper East Side North
+2022-11-24,229,162,111,Sutton Place/Turtle Bay North,Midtown East
+2022-11-24,142,142,110,Lincoln Square East,Lincoln Square East
+2022-11-24,151,239,110,Manhattan Valley,Upper West Side South
+2022-11-24,170,164,107,Murray Hill,Midtown South
+2022-11-24,170,237,107,Murray Hill,Upper East Side South
+2022-11-24,236,161,106,Upper East Side North,Midtown Center
+2022-11-24,237,142,106,Upper East Side South,Lincoln Square East
+2022-11-24,237,239,106,Upper East Side South,Upper West Side South
+2022-11-24,142,237,105,Lincoln Square East,Upper East Side South
+2022-11-24,107,162,103,Gramercy,Midtown East
+2022-11-25,264,264,443,NV,NV
+2022-11-25,237,236,410,Upper East Side South,Upper East Side North
+2022-11-25,237,237,372,Upper East Side South,Upper East Side South
+2022-11-25,236,237,329,Upper East Side North,Upper East Side South
+2022-11-25,237,161,297,Upper East Side South,Midtown Center
+2022-11-25,132,230,283,JFK Airport,Times Sq/Theatre District
+2022-11-25,161,237,272,Midtown Center,Upper East Side South
+2022-11-25,186,230,255,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-25,239,142,253,Upper West Side South,Lincoln Square East
+2022-11-25,236,236,247,Upper East Side North,Upper East Side North
+2022-11-25,132,132,243,JFK Airport,JFK Airport
+2022-11-25,142,239,241,Lincoln Square East,Upper West Side South
+2022-11-25,161,164,239,Midtown Center,Midtown South
+2022-11-25,161,236,238,Midtown Center,Upper East Side North
+2022-11-25,142,238,219,Lincoln Square East,Upper West Side North
+2022-11-25,100,230,202,Garment District,Times Sq/Theatre District
+2022-11-25,161,230,202,Midtown Center,Times Sq/Theatre District
+2022-11-25,230,186,201,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-25,239,238,200,Upper West Side South,Upper West Side North
+2022-11-25,186,161,195,Penn Station/Madison Sq West,Midtown Center
+2022-11-25,230,230,192,Times Sq/Theatre District,Times Sq/Theatre District
+2022-11-25,161,161,190,Midtown Center,Midtown Center
+2022-11-25,43,161,180,Central Park,Midtown Center
+2022-11-25,236,141,180,Upper East Side North,Lenox Hill West
+2022-11-25,236,239,179,Upper East Side North,Upper West Side South
+2022-11-25,161,234,178,Midtown Center,Union Sq
+2022-11-25,48,68,177,Clinton East,East Chelsea
+2022-11-25,141,236,177,Lenox Hill West,Upper East Side North
+2022-11-25,141,237,177,Lenox Hill West,Upper East Side South
+2022-11-25,236,161,177,Upper East Side North,Midtown Center
+2022-11-25,163,230,176,Midtown North,Times Sq/Theatre District
+2022-11-25,142,236,175,Lincoln Square East,Upper East Side North
+2022-11-25,100,161,173,Garment District,Midtown Center
+2022-11-25,230,100,173,Times Sq/Theatre District,Garment District
+2022-11-25,142,237,172,Lincoln Square East,Upper East Side South
+2022-11-25,161,186,171,Midtown Center,Penn Station/Madison Sq West
+2022-11-25,236,142,170,Upper East Side North,Lincoln Square East
+2022-11-25,163,161,167,Midtown North,Midtown Center
+2022-11-25,161,163,164,Midtown Center,Midtown North
+2022-11-25,142,161,162,Lincoln Square East,Midtown Center
+2022-11-25,263,141,160,Yorkville West,Lenox Hill West
+2022-11-25,68,48,159,East Chelsea,Clinton East
+2022-11-25,161,100,157,Midtown Center,Garment District
+2022-11-25,237,142,157,Upper East Side South,Lincoln Square East
+2022-11-25,238,142,157,Upper West Side North,Lincoln Square East
+2022-11-25,186,79,156,Penn Station/Madison Sq West,East Village
+2022-11-25,164,161,155,Midtown South,Midtown Center
+2022-11-25,164,230,154,Midtown South,Times Sq/Theatre District
+2022-11-25,142,230,153,Lincoln Square East,Times Sq/Theatre District
+2022-11-25,186,107,153,Penn Station/Madison Sq West,Gramercy
+2022-11-25,48,48,151,Clinton East,Clinton East
+2022-11-25,238,239,150,Upper West Side North,Upper West Side South
+2022-11-25,186,48,145,Penn Station/Madison Sq West,Clinton East
+2022-11-25,237,141,144,Upper East Side South,Lenox Hill West
+2022-11-25,237,162,144,Upper East Side South,Midtown East
+2022-11-25,237,263,144,Upper East Side South,Yorkville West
+2022-11-25,141,263,142,Lenox Hill West,Yorkville West
+2022-11-25,161,170,142,Midtown Center,Murray Hill
+2022-11-25,142,48,141,Lincoln Square East,Clinton East
+2022-11-25,163,236,141,Midtown North,Upper East Side North
+2022-11-26,237,236,515,Upper East Side South,Upper East Side North
+2022-11-26,264,264,500,NV,NV
+2022-11-26,236,237,405,Upper East Side North,Upper East Side South
+2022-11-26,132,132,354,JFK Airport,JFK Airport
+2022-11-26,237,237,353,Upper East Side South,Upper East Side South
+2022-11-26,236,236,266,Upper East Side North,Upper East Side North
+2022-11-26,161,237,257,Midtown Center,Upper East Side South
+2022-11-26,237,161,242,Upper East Side South,Midtown Center
+2022-11-26,142,239,237,Lincoln Square East,Upper West Side South
+2022-11-26,237,263,235,Upper East Side South,Yorkville West
+2022-11-26,239,142,235,Upper West Side South,Lincoln Square East
+2022-11-26,263,141,228,Yorkville West,Lenox Hill West
+2022-11-26,132,230,219,JFK Airport,Times Sq/Theatre District
+2022-11-26,161,236,218,Midtown Center,Upper East Side North
+2022-11-26,48,68,211,Clinton East,East Chelsea
+2022-11-26,237,142,206,Upper East Side South,Lincoln Square East
+2022-11-26,142,236,202,Lincoln Square East,Upper East Side North
+2022-11-26,161,164,201,Midtown Center,Midtown South
+2022-11-26,141,141,199,Lenox Hill West,Lenox Hill West
+2022-11-26,161,234,197,Midtown Center,Union Sq
+2022-11-26,237,141,197,Upper East Side South,Lenox Hill West
+2022-11-26,141,236,195,Lenox Hill West,Upper East Side North
+2022-11-26,142,238,195,Lincoln Square East,Upper West Side North
+2022-11-26,132,48,194,JFK Airport,Clinton East
+2022-11-26,142,237,190,Lincoln Square East,Upper East Side South
+2022-11-26,48,48,189,Clinton East,Clinton East
+2022-11-26,239,238,182,Upper West Side South,Upper West Side North
+2022-11-26,141,237,181,Lenox Hill West,Upper East Side South
+2022-11-26,186,79,181,Penn Station/Madison Sq West,East Village
+2022-11-26,186,230,179,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-26,43,161,178,Central Park,Midtown Center
+2022-11-26,230,186,177,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-26,238,142,174,Upper West Side North,Lincoln Square East
+2022-11-26,141,263,172,Lenox Hill West,Yorkville West
+2022-11-26,236,142,170,Upper East Side North,Lincoln Square East
+2022-11-26,68,48,168,East Chelsea,Clinton East
+2022-11-26,163,230,167,Midtown North,Times Sq/Theatre District
+2022-11-26,142,48,166,Lincoln Square East,Clinton East
+2022-11-26,186,170,166,Penn Station/Madison Sq West,Murray Hill
+2022-11-26,161,161,164,Midtown Center,Midtown Center
+2022-11-26,186,107,163,Penn Station/Madison Sq West,Gramercy
+2022-11-26,246,48,163,West Chelsea/Hudson Yards,Clinton East
+2022-11-26,230,230,161,Times Sq/Theatre District,Times Sq/Theatre District
+2022-11-26,236,239,159,Upper East Side North,Upper West Side South
+2022-11-26,186,48,158,Penn Station/Madison Sq West,Clinton East
+2022-11-26,239,236,158,Upper West Side South,Upper East Side North
+2022-11-26,238,239,157,Upper West Side North,Upper West Side South
+2022-11-26,164,161,155,Midtown South,Midtown Center
+2022-11-26,142,161,153,Lincoln Square East,Midtown Center
+2022-11-26,100,230,152,Garment District,Times Sq/Theatre District
+2022-11-26,230,142,152,Times Sq/Theatre District,Lincoln Square East
+2022-11-26,237,162,152,Upper East Side South,Midtown East
+2022-11-26,236,161,151,Upper East Side North,Midtown Center
+2022-11-26,48,246,149,Clinton East,West Chelsea/Hudson Yards
+2022-11-26,164,230,149,Midtown South,Times Sq/Theatre District
+2022-11-26,236,141,149,Upper East Side North,Lenox Hill West
+2022-11-26,142,142,148,Lincoln Square East,Lincoln Square East
+2022-11-26,161,230,147,Midtown Center,Times Sq/Theatre District
+2022-11-26,163,161,147,Midtown North,Midtown Center
+2022-11-26,68,68,145,East Chelsea,East Chelsea
+2022-11-27,264,264,419,NV,NV
+2022-11-27,132,132,397,JFK Airport,JFK Airport
+2022-11-27,237,236,388,Upper East Side South,Upper East Side North
+2022-11-27,236,237,299,Upper East Side North,Upper East Side South
+2022-11-27,236,236,286,Upper East Side North,Upper East Side North
+2022-11-27,237,237,269,Upper East Side South,Upper East Side South
+2022-11-27,239,142,236,Upper West Side South,Lincoln Square East
+2022-11-27,186,79,235,Penn Station/Madison Sq West,East Village
+2022-11-27,239,238,234,Upper West Side South,Upper West Side North
+2022-11-27,186,107,224,Penn Station/Madison Sq West,Gramercy
+2022-11-27,142,239,223,Lincoln Square East,Upper West Side South
+2022-11-27,132,230,215,JFK Airport,Times Sq/Theatre District
+2022-11-27,237,263,208,Upper East Side South,Yorkville West
+2022-11-27,132,79,199,JFK Airport,East Village
+2022-11-27,186,170,190,Penn Station/Madison Sq West,Murray Hill
+2022-11-27,132,265,185,JFK Airport,
+2022-11-27,132,170,184,JFK Airport,Murray Hill
+2022-11-27,48,68,180,Clinton East,East Chelsea
+2022-11-27,132,48,180,JFK Airport,Clinton East
+2022-11-27,237,161,180,Upper East Side South,Midtown Center
+2022-11-27,142,238,178,Lincoln Square East,Upper West Side North
+2022-11-27,161,237,178,Midtown Center,Upper East Side South
+2022-11-27,230,186,175,Times Sq/Theatre District,Penn Station/Madison Sq West
+2022-11-27,186,137,172,Penn Station/Madison Sq West,Kips Bay
+2022-11-27,246,48,171,West Chelsea/Hudson Yards,Clinton East
+2022-11-27,186,230,168,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-27,141,237,167,Lenox Hill West,Upper East Side South
+2022-11-27,48,246,164,Clinton East,West Chelsea/Hudson Yards
+2022-11-27,237,141,164,Upper East Side South,Lenox Hill West
+2022-11-27,161,186,162,Midtown Center,Penn Station/Madison Sq West
+2022-11-27,263,141,162,Yorkville West,Lenox Hill West
+2022-11-27,138,79,160,LaGuardia Airport,East Village
+2022-11-27,230,230,160,Times Sq/Theatre District,Times Sq/Theatre District
+2022-11-27,238,239,158,Upper West Side North,Upper West Side South
+2022-11-27,141,141,155,Lenox Hill West,Lenox Hill West
+2022-11-27,48,48,154,Clinton East,Clinton East
+2022-11-27,161,230,153,Midtown Center,Times Sq/Theatre District
+2022-11-27,186,48,153,Penn Station/Madison Sq West,Clinton East
+2022-11-27,141,263,150,Lenox Hill West,Yorkville West
+2022-11-27,162,141,150,Midtown East,Lenox Hill West
+2022-11-27,142,48,148,Lincoln Square East,Clinton East
+2022-11-27,141,236,146,Lenox Hill West,Upper East Side North
+2022-11-27,161,161,145,Midtown Center,Midtown Center
+2022-11-27,230,246,145,Times Sq/Theatre District,West Chelsea/Hudson Yards
+2022-11-27,239,236,145,Upper West Side South,Upper East Side North
+2022-11-27,161,236,144,Midtown Center,Upper East Side North
+2022-11-27,68,48,141,East Chelsea,Clinton East
+2022-11-27,142,142,139,Lincoln Square East,Lincoln Square East
+2022-11-27,142,237,136,Lincoln Square East,Upper East Side South
+2022-11-27,100,230,135,Garment District,Times Sq/Theatre District
+2022-11-27,236,141,135,Upper East Side North,Lenox Hill West
+2022-11-27,138,263,134,LaGuardia Airport,Yorkville West
+2022-11-27,236,239,134,Upper East Side North,Upper West Side South
+2022-11-27,239,239,133,Upper West Side South,Upper West Side South
+2022-11-27,186,141,132,Penn Station/Madison Sq West,Lenox Hill West
+2022-11-27,163,237,129,Midtown North,Upper East Side South
+2022-11-27,263,236,129,Yorkville West,Upper East Side North
+2022-11-27,237,142,128,Upper East Side South,Lincoln Square East
+2022-11-27,68,68,127,East Chelsea,East Chelsea
+2022-11-27,132,164,127,JFK Airport,Midtown South
+2022-11-28,237,236,879,Upper East Side South,Upper East Side North
+2022-11-28,236,237,698,Upper East Side North,Upper East Side South
+2022-11-28,236,236,557,Upper East Side North,Upper East Side North
+2022-11-28,237,237,525,Upper East Side South,Upper East Side South
+2022-11-28,264,264,434,NV,NV
+2022-11-28,132,132,361,JFK Airport,JFK Airport
+2022-11-28,161,237,359,Midtown Center,Upper East Side South
+2022-11-28,237,161,349,Upper East Side South,Midtown Center
+2022-11-28,161,236,337,Midtown Center,Upper East Side North
+2022-11-28,186,161,297,Penn Station/Madison Sq West,Midtown Center
+2022-11-28,236,161,297,Upper East Side North,Midtown Center
+2022-11-28,141,236,285,Lenox Hill West,Upper East Side North
+2022-11-28,132,230,281,JFK Airport,Times Sq/Theatre District
+2022-11-28,162,237,280,Midtown East,Upper East Side South
+2022-11-28,239,238,275,Upper West Side South,Upper West Side North
+2022-11-28,142,239,266,Lincoln Square East,Upper West Side South
+2022-11-28,237,162,258,Upper East Side South,Midtown East
+2022-11-28,140,236,255,Lenox Hill East,Upper East Side North
+2022-11-28,186,230,253,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-28,239,142,253,Upper West Side South,Lincoln Square East
+2022-11-28,236,239,243,Upper East Side North,Upper West Side South
+2022-11-28,186,170,239,Penn Station/Madison Sq West,Murray Hill
+2022-11-28,142,238,236,Lincoln Square East,Upper West Side North
+2022-11-28,162,236,231,Midtown East,Upper East Side North
+2022-11-28,236,141,229,Upper East Side North,Lenox Hill West
+2022-11-28,236,142,226,Upper East Side North,Lincoln Square East
+2022-11-28,132,48,225,JFK Airport,Clinton East
+2022-11-28,237,142,225,Upper East Side South,Lincoln Square East
+2022-11-28,132,265,223,JFK Airport,
+2022-11-28,236,140,223,Upper East Side North,Lenox Hill East
+2022-11-28,236,238,222,Upper East Side North,Upper West Side North
+2022-11-28,237,140,222,Upper East Side South,Lenox Hill East
+2022-11-28,238,239,220,Upper West Side North,Upper West Side South
+2022-11-28,142,236,217,Lincoln Square East,Upper East Side North
+2022-11-28,263,236,217,Yorkville West,Upper East Side North
+2022-11-28,138,230,215,LaGuardia Airport,Times Sq/Theatre District
+2022-11-28,239,236,214,Upper West Side South,Upper East Side North
+2022-11-28,142,237,211,Lincoln Square East,Upper East Side South
+2022-11-28,163,236,211,Midtown North,Upper East Side North
+2022-11-28,141,237,207,Lenox Hill West,Upper East Side South
+2022-11-28,237,141,205,Upper East Side South,Lenox Hill West
+2022-11-28,161,234,204,Midtown Center,Union Sq
+2022-11-28,163,237,203,Midtown North,Upper East Side South
+2022-11-28,140,237,202,Lenox Hill East,Upper East Side South
+2022-11-28,236,262,198,Upper East Side North,Yorkville East
+2022-11-28,186,162,196,Penn Station/Madison Sq West,Midtown East
+2022-11-28,161,164,193,Midtown Center,Midtown South
+2022-11-28,237,263,192,Upper East Side South,Yorkville West
+2022-11-28,262,236,192,Yorkville East,Upper East Side North
+2022-11-28,236,162,190,Upper East Side North,Midtown East
+2022-11-28,239,239,190,Upper West Side South,Upper West Side South
+2022-11-28,186,107,187,Penn Station/Madison Sq West,Gramercy
+2022-11-28,238,142,184,Upper West Side North,Lincoln Square East
+2022-11-28,238,236,183,Upper West Side North,Upper East Side North
+2022-11-28,161,186,182,Midtown Center,Penn Station/Madison Sq West
+2022-11-28,138,161,181,LaGuardia Airport,Midtown Center
+2022-11-28,161,161,181,Midtown Center,Midtown Center
+2022-11-28,132,170,174,JFK Airport,Murray Hill
+2022-11-28,230,246,174,Times Sq/Theatre District,West Chelsea/Hudson Yards
+2022-11-28,132,79,172,JFK Airport,East Village
+2022-11-29,237,236,976,Upper East Side South,Upper East Side North
+2022-11-29,236,237,772,Upper East Side North,Upper East Side South
+2022-11-29,237,237,653,Upper East Side South,Upper East Side South
+2022-11-29,236,236,613,Upper East Side North,Upper East Side North
+2022-11-29,264,264,576,NV,NV
+2022-11-29,161,237,473,Midtown Center,Upper East Side South
+2022-11-29,237,161,464,Upper East Side South,Midtown Center
+2022-11-29,161,236,428,Midtown Center,Upper East Side North
+2022-11-29,236,161,390,Upper East Side North,Midtown Center
+2022-11-29,237,162,361,Upper East Side South,Midtown East
+2022-11-29,186,161,355,Penn Station/Madison Sq West,Midtown Center
+2022-11-29,141,236,334,Lenox Hill West,Upper East Side North
+2022-11-29,132,132,325,JFK Airport,JFK Airport
+2022-11-29,162,237,325,Midtown East,Upper East Side South
+2022-11-29,161,161,317,Midtown Center,Midtown Center
+2022-11-29,236,141,313,Upper East Side North,Lenox Hill West
+2022-11-29,138,230,300,LaGuardia Airport,Times Sq/Theatre District
+2022-11-29,142,239,299,Lincoln Square East,Upper West Side South
+2022-11-29,236,239,299,Upper East Side North,Upper West Side South
+2022-11-29,236,162,292,Upper East Side North,Midtown East
+2022-11-29,186,230,285,Penn Station/Madison Sq West,Times Sq/Theatre District
+2022-11-29,140,236,284,Lenox Hill East,Upper East Side North
+2022-11-29,239,142,279,Upper West Side South,Lincoln Square East
+2022-11-29,162,236,276,Midtown East,Upper East Side North
+2022-11-29,161,164,275,Midtown Center,Midtown South
+2022-11-29,132,230,274,JFK Airport,Times Sq/Theatre District
+2022-11-29,239,238,269,Upper West Side South,Upper West Side North
+2022-11-29,237,263,263,Upper East Side South,Yorkville West
+2022-11-29,141,237,262,Lenox Hill West,Upper East Side South
+2022-11-29,237,142,262,Upper East Side South,Lincoln Square East
+2022-11-29,161,234,255,Midtown Center,Union Sq
+2022-11-29,236,238,255,Upper East Side North,Upper West Side North
+2022-11-29,237,141,251,Upper East Side South,Lenox Hill West
+2022-11-29,237,140,247,Upper East Side South,Lenox Hill East
+2022-11-29,142,238,244,Lincoln Square East,Upper West Side North
+2022-11-29,142,236,241,Lincoln Square East,Upper East Side North
+2022-11-29,239,236,241,Upper West Side South,Upper East Side North
+2022-11-29,238,239,233,Upper West Side North,Upper West Side South
+2022-11-29,142,237,231,Lincoln Square East,Upper East Side South
+2022-11-29,163,236,229,Midtown North,Upper East Side North
+2022-11-29,236,142,229,Upper East Side North,Lincoln Square East
+2022-11-29,162,141,227,Midtown East,Lenox Hill West
+2022-11-29,263,236,224,Yorkville West,Upper East Side North
+2022-11-29,138,161,220,LaGuardia Airport,Midtown Center
+2022-11-29,163,161,218,Midtown North,Midtown Center
+2022-11-29,161,170,217,Midtown Center,Murray Hill
+2022-11-29,170,161,217,Murray Hill,Midtown Center
+2022-11-29,234,170,215,Union Sq,Murray Hill
+2022-11-29,262,236,215,Yorkville East,Upper East Side North
+2022-11-29,163,237,213,Midtown North,Upper East Side South
+2022-11-29,132,48,211,JFK Airport,Clinton East
+2022-11-29,186,234,211,Penn Station/Madison Sq West,Union Sq
+2022-11-29,162,140,206,Midtown East,Lenox Hill East
+2022-11-29,237,229,205,Upper East Side South,Sutton Place/Turtle Bay North
+2022-11-29,236,140,204,Upper East Side North,Lenox Hill East
+2022-11-29,142,161,203,Lincoln Square East,Midtown Center
+2022-11-29,142,230,203,Lincoln Square East,Times Sq/Theatre District
+2022-11-29,161,141,202,Midtown Center,Lenox Hill West
+2022-11-29,237,262,202,Upper East Side South,Yorkville East
+2022-11-29,238,236,202,Upper West Side North,Upper East Side North
+2022-11-30,143,107,1,Lincoln Square West,Gramercy

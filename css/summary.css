@@ -1,0 +1,22 @@
+.container-fluid {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.row-cols-5 .col {
+    margin-bottom: 10px;
+    width: 20%; /* Spread columns evenly */
+    float: left; /* Make them float left */
+}
+
+.row-cols-5 .col p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.row-cols-5 .col b {
+    font-weight: bold;
+    color: #007bff; /* Blue color */
+}
