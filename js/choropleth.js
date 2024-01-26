@@ -1,13 +1,13 @@
     // The svg
     const svg = d3.select("#my_dataviz"),
-    width = +svg.attr("width"),
+    width = 800,
     height = +svg.attr("height");
 
     // Map and projection for NYC
     const projection = d3.geoMercator()
     .center([-74.0060, 40.7128]) // Center on NYC
     .scale(45000) // Adjust scale for NYC zoom level
-    .translate([width / 4, height / 2]);
+    .translate([width / 4 + 50, height / 2]);
 
     const path = d3.geoPath().projection(projection);
 
