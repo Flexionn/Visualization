@@ -29,14 +29,22 @@ header {
     margin: 5px;
 }
 
-h1 {
+h1.NYC {
     margin: 0;
-    
+    color: #153E67;
+    font-family: 'Fear Factor Black', sans-serif;
 }
+
 
 h2 {
     text-align: center;
     margin: 10px;
+    font-weight: bold;
+    color: #153E67;
+}
+
+h1, h2 {
+    display: inline;
 }
 
 table {
