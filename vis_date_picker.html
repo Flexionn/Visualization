@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+<div>
+    <label for="date-filter">Select Date:</label>
+    <select id="date-filter"></select>
+    <!-- Date picker will be populated dynamically by JavaScript -->
+</div>
+<div>
+    <div class ="row">
+        <div class="col-md-3">
+            <table id="data-table-2">
+                <thead>
+                <tr>
+                    <th>Borough</th>
+                    <th>Total Trips</th>
+                    <th>Total Passengers</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+        </div>
+        <div class="col-md-6">
+            <div id="visualization-container"></div>
+        </div>
+
+        <div class="col-md-3">
+            <table id="data-table">
+                <thead>
+                <tr>
+                    <th>Pickup Zone</th>
+                    <th>Total Trips</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+<script src="js/vis_date_picker.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+</html>
