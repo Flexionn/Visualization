@@ -144,7 +144,7 @@ d3.csv("data/calender_values.csv").then(function(data) {
         .enter().append("g")
         .attr("class", "legend")
         .attr("transform", function (d, i) {
-            return "translate(" + (width1 - 90) + "," + (i * 20 + height1 / 2 + 70 ) +")"; // Adjust the positioning
+            return "translate(" + (width1 - 90) + "," + (i * 20 + height1 / 2 + 100 ) +")"; // Adjust the positioning
         });
 
     legend.append("rect")
