@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
   const margin1 = {top: 20, right: 110, bottom: 0, left: 50},
      width1 = 830  - margin1.left - margin1.right,
-     height1 = 250 - margin1.top - margin1.bottom;
+     height1 = 300 - margin1.top - margin1.bottom;
 
 // append the svg object to the body of the page
 const svgjesse = d3.select("#calender-container")
@@ -78,7 +78,7 @@ d3.csv("data/calender_values.csv").then(function(data) {
 
     const mousemove = function(event,d) {
         tooltip
-            .html("The exact number of trips on " + d.x + " "+ d.date + " is: " + d.heat /1000)
+            .html("The exact number of trips on " + d.x + ", November "+ d.date + " is: " + formatHeat(d.heat))
             .style("left", (event.x) / 2 + "px")
             .style("top", (event.y) / 2 + "px")
     }
@@ -115,27 +115,28 @@ d3.csv("data/calender_values.csv").then(function(data) {
         .join("text")
         .attr("x", function (d) { return x(d.x) + x.bandwidth() / 2; })
         .attr("y", function (d) { return y(d.y) + y.bandwidth() / 2 ; }) // adjust the y-coordinate for date text
-        .attr("dy", "0.35em")
+        .attr("dy", "0.25em")
         .attr("text-anchor", "middle")
         .style("font-size", "14px")
         .style("fill", "black")
         .text(function (d) { return d.date; });
 
+     // add text displaying event below the date in each square
+    svgjesse.selectAll()
+        .data(data, function (d) { return d.x + ':' + d.y; })
+        .join("text")
+        .attr("x", function (d) { return x(d.x) + x.bandwidth() / 2; })
+        .attr("y", function (d) { return y(d.y) + y.bandwidth() / 2 + 15 ; }) // Adjust the y-coordinate for event text
+        .attr("dy", "0.35em")
+        .attr("text-anchor", "middle")
+        .style("font-size", "10px")
+        .style("fill", "black")
+        .text(function(d) { return d.event; }); 
 
     // Create a formatting function for the heat values
     const formatHeat = d3.format(","); // Use a comma as a thousand separator
 
-// add text displaying heat values within each square
-//     svgjesse.selectAll()
-//         .data(data, function (d) { return d.x + ':' + d.y; })
-//         .join("text")
-//         .attr("x", function (d) { return x(d.x) + x.bandwidth() / 2; })
-//         .attr("y", function (d) { return y(d.y) + y.bandwidth() / 2 + 10; }) // adjust the y-coordinate for heat text
-//         .attr("dy", "0.35em")
-//         .attr("text-anchor", "middle")
-//         .style("font-size", "12px")
-//         .style("fill", "black")
-//         .text(function(d) { return formatHeat(d.heat); }); // Use the formatting function
+
 
 
 // Create color legend
@@ -144,7 +145,7 @@ d3.csv("data/calender_values.csv").then(function(data) {
         .enter().append("g")
         .attr("class", "legend")
         .attr("transform", function (d, i) {
-            return "translate(" + (width1 - 90) + "," + (i * 20 + height1 / 2 + 95 ) +")"; // Adjust the positioning
+            return "translate(" + (width1 - 90) + "," + (i * 20 + height1 / 2 + 100 ) +")"; // Adjust the positioning
         });
 
     legend.append("rect")

@@ -3,78 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <title>MVIS Project Group 3</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/F3.css">
     <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="css/summary.css">
+    <link href="https://fonts.cdnfonts.com/css/fear-factor" rel="stylesheet">
 </head>
-<style>
-    .visualization {
-        height: 500px; /* Set the desired height */
-    }
-</style>
 <body>
     <header>
-        <h1>NYC Yellow Cab Visualization</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="NYC">NYC</h1><h2>TLC Trip Record Data</h2>
+            </div>
+            <div class="col-md-4">
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="pill" href="#overview">Overview</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#daily">Hourly Demand</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#network">Common Trips</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
-    <div class="container-fluid h-100">
-        <div class="row row-cols-5">
-            <div class="col">
-                <p>Total Number of Trips: <b>3252717</b></p>
+    <div class="tab-content">
+        <!-- Overview -->
+        <div id="overview" class="tab-pane active">
+            <div class="container-fluid h-100">
+                <div class="row row-cols-5">
+                    <div class="col">
+                        <p>Total Number of Trips: <br><b>3252717</b></p>
+                    </div>
+                    <div class="col">
+                        <p>Median Trip Distance: <br><b>1.89 miles</b></p>
+                    </div>
+                    <div class="col">
+                        <p>Total Amount: <br><b>71.825.260,62 US$</b></p>
+                    </div>
+                    <div class="col">
+                        <p>Median Tip Rate: <br><b>19.93 %</b></p>
+                    </div>
+                    <div class="col">
+                        <p>Median Trip Duration: <br><b>13.02 min</b></p>
+                    </div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col-md-7">
+                        <iframe src="calender.html" style="border:none;" width="100%" height="425px"></iframe>
+                    </div>
+                    <div class="col-md-5">
+                        <h4><b>City Events Impact Taxi Traffic Differently</b></h4>
+                        <br>
+                        <p>The NYC Marathon event anticipation boosts taxi demand around race day with participants
+                            and their families, while the 2022 University of California Academic Workers Strike and
+                            holidays, such as Veteran's Holiday and Thanksgiving, bring quieter streets as workers stay home.
+                            <br><br><i>Hover over the days for more details!</i>
+                        </p>
+                    </div>
+
+                </div>
             </div>
-            <div class="col">
-                <p>Median Trip Distance: <b>1.89 miles</b></p>
+        </div>
+        <!-- Daily -->
+        <div id="daily" class="tab-pane">
+            <div class="row">
+                <div class="col-md-7">
+                    <iframe src="hourgraph.html" style="border:none;" width="100%" height="600px"></iframe>
+                    <h4><b>NYC's Hourly Taxi Demands and Pickup Patterns </b></h4><br>
+                    <p>Weekdays surge with work commutes, peaking in the evening, while weekends showcase a
+                        focus on downtown's leisure scene, with early night traffic boosted by social and leisure activities.
+                    <br><br><i>Select a time window of preference for detailed comparison, and hover over for more details!</i></p>
+                </div>
+                <div class="col-md-5">
+                    <iframe src="choropleth.html" style="border:none;" width="100%" height="700px"></iframe>
+                </div>
             </div>
-            <div class="col">
-                <p>Total Amount: <b>71.825.260,62 US$</b></p>
-            </div>
-            <div class="col">
-                <p>Median Tip Rate: <b>19.93 %</b></p>
-            </div>
-            <div class="col">
-                <p>Median Trip Duration: <b>13.02 min</b></p>
+        </div>
+        <!-- Network -->
+       <div id="network" class="tab-pane">
+            <div class="row">
+                <div class="col-md-3">
+                    <iframe src="table.html" style="border:none;" width="100%" height="700px"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <iframe src="network.html" style="border:none;" width="100%" height="700px"></iframe>
+                </div>
+                <div class="col-md-3">
+                    <iframe src="zone_table.html" style="border:none;" width="100%" height="700px"></iframe>
+                </div>
             </div>
         </div>
     </div>
-
-        <div class="row">
-            <div class="col-md-7">
-                <iframe src="calender.html" style="border:none;" width="100%" height="350px"></iframe>
-                <iframe src="hourgraph.html" style="border:none;" width="100%" height="400px"></iframe>
-            </div>
-
-            <div class="col-md-5">
-                <iframe src="choropleth.html" style="border:none;" width="100%" height="700px"></iframe>
-            </div>
-
-
-        </div>
-
-        <div class="row">
-            <!-- Visualization 1 -->
-
-            <!-- Visualization 2 -->
-            <div class="col-md-3">
-                <iframe src="table.html" style="border:none;" width="100%" height="700px"></iframe>
-            </div>
-
-            <div class="col-md-6">
-                <iframe src="network.html" style="border:none;" width="100%" height="700px"></iframe>
-            </div>
-            <div class="col-md-3">
-                <iframe src="zone_table.html" style="border:none;" width="100%" height="700px"></iframe>
-            </div>
-        </div>
-
-
     <script src="js/table_v2.js"></script>
     <script src="js/zones.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
-
-
-
 </html>
