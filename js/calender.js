@@ -115,27 +115,28 @@ d3.csv("data/calender_values.csv").then(function(data) {
         .join("text")
         .attr("x", function (d) { return x(d.x) + x.bandwidth() / 2; })
         .attr("y", function (d) { return y(d.y) + y.bandwidth() / 2 ; }) // adjust the y-coordinate for date text
-        .attr("dy", "0.35em")
+        .attr("dy", "0.25em")
         .attr("text-anchor", "middle")
         .style("font-size", "14px")
         .style("fill", "black")
         .text(function (d) { return d.date; });
 
+     // add text displaying event below the date in each square
+    svgjesse.selectAll()
+        .data(data, function (d) { return d.x + ':' + d.y; })
+        .join("text")
+        .attr("x", function (d) { return x(d.x) + x.bandwidth() / 2; })
+        .attr("y", function (d) { return y(d.y) + y.bandwidth() / 2 + 15 ; }) // Adjust the y-coordinate for event text
+        .attr("dy", "0.35em")
+        .attr("text-anchor", "middle")
+        .style("font-size", "10px")
+        .style("fill", "black")
+        .text(function(d) { return d.event; }); 
 
     // Create a formatting function for the heat values
     const formatHeat = d3.format(","); // Use a comma as a thousand separator
 
-// add text displaying heat values within each square
-//     svgjesse.selectAll()
-//         .data(data, function (d) { return d.x + ':' + d.y; })
-//         .join("text")
-//         .attr("x", function (d) { return x(d.x) + x.bandwidth() / 2; })
-//         .attr("y", function (d) { return y(d.y) + y.bandwidth() / 2 + 10; }) // adjust the y-coordinate for heat text
-//         .attr("dy", "0.35em")
-//         .attr("text-anchor", "middle")
-//         .style("font-size", "12px")
-//         .style("fill", "black")
-//         .text(function(d) { return formatHeat(d.heat); }); // Use the formatting function
+
 
 
 // Create color legend
