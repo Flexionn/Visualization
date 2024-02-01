@@ -1,13 +1,13 @@
     // The svg
     const svg = d3.select("#my_dataviz"),
     width = 800,
-    height = +svg.attr("height");
+    height = 600;
 
     // Map and projection for NYC
     const projection = d3.geoMercator()
     .center([-74.0060, 40.7128]) // Center on NYC
     .scale(45000) // Adjust scale for NYC zoom level
-    .translate([width / 4 + 50, height / 2]);
+    .translate([width / 4 + 50, height / 2.5]);
 
     const path = d3.geoPath().projection(projection);
 
@@ -255,10 +255,10 @@
     const legendHeight = 20;
     const numLegendColors = colorScale.range().length;
     const legendX = (width - legendWidth) / 2; // Center the legend horizontally
-    const legendY = height - 50; // Set legend position Y
+    const legendY = height - 100; // Set legend position Y
 
 
-        const legendScale = d3.scaleLinear()
+/*        const legendScale = d3.scaleLinear()
             .domain([0, maxTripCount])
             .range([0, legendWidth]);
 
@@ -266,7 +266,7 @@
             .tickSize(13)
             .tickValues(colorScale.domain()) // Set the tick values exactly to the colorScale domain
             .tickFormat(d => d3.format(".2s")(d)); // Format the ticks, for example, using SI prefix
-
+*/
 
 // Draw the legend
         const legend = svg.append("g")
@@ -284,11 +284,11 @@
             .attr("height", legendHeight)
             .style("fill", d => d);
 
-// Add text labels to the legend
+/* // Add text labels to the legend
         legend.append("g")
             .attr("transform", `translate(0, ${legendHeight})`)
             .call(legendAxis);
-
+*/
 
 
     // Initially update the map for the default day and hour

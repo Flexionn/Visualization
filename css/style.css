@@ -18,7 +18,11 @@ body {
     padding: 10px;
 }
 
-
+.col-md-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This centers the content vertically */
+}
 
 header {
     background-color: #FDB813;
@@ -69,3 +73,4 @@ bodyT2 {
 .x.axis path {
     display: none;
 }
+

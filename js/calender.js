@@ -78,7 +78,7 @@ d3.csv("data/calender_values.csv").then(function(data) {
 
     const mousemove = function(event,d) {
         tooltip
-            .html("The exact number of trips on " + d.x + " "+ d.date + " is: " + d.heat /1000)
+            .html("The exact number of trips on " + d.x + ", November "+ d.date + " is: " + d.heat /1000)
             .style("left", (event.x) / 2 + "px")
             .style("top", (event.y) / 2 + "px")
     }
