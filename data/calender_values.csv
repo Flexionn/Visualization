@@ -1,32 +1,32 @@
-x,y,heat,date
-Mon,week 1,105434,31
-Tue,week 1,120506,01
-Wed,week 1,126271,02
-Thu,week 1,131484,03
-Fri,week 1,130682,04
-Sat,week 1,130401,05
-Sun,week 1,104570,06
-Mon,week 2,112135,07
-Tue,week 2,121121,08
-Wed,week 2,128700,09
-Thu,week 2,132727,10
-Fri,week 2,117728,11
-Sat,week 2,130944,12
-Sun,week 2,114269,13
-Mon,week 3,82278,14
-Tue,week 3,90728,15
-Wed,week 3,92660,16
-Thu,week 3,95344,17
-Fri,week 3,95454,18
-Sat,week 3,94932,19
-Sun,week 3,81125,20
-Mon,week 4,108526,21
-Tue,week 4,114546,22
-Wed,week 4,105640,23
-Thu,week 4,69663,24
-Fri,week 4,86607,25
-Sat,week 4,99513,26
-Sun,week 4,90529,27
-Mon,week 5,106488,28
-Tue,week 5,119372,29
-Wed,week 5,117677,30
+x,y,heat,date,event
+Mon,week 1,105434,31,
+Tue,week 1,120506,01,
+Wed,week 1,126271,02,
+Thu,week 1,131484,03,
+Fri,week 1,130682,04,
+Sat,week 1,130401,05,
+Sun,week 1,104570,06, NYC Marathon
+Mon,week 2,112135,07,
+Tue,week 2,121121,08,
+Wed,week 2,128700,09,
+Thu,week 2,132727,10,
+Fri,week 2,117728,11, Veteran's day
+Sat,week 2,130944,12,
+Sun,week 2,114269,13,
+Mon,week 3,82278,14, Major Labor Strike
+Tue,week 3,90728,15,
+Wed,week 3,92660,16,
+Thu,week 3,95344,17,
+Fri,week 3,95454,18,
+Sat,week 3,94932,19,
+Sun,week 3,81125,20,
+Mon,week 4,108526,21,
+Tue,week 4,114546,22,
+Wed,week 4,105640,23,
+Thu,week 4,69663,24, Thanksgiving
+Fri,week 4,86607,25,
+Sat,week 4,99513,26,
+Sun,week 4,90529,27,
+Mon,week 5,106488,28,
+Tue,week 5,119372,29,
+Wed,week 5,117677,30,
