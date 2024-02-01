@@ -1,7 +1,7 @@
 // set the dimensions and margins of the graph
   const margin1 = {top: 20, right: 110, bottom: 0, left: 50},
      width1 = 830  - margin1.left - margin1.right,
-     height1 = 250 - margin1.top - margin1.bottom;
+     height1 = 300 - margin1.top - margin1.bottom;
 
 // append the svg object to the body of the page
 const svgjesse = d3.select("#calender-container")
@@ -144,7 +144,7 @@ d3.csv("data/calender_values.csv").then(function(data) {
         .enter().append("g")
         .attr("class", "legend")
         .attr("transform", function (d, i) {
-            return "translate(" + (width1 - 90) + "," + (i * 20 + height1 / 2 + 70 ) +")"; // Adjust the positioning
+            return "translate(" + (width1 - 90) + "," + (i * 20 + height1 / 2 + 100 ) +")"; // Adjust the positioning
         });
 
     legend.append("rect")
