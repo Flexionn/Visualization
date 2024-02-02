@@ -14,11 +14,10 @@ body .index {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
     background-color: #153E67;
-    color: #f8f6f6; /* Witte tekst op de actieve link voor betere zichtbaarheid */
+    color: #f8f6f6;
 }
 
 .visualization {
-    /*background-color: #ffffff;*/
     background-color: #f4f4f4;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -76,9 +75,6 @@ table {
     padding: 15px 0 8px;
 }
 
-bodyT2 {
-    font: 12px sans-serif;
-}
 .axis path,
 .axis line {
     fill: none;

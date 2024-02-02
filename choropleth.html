@@ -3,42 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>NYC Taxi Data Visualization</title>
-    <!-- Load d3.js -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
-    <!-- Load d3-fetch for CSV and TSV files -->
     <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
-    <!-- Load d3-scale-chromatic for color schemes -->
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="visualization" id="visualization5">
-<div id="filters">
-    <div>
-        <h3 style="text-align: center"> Pick Up Patterns per Hour</h3>
-    <label for="daySelect">Select the day:</label>
-    <select id="daySelect">
-        <option value="all">All days</option>
-
-        <!-- Options will be added by JavaScript -->
-    </select>
+    <div id="filters">
+        <div>
+            <h3 style="text-align: center"> Pick Up Patterns per Hour</h3>
+            <label for="daySelect">Select the day:</label>
+            <select id="daySelect">
+                <option value="all">All days</option>
+                <!-- Options will be added by JavaScript -->
+            </select>
+        </div>
+        <div>
+            <label for="hourSelect">Select the hour:</label>
+            <select id="hourSelect">
+                <option value="all">All Hours</option>
+                <!-- Options will be added by JavaScript -->
+            </select>
+        </div>
     </div>
-    <div>
-    <label for="hourSelect">Select the hour:</label>
-    <select id="hourSelect">
-        <option value="all">All Hours</option>
-        <!-- Options will be added by JavaScript -->
-    </select>
-    </div>
+    <svg id="my_dataviz" width="500" height="550"></svg>
+    <div id="tooltip" style="position: absolute; opacity: 0; background-color: white; border: solid 1px black; padding: 5px;"></div>
 </div>
-
-<svg id="my_dataviz" width="500" height="550"></svg>
-
-<div id="tooltip" style="position: absolute; opacity: 0; background-color: white; border: solid 1px black; padding: 5px;"></div>
-</div>
-
-
 <script src="js/choropleth.js"></script>
-
 </body>
 </html>

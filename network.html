@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>INFOMVIS2023 - Lab 5</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <link rel="stylesheet" href="css/style.css"> <!-- Add your external CSS file -->
-
-
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<h3 style="text-align: center"><b>Top 70 Most Common Trips per Day</b></h3>
-<div class="container">
-    <div id="date-filter-container">
-        <label for="date-filter">Select Date:</label>
-        <select id="date-filter"></select>
-    </div>
-    <div id="visualization-container" class="visualization"></div>
-
+<div class="center">
+    <label for="date-filter">Select Date:</label>
+    <select id="date-filter"></select>
+    <!-- Date picker will be populated dynamically by JavaScript -->
 </div>
-
-<!-- embedding JS libraries -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
-
-<!-- d3 -->
-<script src="https://d3js.org/d3.v7.min.js"></script>
-
-<!-- Your implementation -->
-<script src="js/network.js"></script>
-
+<div>
+    <div class ="row">
+        <div class="col-md-3">
+            <table id="data-table-2">
+                <thead>
+                <tr>
+                    <th>Borough</th>
+                    <th>Total Trips</th>
+                    <th>Total Passengers</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <div id="visualization-container" class="visualization"></div>
+        </div>
+        <div class="col-md-3">
+            <table id="data-table">
+                <thead>
+                <tr>
+                    <th>Pickup Zone</th>
+                    <th>Total Trips</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
 </body>
+<script src="js/vis_date_picker.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
 </html>
