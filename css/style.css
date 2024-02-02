@@ -7,6 +7,16 @@ body .index {
     background-color: #f4f4f4;
 }
 
+.nav-pills .nav-link {
+    color: #153E67;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #153E67;
+    color: #f8f6f6; /* Witte tekst op de actieve link voor betere zichtbaarheid */
+}
+
 .visualization {
     /*background-color: #ffffff;*/
     background-color: #f4f4f4;
@@ -61,6 +71,10 @@ table {
     margin-top: 20px;
 }
 
+.center {
+    text-align: center;
+    padding: 15px 0 8px;
+}
 
 bodyT2 {
     font: 12px sans-serif;

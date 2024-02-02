@@ -9,7 +9,7 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-<div>
+<div class="center">
     <label for="date-filter">Select Date:</label>
     <select id="date-filter"></select>
     <!-- Date picker will be populated dynamically by JavaScript -->
@@ -27,10 +27,9 @@
                 </thead>
                 <tbody></tbody>
             </table>
-
         </div>
         <div class="col-md-6">
-            <div id="visualization-container"></div>
+            <div id="visualization-container" class="visualization"></div>
         </div>
 
         <div class="col-md-3">
@@ -47,10 +46,7 @@
 
     </div>
 </div>
-
-
 </body>
 <script src="js/vis_date_picker.js"></script>
 <script src="https://d3js.org/d3.v6.min.js"></script>
-
 </html>
